@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  Make_Me_Thin
+
+  Created by ZB_Mac on 16/4/4.
+  Copyright © 2016年 ZB_Mac. All rights reserved.
+*/
+
+"WAITING_WORD" = "Waiting...";
+
+"DETECTION_ERROR_TITLE" = "Detection Error!";
+
+"FACE_NOT_DETECT_MSG_THIN_FACE" = "Not suitable for automatic face thinning!Please click the first button to use manual mode.";
+
+"FACE_NOT_DETECT_MSG_THIN_HEAD" = "Not suitable for automatic head thinning!Please click the first button to use manual mode.";
+
+"ALBUM" = "Album";
+
+"CAMERA" = "Camera";
+
+"FEEDBACK" = "Feedback";
+
+"HELP" = "Help";
+
+"MANUAL_WORD" = "Maunal";
+
+"THIN_FACE_WORD" = "Thin Face";
+
+"THIN_HEAD_WORD" = "Thin Head";
+
+"SLIM_WORD" = "Slim";

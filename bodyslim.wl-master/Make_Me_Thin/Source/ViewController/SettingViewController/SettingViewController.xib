@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SettingViewController">
+            <connections>
+                <outlet property="tableView" destination="XIE-S2-7ZT" id="ChM-Tv-7D1"/>
+                <outlet property="view" destination="iN0-l3-epB" id="eKz-2I-IDu"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="Dib-ng-ko2">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JH5-1U-Dwd">
+                    <rect key="frame" x="0.0" y="20" width="375" height="50"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CSL-bB-mZQ">
+                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="CSL-bB-mZQ" secondAttribute="height" multiplier="1:1" id="qNh-u5-l8F"/>
+                            </constraints>
+                            <inset key="contentEdgeInsets" minX="6" minY="6" maxX="6" maxY="6"/>
+                            <state key="normal" image="back.png"/>
+                            <connections>
+                                <action selector="goBack:" destination="-1" eventType="touchUpInside" id="Fc0-lt-HjQ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="CSL-bB-mZQ" firstAttribute="leading" secondItem="JH5-1U-Dwd" secondAttribute="leading" id="63Y-5p-OFw"/>
+                        <constraint firstAttribute="bottom" secondItem="CSL-bB-mZQ" secondAttribute="bottom" id="AeO-bY-k8O"/>
+                        <constraint firstItem="CSL-bB-mZQ" firstAttribute="top" secondItem="JH5-1U-Dwd" secondAttribute="top" id="mur-X6-Hnp"/>
+                        <constraint firstAttribute="height" constant="50" id="wDE-8N-DeV"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="XIE-S2-7ZT">
+                    <rect key="frame" x="8" y="70" width="359" height="597"/>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Xqp-xF-BGe"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="XIE-S2-7ZT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="4qG-L9-vh8"/>
+                <constraint firstItem="JH5-1U-Dwd" firstAttribute="top" secondItem="Xqp-xF-BGe" secondAttribute="top" id="BMI-eG-6Qj"/>
+                <constraint firstItem="Dib-ng-ko2" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="DEK-Eh-MbM"/>
+                <constraint firstItem="JH5-1U-Dwd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="EQV-kh-p2G"/>
+                <constraint firstItem="XIE-S2-7ZT" firstAttribute="top" secondItem="JH5-1U-Dwd" secondAttribute="bottom" id="I7M-j5-uqB"/>
+                <constraint firstItem="Dib-ng-ko2" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Qfp-2D-v5e"/>
+                <constraint firstAttribute="trailing" secondItem="XIE-S2-7ZT" secondAttribute="trailing" constant="8" id="VpB-pV-n88"/>
+                <constraint firstItem="Dib-ng-ko2" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="YwL-60-9KJ"/>
+                <constraint firstAttribute="trailing" secondItem="JH5-1U-Dwd" secondAttribute="trailing" id="bWL-zg-GGa"/>
+                <constraint firstItem="Dib-ng-ko2" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="msU-SG-MIE"/>
+                <constraint firstAttribute="bottom" secondItem="XIE-S2-7ZT" secondAttribute="bottom" id="yXK-iI-TNB"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <point key="canvasLocation" x="138" y="-10"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back.png" width="120" height="120"/>
+        <image name="bg.png" width="1242" height="2208"/>
+    </resources>
+</document>

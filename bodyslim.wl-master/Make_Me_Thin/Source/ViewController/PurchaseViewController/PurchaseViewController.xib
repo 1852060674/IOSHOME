@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PurchaseViewController">
+            <connections>
+                <outlet property="bgImageView" destination="i5t-c5-Rxd" id="JTw-fn-SsN"/>
+                <outlet property="buyBtn" destination="Oio-PA-7lL" id="sg6-yw-1eB"/>
+                <outlet property="restoreBtn" destination="pz4-BY-pz7" id="6Jl-Ns-Iet"/>
+                <outlet property="view" destination="iN0-l3-epB" id="deL-9I-Z39"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="purchase_i5_bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="i5t-c5-Rxd">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bHA-mz-KeE">
+                    <rect key="frame" x="108" y="147" width="294.66666666666669" height="149"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S69-jV-7yL">
+                            <rect key="frame" x="0.0" y="0.0" width="294.66666666666669" height="70.666666666666671"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oio-PA-7lL">
+                                    <rect key="frame" x="51.666666666666671" y="0.0" width="191.66666666666663" height="70.666666666666671"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="Oio-PA-7lL" secondAttribute="height" multiplier="4:1" id="DzK-Xj-EkG"/>
+                                        <constraint firstAttribute="width" secondItem="Oio-PA-7lL" secondAttribute="height" multiplier="19:7" id="Uhq-hK-hoN"/>
+                                    </constraints>
+                                    <state key="normal" image="btn_purchase_buy.png">
+                                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="DzK-Xj-EkG"/>
+                                        </mask>
+                                    </variation>
+                                    <connections>
+                                        <action selector="buy:" destination="-1" eventType="touchUpInside" id="HoI-JJ-GFn"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="Oio-PA-7lL" firstAttribute="centerX" secondItem="S69-jV-7yL" secondAttribute="centerX" id="Bd8-iP-yEa"/>
+                                <constraint firstAttribute="trailing" secondItem="Oio-PA-7lL" secondAttribute="trailing" id="Mlx-rN-mRI"/>
+                                <constraint firstItem="Oio-PA-7lL" firstAttribute="centerY" secondItem="S69-jV-7yL" secondAttribute="centerY" id="Oqq-J4-Wh4"/>
+                                <constraint firstItem="Oio-PA-7lL" firstAttribute="leading" secondItem="S69-jV-7yL" secondAttribute="leading" id="YTi-E3-okT"/>
+                                <constraint firstAttribute="bottom" secondItem="Oio-PA-7lL" secondAttribute="bottom" id="btz-jJ-xcV"/>
+                                <constraint firstItem="Oio-PA-7lL" firstAttribute="top" secondItem="S69-jV-7yL" secondAttribute="top" id="j65-Ab-fgL"/>
+                            </constraints>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="Mlx-rN-mRI"/>
+                                    <exclude reference="Oqq-J4-Wh4"/>
+                                    <exclude reference="YTi-E3-okT"/>
+                                </mask>
+                            </variation>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EO8-8C-alB">
+                            <rect key="frame" x="0.0" y="78.666666666666657" width="294.66666666666669" height="70.333333333333343"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pz4-BY-pz7">
+                                    <rect key="frame" x="159" y="1" width="132" height="48"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="pz4-BY-pz7" secondAttribute="height" multiplier="19:7" id="Iii-D7-y14"/>
+                                        <constraint firstAttribute="width" secondItem="pz4-BY-pz7" secondAttribute="height" multiplier="3:1" id="KEu-CQ-7KP"/>
+                                    </constraints>
+                                    <state key="normal" image="btn_purchase_restore.png">
+                                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="KEu-CQ-7KP"/>
+                                        </mask>
+                                    </variation>
+                                    <connections>
+                                        <action selector="restore:" destination="-1" eventType="touchUpInside" id="eXv-0L-Yii"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="pz4-BY-pz7" secondAttribute="bottom" id="94t-Jn-PxT"/>
+                                <constraint firstItem="pz4-BY-pz7" firstAttribute="leading" secondItem="EO8-8C-alB" secondAttribute="leading" id="J7t-Sc-Oza"/>
+                                <constraint firstItem="pz4-BY-pz7" firstAttribute="top" secondItem="EO8-8C-alB" secondAttribute="top" id="WHR-cW-8M6"/>
+                                <constraint firstItem="pz4-BY-pz7" firstAttribute="centerX" secondItem="EO8-8C-alB" secondAttribute="centerX" id="aVe-z3-MRQ"/>
+                                <constraint firstAttribute="trailing" secondItem="pz4-BY-pz7" secondAttribute="trailing" id="mUc-jh-rRF"/>
+                                <constraint firstItem="pz4-BY-pz7" firstAttribute="centerY" secondItem="EO8-8C-alB" secondAttribute="centerY" id="rGn-6M-xOL"/>
+                            </constraints>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="J7t-Sc-Oza"/>
+                                    <exclude reference="mUc-jh-rRF"/>
+                                    <exclude reference="rGn-6M-xOL"/>
+                                </mask>
+                            </variation>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="bHA-mz-KeE" secondAttribute="height" multiplier="15:10" id="7AH-kS-kdp"/>
+                        <constraint firstAttribute="bottom" secondItem="EO8-8C-alB" secondAttribute="bottom" id="9cK-Uy-y7g"/>
+                        <constraint firstItem="EO8-8C-alB" firstAttribute="height" secondItem="S69-jV-7yL" secondAttribute="height" id="Cke-jU-f7y"/>
+                        <constraint firstItem="S69-jV-7yL" firstAttribute="top" secondItem="bHA-mz-KeE" secondAttribute="top" id="L5A-7J-gMX"/>
+                        <constraint firstAttribute="trailing" secondItem="EO8-8C-alB" secondAttribute="trailing" id="NkU-zR-D05"/>
+                        <constraint firstItem="EO8-8C-alB" firstAttribute="leading" secondItem="bHA-mz-KeE" secondAttribute="leading" id="Nrr-FS-GHb"/>
+                        <constraint firstItem="EO8-8C-alB" firstAttribute="top" secondItem="S69-jV-7yL" secondAttribute="bottom" constant="8" id="UtH-7Q-12r"/>
+                        <constraint firstAttribute="trailing" secondItem="S69-jV-7yL" secondAttribute="trailing" id="Xfb-jA-08U"/>
+                        <constraint firstItem="S69-jV-7yL" firstAttribute="leading" secondItem="bHA-mz-KeE" secondAttribute="leading" id="fgZ-rf-x0b"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="7AH-kS-kdp"/>
+                        </mask>
+                    </variation>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZiP-P0-LbS">
+                    <rect key="frame" x="0.0" y="4" width="60" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="4Nm-Lm-7do">
+                            <variation key="heightClass=regular-widthClass=regular" constant="50"/>
+                        </constraint>
+                        <constraint firstAttribute="width" constant="40" id="ELk-IM-5pe">
+                            <variation key="heightClass=regular-widthClass=regular" constant="50"/>
+                        </constraint>
+                        <constraint firstAttribute="width" secondItem="ZiP-P0-LbS" secondAttribute="height" multiplier="3:2" id="inx-ps-MOa"/>
+                    </constraints>
+                    <inset key="contentEdgeInsets" minX="0.0" minY="2" maxX="3" maxY="0.0"/>
+                    <inset key="titleEdgeInsets" minX="0.0" minY="6" maxX="9" maxY="0.0"/>
+                    <state key="normal" image="btn_purchase_close.png">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="ELk-IM-5pe"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="close:" destination="-1" eventType="touchUpInside" id="tWe-gk-qQ0"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="i5t-c5-Rxd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="4WG-xu-Cyb"/>
+                <constraint firstItem="bHA-mz-KeE" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.175" id="5TM-3P-KAl"/>
+                <constraint firstItem="bHA-mz-KeE" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" multiplier="1.46" id="G3E-nJ-7aX">
+                    <variation key="heightClass=regular-widthClass=regular" constant="-30"/>
+                </constraint>
+                <constraint firstItem="bHA-mz-KeE" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="0.36" id="JHF-Pw-zT3">
+                    <variation key="heightClass=regular-widthClass=regular" constant="-15"/>
+                </constraint>
+                <constraint firstItem="bHA-mz-KeE" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.75" id="OC0-WL-UOt"/>
+                <constraint firstItem="ZiP-P0-LbS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Q1z-x9-Kiw"/>
+                <constraint firstItem="i5t-c5-Rxd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="W9X-tJ-2p6"/>
+                <constraint firstAttribute="bottom" secondItem="i5t-c5-Rxd" secondAttribute="bottom" id="Ybl-l2-Ei6"/>
+                <constraint firstAttribute="trailing" secondItem="bHA-mz-KeE" secondAttribute="trailing" constant="5" id="eD9-iz-RTO"/>
+                <constraint firstItem="bHA-mz-KeE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="60" id="fkq-DY-xVa"/>
+                <constraint firstItem="bHA-mz-KeE" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="g3o-7T-i7M">
+                    <variation key="heightClass=regular-widthClass=regular" constant="-40"/>
+                </constraint>
+                <constraint firstAttribute="trailing" secondItem="i5t-c5-Rxd" secondAttribute="trailing" id="nUM-tK-sgH"/>
+                <constraint firstItem="bHA-mz-KeE" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="0.52" id="q0v-dV-wac"/>
+                <constraint firstItem="bHA-mz-KeE" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" multiplier="1.3" id="qNd-Ue-9As"/>
+                <constraint firstItem="ZiP-P0-LbS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="4" id="rem-h0-RQp"/>
+                <constraint firstAttribute="trailing" secondItem="ZiP-P0-LbS" secondAttribute="trailing" constant="4" id="wSL-69-BJ1"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="wSL-69-BJ1"/>
+                    <exclude reference="G3E-nJ-7aX"/>
+                    <exclude reference="JHF-Pw-zT3"/>
+                    <exclude reference="eD9-iz-RTO"/>
+                    <exclude reference="fkq-DY-xVa"/>
+                    <exclude reference="g3o-7T-i7M"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="-26" y="-53"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_purchase_buy.png" width="377" height="139"/>
+        <image name="btn_purchase_close.png" width="153" height="92"/>
+        <image name="btn_purchase_restore.png" width="377" height="137"/>
+        <image name="purchase_i5_bg.jpg" width="1242" height="2208"/>
+    </resources>
+</document>

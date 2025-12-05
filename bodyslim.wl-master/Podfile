@@ -1,0 +1,29 @@
+source 'https://gitee.com/mirrors/CocoaPods-Specs.git'
+platform :ios, '12.0'
+
+target 'Make_Me_Thin' do
+    pod 'AppLovinMediationFacebookAdapter'
+    pod 'AppLovinMediationGoogleAdapter'
+    pod 'AppLovinMediationIronSourceAdapter'
+    pod 'AppLovinMediationUnityAdsAdapter'
+    pod 'AppLovinMediationVungleAdapter'
+    pod 'AppLovinSDK'
+    pod 'Flurry-iOS-SDK/FlurrySDK'
+    pod 'Masonry'
+    pod 'AppLovinMediationGoogleAdManagerAdapter'
+    pod 'AppLovinMediationMintegralAdapter'
+    pod 'AppLovinMediationFyberAdapter'
+    pod 'AppLovinMediationChartboostAdapter'
+    pod 'AppLovinMediationInMobiAdapter'
+
+end
+
+#post_install do |installer|
+#  installer.pods_project.build_configurations.each do |config|
+#    config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
+#  end
+#end
+
+
+
+

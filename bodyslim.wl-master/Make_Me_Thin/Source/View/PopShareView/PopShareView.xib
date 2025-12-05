@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PopShareView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RgC-dT-XHK" userLabel="BGMask">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="NdI-6I-vT3" appends="YES" id="HbO-pk-lpw"/>
+                    </connections>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TbJ-hd-78z" userLabel="ShareContainerView">
+                    <rect key="frame" x="0.0" y="600" width="600" height="280"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="分享到：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Etg-JB-dAn">
+                            <rect key="frame" x="16" y="16" width="130" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="2un-DD-AeO"/>
+                                <constraint firstAttribute="width" constant="130" id="FoW-qg-wFx"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AgW-GY-r0T">
+                            <rect key="frame" x="514" y="16" width="70" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="70" id="SKf-ae-gNl"/>
+                                <constraint firstAttribute="height" constant="30" id="UKd-Hi-qMI"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <state key="normal" title="取消"/>
+                            <connections>
+                                <action selector="onCancel:" destination="iN0-l3-epB" eventType="touchUpInside" id="MwI-NE-8Nt"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PMI-if-Vch" userLabel="Share Content">
+                            <rect key="frame" x="8" y="54" width="584" height="218"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="PMI-if-Vch" firstAttribute="leading" secondItem="TbJ-hd-78z" secondAttribute="leading" constant="8" id="4FV-03-E41"/>
+                        <constraint firstAttribute="bottom" secondItem="PMI-if-Vch" secondAttribute="bottom" constant="8" id="5io-Pr-yZy"/>
+                        <constraint firstItem="Etg-JB-dAn" firstAttribute="leading" secondItem="TbJ-hd-78z" secondAttribute="leading" constant="16" id="BlU-u3-IZ5"/>
+                        <constraint firstItem="PMI-if-Vch" firstAttribute="top" secondItem="AgW-GY-r0T" secondAttribute="bottom" constant="8" id="Dsh-6C-kX6"/>
+                        <constraint firstItem="Etg-JB-dAn" firstAttribute="top" secondItem="TbJ-hd-78z" secondAttribute="top" constant="16" id="LRf-c0-UU7"/>
+                        <constraint firstAttribute="height" constant="280" id="Msn-f1-ab2">
+                            <variation key="heightClass=regular-widthClass=regular" constant="400"/>
+                        </constraint>
+                        <constraint firstAttribute="trailing" secondItem="AgW-GY-r0T" secondAttribute="trailing" constant="16" id="O2p-eG-0px"/>
+                        <constraint firstAttribute="trailing" secondItem="PMI-if-Vch" secondAttribute="trailing" constant="8" id="lhM-y2-5GC"/>
+                        <constraint firstItem="AgW-GY-r0T" firstAttribute="top" secondItem="TbJ-hd-78z" secondAttribute="top" constant="16" id="mRu-BZ-HNG"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="TbJ-hd-78z" secondAttribute="bottom" constant="-280" identifier="showShareContainer" id="IOd-aL-QbG">
+                    <variation key="heightClass=regular-widthClass=regular" constant="-400"/>
+                </constraint>
+                <constraint firstAttribute="bottom" secondItem="RgC-dT-XHK" secondAttribute="bottom" id="Rli-FC-w1h"/>
+                <constraint firstItem="RgC-dT-XHK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="amy-EH-sCD"/>
+                <constraint firstItem="TbJ-hd-78z" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="k4C-3V-ARU"/>
+                <constraint firstAttribute="trailing" secondItem="TbJ-hd-78z" secondAttribute="trailing" id="kdV-ka-tMp"/>
+                <constraint firstAttribute="trailing" secondItem="RgC-dT-XHK" secondAttribute="trailing" id="mbG-VI-d8A"/>
+                <constraint firstItem="RgC-dT-XHK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="sWs-a3-YU6"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <connections>
+                <outlet property="bgMaskView" destination="RgC-dT-XHK" id="C2V-VF-7GK"/>
+                <outlet property="cancelBtn" destination="AgW-GY-r0T" id="ScP-ut-fMe"/>
+                <outlet property="shareContainer" destination="TbJ-hd-78z" id="cj4-IX-uDN"/>
+                <outlet property="shareContentView" destination="PMI-if-Vch" id="BBJ-x3-iku"/>
+                <outlet property="shareOnLabel" destination="Etg-JB-dAn" id="KYX-Ax-Ke4"/>
+            </connections>
+        </view>
+        <tapGestureRecognizer id="NdI-6I-vT3">
+            <connections>
+                <action selector="bgTap:" destination="iN0-l3-epB" id="haZ-Kr-9ip"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>
