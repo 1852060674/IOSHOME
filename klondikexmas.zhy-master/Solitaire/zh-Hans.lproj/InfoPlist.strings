@@ -1,0 +1,5 @@
+/* Localized versions of Info.plist keys */
+
+"CFBundleDisplayName"="经典纸牌";
+"NSCameraUsageDescription" = "需要使用相机拍照作为背景";
+"NSPhotoLibraryUsageDescription" = "需要从相册选择相片作为背景";

@@ -1,0 +1,10 @@
+/* Localized versions of Info.plist keys */
+
+"CFBundleDisplayName" = "ImageEditor";
+//"NSCameraUsageDescription" = "We use camera to take a photo to process";
+"NSCameraUsageDescription" = "We need this permission to use camera to take a photo, then you can edit it";
+
+//"NSPhotoLibraryUsageDescription" = "We need access Photos Library to select a photo to process";
+"NSPhotoLibraryUsageDescription" = "We need this permission to access photo album, to display photos in next view. you can choose one or more photos for Combining photos";
+
+"NSPhotoLibraryAddUsageDescription" = "We need access Photos Library to save result image.";

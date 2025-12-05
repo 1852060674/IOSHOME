@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="YouWinView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="j5w-yt-YDE">
+                    <rect key="frame" x="20" y="254" width="374" height="482"/>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="VQA-au-BGF">
+                    <rect key="frame" x="20" y="294" width="374" height="322"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="separatorColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="iN0-l3-epB" id="sxW-db-h72"/>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="wME-Tq-Pbu"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7eY-or-BTK">
+                    <rect key="frame" x="0.0" y="616" width="414" height="120"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2eO-dp-j67">
+                            <rect key="frame" x="147" y="35" width="120" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="D6c-To-QtS">
+                                    <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                                </constraint>
+                                <constraint firstAttribute="width" secondItem="2eO-dp-j67" secondAttribute="height" multiplier="359:150" id="aeW-qf-LdM"/>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="46" id="oBp-Kj-sZ2"/>
+                            </constraints>
+                            <state key="normal" title="Done" backgroundImage="bg_victory_done.png"/>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                            </variation>
+                            <connections>
+                                <action selector="close:" destination="iN0-l3-epB" eventType="touchUpInside" id="adg-si-u3M"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="MWX-8C-IRT">
+                            <variation key="heightClass=compact-widthClass=compact" constant="60"/>
+                            <variation key="heightClass=regular-widthClass=regular" constant="150"/>
+                        </constraint>
+                        <constraint firstItem="2eO-dp-j67" firstAttribute="centerX" secondItem="7eY-or-BTK" secondAttribute="centerX" id="ZQv-hb-d30"/>
+                        <constraint firstItem="2eO-dp-j67" firstAttribute="centerY" secondItem="7eY-or-BTK" secondAttribute="centerY" id="a9X-YE-2Qn"/>
+                    </constraints>
+                </view>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="victory_title_image.png" translatesAutoresizingMaskIntoConstraints="NO" id="4CP-ip-jie">
+                    <rect key="frame" x="-17" y="0.0" width="448" height="294"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="4CP-ip-jie" secondAttribute="height" multiplier="1085:712" id="9Oz-Ti-xXi"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="4CP-ip-jie" firstAttribute="bottom" secondItem="VQA-au-BGF" secondAttribute="top" id="4tI-HG-57v">
+                    <variation key="heightClass=regular-widthClass=regular" constant="50"/>
+                </constraint>
+                <constraint firstItem="4CP-ip-jie" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="9SG-IA-tYL"/>
+                <constraint firstItem="j5w-yt-YDE" firstAttribute="top" secondItem="4CP-ip-jie" secondAttribute="bottom" constant="-40" id="A5Q-pa-i1x">
+                    <variation key="heightClass=regular-widthClass=regular" constant="-90"/>
+                </constraint>
+                <constraint firstAttribute="bottom" secondItem="7eY-or-BTK" secondAttribute="bottom" id="Gbw-7r-YNi"/>
+                <constraint firstItem="7eY-or-BTK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="HCs-A5-4hl"/>
+                <constraint firstAttribute="trailing" secondItem="7eY-or-BTK" secondAttribute="trailing" id="Lgh-IF-sJa"/>
+                <constraint firstItem="VQA-au-BGF" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Rpy-1l-omh"/>
+                <constraint firstAttribute="bottom" secondItem="j5w-yt-YDE" secondAttribute="bottom" id="Ruf-vg-Sw5"/>
+                <constraint firstItem="4CP-ip-jie" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="SWm-wf-h9e"/>
+                <constraint firstItem="j5w-yt-YDE" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="UOJ-Yd-YYB"/>
+                <constraint firstItem="4CP-ip-jie" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="6:12" id="ahW-mY-5Eo"/>
+                <constraint firstItem="VQA-au-BGF" firstAttribute="leading" secondItem="j5w-yt-YDE" secondAttribute="leading" id="gi7-KM-DIK"/>
+                <constraint firstItem="7eY-or-BTK" firstAttribute="top" secondItem="VQA-au-BGF" secondAttribute="bottom" id="jmr-QH-RI7"/>
+                <constraint firstItem="j5w-yt-YDE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="uw3-mf-awG"/>
+                <constraint firstItem="4CP-ip-jie" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="2:5" id="vKd-zn-hTG"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="ahW-mY-5Eo"/>
+                    <exclude reference="vKd-zn-hTG"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="constraints">
+                    <include reference="vKd-zn-hTG"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=compact-widthClass=regular">
+                <mask key="constraints">
+                    <include reference="vKd-zn-hTG"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=regular">
+                <mask key="constraints">
+                    <include reference="ahW-mY-5Eo"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="bgImageView" destination="j5w-yt-YDE" id="WwB-bp-ZBu"/>
+                <outlet property="doneB" destination="2eO-dp-j67" id="NbG-03-Aic"/>
+                <outlet property="tableView" destination="VQA-au-BGF" id="Nph-UR-OE0"/>
+                <outlet property="tableWidthC" destination="gi7-KM-DIK" id="eGT-4m-gCS"/>
+            </connections>
+            <point key="canvasLocation" x="35.5" y="54.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg_victory_done.png" width="359" height="150"/>
+        <image name="victory_title_image.png" width="1085" height="712"/>
+    </resources>
+</document>

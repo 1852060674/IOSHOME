@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="ipad10_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Share View Controller-->
+        <scene sceneID="0EB-wH-qjh">
+            <objects>
+                <viewController storyboardIdentifier="shareVC" id="KSO-f1-jba" customClass="ShareViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aUY-jE-nkU"/>
+                        <viewControllerLayoutGuide type="bottom" id="oDF-7H-ida"/>
+                    </layoutGuides>
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="ynM-ij-PoB">
+                        <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fram-bg-h568.png" translatesAutoresizingMaskIntoConstraints="NO" id="DEM-3t-7CK">
+                                <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="drM-6Q-KEc" userLabel="adContainer">
+                                <rect key="frame" x="0.0" y="44" width="820" height="246"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TIv-7h-nZY" userLabel="Share Content">
+                                <rect key="frame" x="134" y="480" width="552" height="606"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tEM-Pj-zd5" userLabel="Top Bar">
+                                <rect key="frame" x="0.0" y="0.0" width="820" height="221"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SAVE/SHARE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="75i-1t-2BO">
+                                        <rect key="frame" x="262" y="8" width="244" height="49"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bch-Gq-CCB" userLabel="Save Content">
+                                <rect key="frame" x="309" y="220" width="202" height="306"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.18220111727714539" green="0.18220111727714539" blue="0.18220111727714539" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="DEM-3t-7CK" firstAttribute="height" secondItem="ynM-ij-PoB" secondAttribute="height" id="4YF-b1-dYX"/>
+                            <constraint firstItem="DEM-3t-7CK" firstAttribute="centerX" secondItem="ynM-ij-PoB" secondAttribute="centerX" id="JII-jj-CQC"/>
+                            <constraint firstItem="DEM-3t-7CK" firstAttribute="centerY" secondItem="ynM-ij-PoB" secondAttribute="centerY" id="K2m-wC-2WT"/>
+                            <constraint firstItem="DEM-3t-7CK" firstAttribute="width" secondItem="ynM-ij-PoB" secondAttribute="width" id="R7U-Gk-PXn"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="3nd-Ki-Krm"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="adContainer" destination="drM-6Q-KEc" id="abE-Q9-BtH"/>
+                        <outlet property="mainTopBar" destination="tEM-Pj-zd5" id="BC8-tH-emG"/>
+                        <outlet property="saveContainer" destination="Bch-Gq-CCB" id="Yug-Eo-8DH"/>
+                        <outlet property="shareContainer" destination="TIv-7h-nZY" id="GCw-kn-Kna"/>
+                        <outlet property="titleLabel" destination="75i-1t-2BO" id="CPT-Mt-aU4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NXk-ka-x1v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2525.1219512195121" y="205.42372881355934"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="fram-bg-h568.png" width="640" height="1136"/>
+    </resources>
+</document>

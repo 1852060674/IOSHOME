@@ -1,0 +1,5 @@
+/* Localized versions of Info.plist keys */
+
+"CFBundleDisplayName"="Solitaire";
+"NSCameraUsageDescription" = "need take photos using camera as background";
+"NSPhotoLibraryUsageDescription" = "need select photos from album as background";

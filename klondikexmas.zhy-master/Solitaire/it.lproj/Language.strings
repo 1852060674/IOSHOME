@@ -1,0 +1,43 @@
+/* 
+  Language.strings
+  Solitaire
+
+  Created by yysdsyl on 13-9-20.
+  Copyright (c) 2013年 apple. All rights reserved.
+*/
+"change_cardback"="Cambiare scheda Indietro";
+"change_gameback"="Cambiare Torna gioco";
+"stat"="Statistiche";
+"sound"="Sound Control";
+"timemove"="Tempo/Sposta";
+"lock"="Scatto Orientamento";
+"hint"="Suggerimenti";
+"tapmove"="Toccare Sposta";
+"classic"="Carte Classic";
+"rules"="Regole";
+"ok"="OK";
+"cancel"="Annullare";
+"scroll"="Scorrere per vedere di più";
+"hintmove"="Suggerimento Sposta";
+"gamewon"="Partite vinte";
+"gamelost"="Partite perse";
+"shortesttime"="Più breve Winning Time";
+"longesttime"="Longest Winning Time";
+"avgtime"="Tempo medio di Winning";
+"fewestmoves"="Meno mosse vincenti";
+"mostmoves"="Mosse più vincenti";
+"noundo"="Vittorie senza Undo";
+"highscore"="Il punteggio più alto";
+"resethint"="Sei sicuro di voler ripristinare le statistiche?";
+"yes"="Yes";
+"no"="No";
+"time"="Volta:";
+"score"="Punteggio:";
+"moves"="Spostare:";
+"newgame"="Nuova Partita";
+"replay"="Replay The Game";
+"nomoves"="Nessun Mosse utili";
+"wonhint"="Hai vinto!";
+"autohint"="Auto completare il gioco?";
+"draw"="Disegna";
+"pushmsg"="Non mollare! Klondike Solitaire ti aspetta Conquer!";

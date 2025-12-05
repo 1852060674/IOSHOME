@@ -1,0 +1,116 @@
+/*
+ SLLL.strings
+ CardsCompilation
+
+ Created by jerry on 2017/8/29.
+ Copyright © 2017年 macbook. All rights reserved.
+ */
+
+"action_settings" = "Settings";
+"score_label" = "Score: ";
+"time_label" = "Time: ";
+"move_label" = "Moves: ";
+"auto_complete_title" = "Auto Complete";
+"auto_complete" = "Auto Complete The Game";
+"cancel_btn" = "Cancel";
+"setting" = "Settings";
+"themes" = "Themes";
+"stats" = "Stats";
+"rules" = "Rules";
+"complete" = "Complete";
+"newgame" = "Play";
+"hint" = "Hints";
+"undo" = "Undo";
+"congratulation" = "Congratulations, You Win";
+"nomoves" = "No useful moves detected";
+"hintmove" = "Hint Move";
+
+"plt" = "Play A New Game";
+
+"pl1" = "New Game";
+"pl2" = "Winning Deal";
+"pl3" = "Replay";
+
+
+"cancel" = "Cancel";
+
+
+"ok" = "OK";
+"setting_title" = "Settings";
+"statistics" = "Statistics";
+"setting_sound" = "Sound Control";
+"setting_times" = "Times/Moves";
+"setting_orientation" = "Lock Orientation";
+"setting_hin" = "Hints";
+"setting_tapmove" = "Tap Move";
+"help_rules" = "Rules";
+"ToOldTheme" = "OldTheme";
+"setting_level" = "Mode";
+
+
+"stat_won" = "Games Won";
+"stat_lose" = "Games Lost";
+"stat_swtime" = "Shortest Winning Time";
+"stat_lwtime" = "Longest Winning Time";
+"stat_awtime" = "Average Winning Time";
+"stat_fwmove" = "Fewest Winning Moves";
+"stat_mwmove" = "Most Winning Moves";
+"stat_nundo" = "Wins Without Undo";
+"stat_highest_score" = "Highest Score:";
+"reset_stat" = "Reset";
+"yes" = "Yes";
+
+"mode_title" = "Notice";
+"mode_message" = "Difficulty Setting will take effect in Next New Game";
+
+
+"dialog_close" = "Close";
+"theme" = "Themes";
+"dialog_theme_cardback" = "Card Backs";
+"dialog_theme_gameback" = "Backgrounds";
+"dialog_theme_card" = "Card Faces";
+
+
+"rt_title" = "We need your feedback";
+"rt_message_normal" = "Do you like our solitaire game! Could you please take a moment to rate it. Thanks for your support!";
+"rt_rt" = "Amazing";
+"rt_fb" = "Suggestion";
+"rt_cancel" = "Next time";
+"rt_message_rm_ad" = "Like our app? Give us a five stars to remove interstitial ads.";
+
+"help_label" = "Help";
+
+"update_available" = "Update to the latest version ?";
+"quit" = "Are you sure to quit ?";
+
+"confirm_reset_game_stat" = "Are you sure to reset game statistics ?";
+"notification_push" = "Click me to open the game !";
+"notification_ticker" = "Back to solitaire for fun !";
+"new_game_title" = "What type of deal ?";
+
+"dialog_permission_title" = "To grant permission";
+"dialog_permission_content" = "For using custom image , please go to grant write external storage permission !";
+
+"magic_stick_label" = "Use Magic Stick";
+"google_play_error_try_again" = "Please check your device\'s google play and try it again later.";
+"store_label" = "Store";
+"purchasing_error_try_again" = "Error purchasing. Please try it again later !";
+"already_no_ads" = "You have already removed ads !";
+"restart_app_rm_ads" = "Please restart application to remove ads !";
+"store_title" = "Buy Coins";
+"buy_succeed" = "You have bought coins:";
+"rm_ads" = "Remove Ads";
+"get_magic_stick" = "Get Magic Stick";
+
+"can_not_deal" = "Can not deal card while tableau with empty column ";
+
+"daily_title" = "  Daily Challenge";
+"daily_total_win_cnt_label" = "Total win:";
+"daily_month_win_cnt_label" = "Month win:";
+
+"coin_des" = "Tips: use coin to save the deal";
+
+"congratulationsAnimation" = "Congratulations Screen";
+"setting_hints" = "Auto Hints";
+"left_hand_mode" = "Left Handed";
+"done" = "Done";

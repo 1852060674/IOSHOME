@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  PhotoEditor
+
+  Created by ZB_Mac on 15/6/30.
+  Copyright (c) 2015年 ZBNetwork. All rights reserved.
+*/
+
+"WARN_WORD" = "Warn";
+
+"EXCEED_PHOTO_MAXNUM_LIMIT" = "You can select 7 photos at most. Delete selected photos before adding new ones.";
+
+"CANCEL_WORD" = "Cancel";
+
+"ALBUMN_ACCESSMENT_ERROR_TITLE" = "Unable to access your photos!";
+
+"ALBUMN_ACCESSMENT_ERROR_MSG" = "Please enable photo access ! Go to settings, then select 'Privacy', then select 'Photo', toggle the PhotoShow switch ON!";
+
+"ALBUMN_ACCESSMENT_ERROR_MSG_V8_UPPER" = "Please enable photo access!";
+
+"ALBUMN_ACCESSMENT_ERROR_CANCEL" = "OK";

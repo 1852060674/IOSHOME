@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<string>back</string>
+	<key>1</key>
+	<string>CardBack-blue</string>
+	<key>2</key>
+	<string>CardBack-Fruit</string>
+	<key>3</key>
+	<string>CardBack-RedGrid</string>
+	<key>4</key>
+	<string>CardBack-Cat</string>
+	<key>5</key>
+	<string>CardBack-bird</string>
+	<key>6</key>
+	<string>CardBack-Ball</string>
+	<key>7</key>
+	<string>CardBack-Bryce</string>
+	<key>8</key>
+	<string>CardBack-girl</string>
+	<key>9</key>
+	<string>CardBack-Colors</string>
+	<key>10</key>
+	<string>CardBack-Mountain</string>
+	<key>11</key>
+	<string>CardBack-GreenGrid</string>
+	<key>12</key>
+	<string>CardBack-BlueGrid</string>
+	<key>13</key>
+	<string>CardBack-GreenPattern</string>
+	<key>14</key>
+	<string>userdefined-backcard</string>
+</dict>
+</plist>

@@ -1,0 +1,23 @@
+/* 
+  camera.strings
+  FaceTune
+
+  Created by 昭 陈 on 15/11/27.
+  Copyright © 2015年 ZB_Mac. All rights reserved.
+*/
+
+/* No Camera alert */
+"NO_CAMERA_MESSAGE" = "无可用相机";
+
+/* No Camera alert */
+"NO_CAMERA_TITLE" = "错误";
+
+/* No comment provided by engineer. */
+"OK" = "确定";
+
+/* camera */
+"RETAKE_PHOTO" = "重拍";
+
+/* camera */
+"USE_PHOTO" = "使用照片";
+

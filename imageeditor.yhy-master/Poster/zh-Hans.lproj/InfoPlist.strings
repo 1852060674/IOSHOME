@@ -1,0 +1,10 @@
+/* Localized versions of Info.plist keys */
+
+"CFBundleDisplayName" = "美图相机";
+//"NSCameraUsageDescription" = "我们需要获得相机权限以使用相机拍照";
+"NSCameraUsageDescription" = "我们需要此权限来使用相机拍照，然后您可以对其进行编辑";
+
+//"NSPhotoLibraryUsageDescription" = "我们需要获得相册权限来选择和保存相片到相册";
+"NSPhotoLibraryUsageDescription" = "我们需要此权限来访问相册，以便在本应用中显示您手机上的照片，您可以选择一到多张照片进行拼接";
+
+"NSPhotoLibraryAddUsageDescription" = "我们需要获得相册权限用以来保存结果相片到相册";

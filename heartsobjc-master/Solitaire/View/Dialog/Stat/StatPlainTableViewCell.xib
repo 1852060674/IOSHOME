@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="08D-qN-3Dd" customClass="StatPlainTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="523" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="523" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2c-SM-KBa">
+                        <rect key="frame" x="473" y="14.5" width="42" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="pR4-9D-wIP"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="42" id="pXZ-1O-riY"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G3I-ji-PRC">
+                        <rect key="frame" x="8" y="14.5" width="42" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="SeH-OI-7fb"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="42" id="qxR-e4-QEd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                        </variation>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="M2c-SM-KBa" firstAttribute="centerY" secondItem="08D-qN-3Dd" secondAttribute="centerY" id="0hi-Uq-S0e"/>
+                <constraint firstItem="G3I-ji-PRC" firstAttribute="leading" secondItem="08D-qN-3Dd" secondAttribute="leading" constant="8" id="1Qv-rD-IKy"/>
+                <constraint firstAttribute="trailing" secondItem="M2c-SM-KBa" secondAttribute="trailing" constant="8" id="sLs-qz-Gf4"/>
+                <constraint firstItem="G3I-ji-PRC" firstAttribute="centerY" secondItem="08D-qN-3Dd" secondAttribute="centerY" id="zs5-Am-72J"/>
+            </constraints>
+            <size key="customSize" width="523" height="50"/>
+            <connections>
+                <outlet property="keyLabel" destination="G3I-ji-PRC" id="rga-si-66B"/>
+                <outlet property="valueLabel" destination="M2c-SM-KBa" id="gyW-ao-Z2T"/>
+            </connections>
+            <point key="canvasLocation" x="10.5" y="165"/>
+        </collectionViewCell>
+    </objects>
+</document>

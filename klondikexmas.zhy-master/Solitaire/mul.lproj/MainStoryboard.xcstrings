@@ -1,0 +1,30 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "GJd-Yh-RWb.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Solitaire\"; ObjectID = \"GJd-Yh-RWb\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Solitaire"
+          }
+        }
+      }
+    },
+    "obG-Y5-kRd.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Copyright © 2024 apple. All rights reserved.\"; ObjectID = \"obG-Y5-kRd\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Copyright © 2024 apple. All rights reserved."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

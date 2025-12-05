@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  PhotoEditor
+
+  Created by ZB_Mac on 15/6/30.
+  Copyright (c) 2015年 ZBNetwork. All rights reserved.
+*/
+
+"WARN_WORD" = "警告";
+
+"EXCEED_PHOTO_MAXNUM_LIMIT" = "最多可选择7张照片。添加新照片前请删除已选择照片。";
+
+"CANCEL_WORD" = "取消";
+
+"ALBUMN_ACCESSMENT_ERROR_TITLE" = "无法访问图片";
+
+"SETTINGS" = "设置";
+
+"PHOTO_LIBRARY_ACCESS_DENIED" = "相册访问权限被拒绝";
+
+"ENABLE_ACCESS_TO_PHOTO_MSG" = "请前往设置中打开相册访问权限";
+
+"ALBUMN_ACCESSMENT_ERROR_CANCEL" = "好";

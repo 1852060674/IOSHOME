@@ -1,0 +1,43 @@
+/* 
+  Language.strings
+  Solitaire
+
+  Created by yysdsyl on 13-9-20.
+  Copyright (c) 2013年 apple. All rights reserved.
+*/
+"change_cardback"="更换纸牌背景";
+"change_gameback"="更换游戏背景";
+"stat"="统计信息";
+"sound"="声音控制";
+"timemove"="时间/移动";
+"lock"="是否锁住屏幕旋转";
+"hint"="提示";
+"tapmove"="点击自动移动";
+"classic"="经典纸牌样式";
+"rules"="规则";
+"ok"="确定";
+"cancel"="取消";
+"scroll"="滑动可看更多";
+"hintmove"="可移动序列";
+"gamewon"="赢的局数";
+"gamelost"="输的局数";
+"shortesttime"="最短完成时间";
+"longesttime"="最长完成时间";
+"avgtime"="平均完成时间";
+"fewestmoves"="最少完成移动次数";
+"mostmoves"="最多完成移动次数";
+"noundo"="没有使用撤销功能赢的局数";
+"highscore"="最高分";
+"resethint"="是否重置统计信息？";
+"yes"="是";
+"no"="否";
+"time"="时间:";
+"score"="分数:";
+"moves"="移动:";
+"newgame"="新游戏";
+"replay"="重玩该局游戏";
+"nomoves"="没有可移动的序列";
+"wonhint"="你赢了!";
+"autohint"="是否自动完成余下的纸牌移动？";
+"draw"="一次性翻几张";
+"pushmsg"="不要放弃！纸牌游戏正在等待你去征服！";

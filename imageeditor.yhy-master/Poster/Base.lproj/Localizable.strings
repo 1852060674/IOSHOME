@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  PhotoEditor
+
+  Created by ZB_Mac on 15/6/30.
+  Copyright (c) 2015年 ZBNetwork. All rights reserved.
+*/
+
+"WARN_WORD" = "Warn";
+
+"EXCEED_PHOTO_MAXNUM_LIMIT" = "You can select 7 photos at most. Delete selected photos before adding new ones.";
+
+"CANCEL_WORD" = "Cancel";
+
+"ALBUMN_ACCESSMENT_ERROR_TITLE" = "Unable to access your photos!";
+
+"SETTINGS" = "Settings";
+
+"PHOTO_LIBRARY_ACCESS_DENIED" = "Photo Library Access Denied";
+
+"ENABLE_ACCESS_TO_PHOTO_MSG" = "Please go to Settings and enable access to the photo library";
+
+"ALBUMN_ACCESSMENT_ERROR_CANCEL" = "OK";

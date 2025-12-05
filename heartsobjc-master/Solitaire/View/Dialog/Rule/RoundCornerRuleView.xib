@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RoundCornerRuleView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dW6-8I-rTt">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZaF-pF-Xy8">
+                    <rect key="frame" x="8" y="50" width="359" height="567"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qkV-aP-pJn">
+                    <rect key="frame" x="8" y="50" width="359" height="567"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="moN-OE-vii">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YXc-uo-x7Q">
+                            <rect key="frame" x="164.5" y="14.5" width="46" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="42" id="GsQ-xA-FIE"/>
+                                <constraint firstAttribute="height" constant="21" id="oLs-ny-6Q6"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="YXc-uo-x7Q" firstAttribute="centerY" secondItem="moN-OE-vii" secondAttribute="centerY" id="2v9-xR-mEt"/>
+                        <constraint firstItem="YXc-uo-x7Q" firstAttribute="centerX" secondItem="moN-OE-vii" secondAttribute="centerX" id="SRq-6F-dBv"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mzx-vl-FBQ">
+                    <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T14-oA-EHq">
+                            <rect key="frame" x="138.5" y="5" width="98" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="T14-oA-EHq" secondAttribute="height" multiplier="206:84" id="XKr-RB-EgB"/>
+                                <constraint firstAttribute="height" constant="40" id="bFn-dV-6dY"/>
+                            </constraints>
+                            <state key="normal" title="Close" backgroundImage="dialog_close_button.png"/>
+                            <connections>
+                                <action selector="close:" destination="iN0-l3-epB" eventType="touchUpInside" id="Z0B-qG-ipD"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="T14-oA-EHq" firstAttribute="centerY" secondItem="Mzx-vl-FBQ" secondAttribute="centerY" id="6rE-tW-7fy"/>
+                        <constraint firstItem="T14-oA-EHq" firstAttribute="centerX" secondItem="Mzx-vl-FBQ" secondAttribute="centerX" id="g8n-HN-M5h"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Mzx-vl-FBQ" firstAttribute="top" secondItem="ZaF-pF-Xy8" secondAttribute="bottom" id="4fA-OA-iFy"/>
+                <constraint firstItem="qkV-aP-pJn" firstAttribute="leading" secondItem="ZaF-pF-Xy8" secondAttribute="leading" id="BvZ-2M-JNt"/>
+                <constraint firstItem="ZaF-pF-Xy8" firstAttribute="top" secondItem="moN-OE-vii" secondAttribute="bottom" id="FgU-2L-4pN"/>
+                <constraint firstAttribute="bottom" secondItem="ZaF-pF-Xy8" secondAttribute="bottom" constant="50" id="FpC-iy-HTR"/>
+                <constraint firstAttribute="trailing" secondItem="dW6-8I-rTt" secondAttribute="trailing" id="OxJ-Yk-5wX"/>
+                <constraint firstAttribute="trailing" secondItem="Mzx-vl-FBQ" secondAttribute="trailing" id="QjH-vh-swn"/>
+                <constraint firstAttribute="trailing" secondItem="ZaF-pF-Xy8" secondAttribute="trailing" constant="8" id="RGZ-Jd-xrQ"/>
+                <constraint firstItem="dW6-8I-rTt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="S3y-qT-YUf"/>
+                <constraint firstItem="qkV-aP-pJn" firstAttribute="bottom" secondItem="ZaF-pF-Xy8" secondAttribute="bottom" id="SVZ-kL-ueB"/>
+                <constraint firstItem="Mzx-vl-FBQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Sob-fb-A7i"/>
+                <constraint firstItem="qkV-aP-pJn" firstAttribute="trailing" secondItem="ZaF-pF-Xy8" secondAttribute="trailing" id="Vpz-sK-JvY"/>
+                <constraint firstItem="qkV-aP-pJn" firstAttribute="top" secondItem="ZaF-pF-Xy8" secondAttribute="top" id="fd7-Kt-LEh"/>
+                <constraint firstItem="ZaF-pF-Xy8" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="50" id="hSH-A6-uLJ"/>
+                <constraint firstItem="moN-OE-vii" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="isI-Ze-e2D"/>
+                <constraint firstAttribute="bottom" secondItem="Mzx-vl-FBQ" secondAttribute="bottom" id="kQQ-yZ-Ir5"/>
+                <constraint firstItem="ZaF-pF-Xy8" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="tD5-gZ-7YB"/>
+                <constraint firstAttribute="bottom" secondItem="dW6-8I-rTt" secondAttribute="bottom" id="w25-o3-1zW"/>
+                <constraint firstItem="moN-OE-vii" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="w9k-aU-6nj"/>
+                <constraint firstItem="dW6-8I-rTt" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="wYF-eV-yyb"/>
+                <constraint firstAttribute="trailing" secondItem="moN-OE-vii" secondAttribute="trailing" id="xYI-OI-pFu"/>
+            </constraints>
+            <connections>
+                <outlet property="bgImageView" destination="dW6-8I-rTt" id="uAG-bC-8Hs"/>
+                <outlet property="closeButton" destination="T14-oA-EHq" id="Lw3-4N-B62"/>
+                <outlet property="closeButtonCenterX" destination="g8n-HN-M5h" id="LSL-SP-Uu8"/>
+                <outlet property="contentView" destination="qkV-aP-pJn" id="HEe-hJ-FdV"/>
+                <outlet property="titleLabel" destination="YXc-uo-x7Q" id="bJR-CO-S0t"/>
+            </connections>
+            <point key="canvasLocation" x="53.600000000000001" y="49.025487256371818"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="dialog_close_button.png" width="218" height="76"/>
+    </resources>
+</document>

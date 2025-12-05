@@ -1,0 +1,50 @@
+/* 
+  Language.strings
+  Solitaire
+
+  Created by yysdsyl on 13-9-20.
+  Copyright (c) 2013年 apple. All rights reserved.
+*/
+"change_cardback"="Ändern Karte Zurück";
+"change_gameback"="Ändern Spiel Zurück";
+"stat"="Statistik";
+"level"="Schwierigkeit";
+"sound"="Sound Control";
+"timemove"="Zeit/Unterwegs";
+"lock"="Verschluss Ausrichtung";
+"hint"="Hinweise";
+"tapmove"="Tippen Sie auf Nach";
+"classic"="Klassische Karten";
+"rules"="Regeln";
+"levelhint"="Schwierigkeit Einstellung wird in Next New Game Nehmen!";
+"ok"="OK";
+"cancel"="Stornieren";
+"scroll"="Blättern Sie, um mehr zu sehen";
+"nodeal"="Keine Angebote Links";
+"nocard"="Keine Karten übrig";
+"hintmove"="Hinweis Unterwegs";
+"easylevel"="Einfache Niveau";
+"hardlevel"="Harte Niveau";
+"gamewon"="Gewonnene Spiele";
+"gamelost"="Verlorene Spiele";
+"shortesttime"="Kürzeste Winning Time";
+"longesttime"="Längste Siegesserie Zeit";
+"avgtime"="Durchschnittliche Winning Time";
+"fewestmoves"="Fewest Gewinnzug";
+"mostmoves"="Die meisten Gewinnzug";
+"noundo"="Die meisten Gewinnzug";
+"highscore"="Höchste Punktzahl";
+"resethint"="Wollen Sie wirklich, um die Statistik zurücksetzen?";
+"yes"="Ja";
+"no"="Keine";
+"time"="Zeit:";
+"score"="Ergebnis:";
+"moves"="Bewegen:";
+"newgame"="Neues Spiel";
+"replay"="Wiederholen Sie das Spiel";
+"nomoves"="Keine Notrufe verschieben";
+"wonhint"="Sie Gewinnen!";
+"losthint"="Sie Verloren!";
+"autohint"="Auto Beende das Spiel?";
+"draw"="Zeichnen";
+"pushmsg"="Geben Sie nicht auf! Klondike Solitaire wartet auf Sie zu erobern!";

@@ -1,0 +1,33 @@
+#source 'https://cdn.cocoapods.org/'
+#source 'https://github.com/CocoaPods/Specs'
+
+platform :ios, '13.0'
+
+target 'PhotoEditor' do
+    pod 'OpenCV'
+    pod 'AppLovinMediationTapjoyAdapter'
+    pod 'AppLovinMediationFacebookAdapter'
+    pod 'AppLovinMediationGoogleAdapter'
+    pod 'AppLovinMediationIronSourceAdapter'
+    pod 'AppLovinMediationUnityAdsAdapter'
+    pod 'AppLovinMediationVungleAdapter'
+    pod 'AppLovinMediationBidMachineAdapter'
+    pod 'AppLovinMediationByteDanceAdapter'
+    pod 'AppLovinSDK'
+    pod 'Masonry'
+    pod 'AppLovinMediationChartboostAdapter'
+    pod 'AppLovinMediationFyberAdapter','8.3.8.0'
+    pod 'AppLovinMediationGoogleAdManagerAdapter'
+    pod 'AppLovinMediationInMobiAdapter'
+    pod 'AppLovinMediationMintegralAdapter'
+    pod 'AppLovinMediationAmazonAdMarketplaceAdapter'
+    pod 'AmazonPublisherServicesSDK'
+    pod 'AppLovinMediationMolocoAdapter'
+    pod 'AppLovinMediationPubMaticAdapter'
+end
+
+post_install do |installer|
+  installer.pods_project.build_configurations.each do |config|
+    config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
+ end
+end
