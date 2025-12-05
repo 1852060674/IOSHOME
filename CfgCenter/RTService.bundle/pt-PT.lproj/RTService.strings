@@ -1,0 +1,31 @@
+/* 
+  RTService.strings
+
+  Created by 昭 陈 on 16/3/2.
+  Copyright © 2016年 昭 陈. All rights reserved.
+*/
+
+"RATE_MSG"= "A classificação irá Manter - NOS a trabalhar sobre as novas funcionalidades. Nthank!";
+
+"RATE_YES"= "Dá UMA classificação.";
+
+"RATE_NO"= "EU tenho UMA sugestão!";
+
+"RATE_CANCEL"= "Talvez Mais tarde";
+
+"EMAIL_NOT_AVAILABLE" = "Criar conta de e - mail pls antes de feedback.";
+
+"SETTING_APP_NAME_WORD" = "App nome";
+
+"SETTING_FEEDBACK_TITLE" = "iOS Apoio";
+
+"SETTING_FEEDBACK_CONTENT" = "Por favor, deixe SUAS sugestões e conselhos para nós. < br / > < br / > < br / > a seguinte informação é valiosa para nós para verificar o problema.Por favor, mantenha - a.";
+
+"SETTING_APPVERSION_WORD" = "App Versão";
+
+"SETTING_DEVICE_WORD" = "Dispositivo";
+
+"SETTING_IOS_VERSION_WORD" = "iOS Versão";
+
+/* ios version locale */
+"SETTING_IOS_DESC_WORD" = "Impressionante, eu gosto";
