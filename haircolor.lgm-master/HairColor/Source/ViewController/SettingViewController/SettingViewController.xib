@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SettingViewController">
+            <connections>
+                <outlet property="backBtn" destination="4Z3-7i-AQE" id="Bye-cX-60d"/>
+                <outlet property="tableView" destination="XIE-S2-7ZT" id="ChM-Tv-7D1"/>
+                <outlet property="view" destination="iN0-l3-epB" id="eKz-2I-IDu"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JH5-1U-Dwd">
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Z3-7i-AQE">
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="4Z3-7i-AQE" secondAttribute="height" id="Knm-cl-TQj"/>
+                            </constraints>
+                            <state key="normal" title="Back"/>
+                            <connections>
+                                <action selector="goBack:" destination="-1" eventType="touchUpInside" id="ADg-8t-LSB"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.1843137255" green="0.16862745100000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="4Z3-7i-AQE" firstAttribute="top" secondItem="JH5-1U-Dwd" secondAttribute="top" id="LVH-Wh-Yiq"/>
+                        <constraint firstItem="4Z3-7i-AQE" firstAttribute="leading" secondItem="JH5-1U-Dwd" secondAttribute="leading" id="OYR-6E-YRe"/>
+                        <constraint firstAttribute="bottom" secondItem="4Z3-7i-AQE" secondAttribute="bottom" id="SwX-sU-AM7"/>
+                        <constraint firstAttribute="height" constant="50" id="wDE-8N-DeV"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="XIE-S2-7ZT">
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="XIE-S2-7ZT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="4qG-L9-vh8"/>
+                <constraint firstItem="JH5-1U-Dwd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="BMI-eG-6Qj"/>
+                <constraint firstItem="JH5-1U-Dwd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="EQV-kh-p2G"/>
+                <constraint firstItem="XIE-S2-7ZT" firstAttribute="top" secondItem="JH5-1U-Dwd" secondAttribute="bottom" id="I7M-j5-uqB"/>
+                <constraint firstAttribute="trailing" secondItem="XIE-S2-7ZT" secondAttribute="trailing" id="VpB-pV-n88"/>
+                <constraint firstAttribute="trailing" secondItem="JH5-1U-Dwd" secondAttribute="trailing" id="bWL-zg-GGa"/>
+                <constraint firstAttribute="bottom" secondItem="XIE-S2-7ZT" secondAttribute="bottom" id="yXK-iI-TNB"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="m5Y-oS-vUt" appends="YES" id="dAe-tN-Wwt"/>
+            </connections>
+        </view>
+        <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="m5Y-oS-vUt">
+            <rectEdge key="edges" left="YES"/>
+            <connections>
+                <action selector="onScreenEdgeLeftPan:" destination="-1" id="wAH-N1-xPI"/>
+            </connections>
+        </screenEdgePanGestureRecognizer>
+    </objects>
+</document>

@@ -1,0 +1,96 @@
+"SHARE_AIRPRINT" = "AirPrint";
+
+"SHARE_CANCEL_WORD" = "Отмена";
+
+"SHARE_COPY" = "копия";
+
+"SHARE_DROPBOX" = "Dropbox";
+
+"SHARE_FACEBOOK" = "facebook";
+
+"SHARE_FAIL_PREFIX" = "Не удалось разделить на";
+
+"SHARE_FAIL_SUFFIX" = "!!";
+
+"SHARE_FLICKR" = "Flickr";
+
+"SHARE_IMAGE_SAVED" = "Изображение Сохранено!";
+
+"SHARE_INSTAGRAM" = "Instagram";
+
+"SHARE_INSTAGRAM_NOT_INSTALLED" = "Instagram не установлен!";
+
+"SHARE_LINKEDIN" = "LinkedIn";
+
+"SHARE_MAIL" = "Эл. адрес";
+
+"SHARE_NOT_SUPPORT_PREFIX" = "Это устройство не поддерживает общий ресурс";
+
+"SHARE_NOT_SUPPORT_SUFFIX" = ",";
+
+"SHARE_NOT_SUPPORT_REASON_MSG" = "SHARE_NOT_SUPPORT_REASON_MSG";
+
+"SHARE_SINA_WEIBO" = "Weibo";
+
+"SHARE_SMS" = "смс";
+
+"SHARE_TC_WEIBO" = "Tencent Weibo";
+
+"SHARE_TUMBLR" = "Tumblr";
+
+"SHARE_TWITTER" = "Twitter";
+
+"SHARE_VKONTAKTE" = "В Контакте";
+
+"SHARE_WATING" = "Ожидание ...";
+
+"SHARE_WECHAT" = "WeChat";
+
+"SHARE_WECHAT_TIMELINE" = "Моменты";
+
+"SHARE_WECHAT_NOT_INSTALLED" = "WeChat не установлен!";
+
+"SHARE_QQ" = "QQ";
+
+"SHARE_QQ_SPACE" = "QQ Space";
+
+"SHARE_MORE" = "Больше";
+
+"SHARE_QQ_NOT_INSTALLED" = "QQ не установлен!";
+
+"SHARE_WHATSAPP" = "WhatsApp";
+
+"SHARE_WHATSAPP_NOT_INSTALLED" = "WhatsApp не установлен!";
+
+"SHARE_VC_TITLE" = "СОХРАНИТЬ, ПОДЕЛИТЬСЯ";
+
+"SHARE_SAVE" = "Сохранить";
+
+"SHARE_SAVED" = "Сохранено в альбом";
+
+"SHARE_TIP" = "Наконечник";
+
+"SHARE_SAVED_FAIL" = "Не удалось сохранить фотографию, Пожалуйста, проверьте, если это приложение может получить доступ к системному альбом!";
+
+"SHARE_SAVED_SUCCEED" = "Фотография сохранена в системе альбома успешно!";
+
+"SHARE_EDIT" = "редактировать";
+
+"SHARE_RETOUCH" = "ретуширование";
+
+"SHARE_SHARE_ON" = "Поделись";
+
+"SHARE_AGAIN" = "назад";
+
+"SHARE_HOME" = "Главная";
+
+"SHARE_SUCCEED_PREFIX" = "Поделиться с";
+
+"SHARE_SUCCEED_SUFFIX" = "  успешно!";
+
+"SHARE_CANCEL_PREFIX" = "Отмена совместного использования с";
+
+"SHARE_CANCELED_SUFFIX" = "!";
+
+"SHARE_NEXT_IMAGE" = "Редактировать другая фотография";
+

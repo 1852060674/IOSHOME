@@ -1,0 +1,115 @@
+/* 
+  Localizable.strings
+  HairColor
+
+  Created by ZB_Mac on 2016/11/22.
+  Copyright © 2016年 ZB_Mac. All rights reserved.
+*/
+
+/* bottom bar */
+"ADD_TITLE" = "Add Color";
+
+/* bottom bar */
+"COLOR_TITLE" = "Color";
+
+/* bottom bar */
+"ERASER_TITLE" = "Eraser";
+
+/* bottom bar */
+"PAINT_TITLE" = "Paint";
+
+"WAITING_WORD" = "Waiting...";
+
+"APPLY_HAIR_COLOR" = "Dyeing...";
+
+"CHOOSE_NEW_COLOR_TIP" = "Choose New Color";
+
+"SHARE_TEXT" = "HairColor";
+
+"TOP_OK" = "OK";
+
+"TOP_BACK" = "Cancel";
+
+"BRUSH" = "Add";
+
+"ERASER" = "Subtract";
+
+"SMART_SCISSORS" = "Scissors";
+
+"RADIUS" = "Radius";
+
+"SMOOTH_BRUSH" = "Smooth";
+
+"CUT_HAIR_TITLE" = "Select Hair Area";
+
+"FIND_HAIR_TIP" = "Find Hair First";
+
+"FIND_HAIR_MSG" = "Finding your hair will make hair dye much more easy. Hair dyeing will not exceed the hair area. Would you like to outline your hair?(YES is preferred)";
+
+"FIND_HAIR_OK" = "YES";
+
+"FIND_HAIR_NO" = "NO";
+
+"SAMPLE_HAIR_TIP" = "Hair Area Selected";
+
+"SAMPLE_HAIR_MSG" = "The hair area of sample has been selected in advance, you can directly select a hair color to dye. Also hair dyeing will not exceed the hair area while painting. You can see and modify the hair area with \"Hair Area\" button";
+
+"SAMPLE_HAIR_OK" = "I Know Now";
+
+"SAMPLE_HAIR_NOTIP" = "Don't Tip Again";
+
+"HAIR_AREA_BTN" = "Hair Area";
+
+"REMEMBER_CHOOSE" = "remember my choice, don't tip again";
+
+"SUCCESSIVE_REDOUNDO_TIP" = "Tip";
+
+"SUCCESSIVE_UNDO_MSG" = "You have successively redo for 5 times. Would you like to use original photo?";
+
+"SUCCESSIVE_REDO_MSG" = "You have successively undo for 5 times. Would you like to use latest photo?";
+
+"SUCCESSIVE_REDOUNDO_OK" = "YES";
+
+"SUCCESSIVE_REDOUNDO_NO" = "NO";
+
+"SUCCESSIVE_REMEMBER" = "remember my choice, don't tip during this session";
+
+"HELP_CLOSE" = "Close";
+
+"HELP_TITLE" = "Help";
+
+"HELP_CUT_HAIR_TITLE" = "Cutout Hair Area";
+
+"HELP_CUT_HAIR_MSG" = "Hair dyeing takes effect on the selected hair area only! Using one finger, trace the outline of your hair. Use \"Add\" and \"Subtract\" to refine the hair area if needed";
+
+"HELP_AUTO_HAIR_TITLE" = "Select Hair Color";
+
+"HELP_AUTO_HAIR_MSG" = "With hair area selected, you can dye your hair with one tap. Dyeing will not exceed the selected hair area.";
+
+"HELP_MANUAL_HAIR_TITLE" = "Dye Hair Manually";
+
+"HELP_MANUAL_HAIR_MSG" = "By manually hair dye, you can realize hair highlight, pixelated hair and more flexible gradient dye. You can enter manual mode multi-times applying different colors.";
+
+"HELP_LP_DELETE_TITLE" = "Archive Managerment";
+
+"HELP_LP_DELETE_MSG" = "LongPress on the archive until a trash can appears, then drag the archive toward the trash can to delete.";
+
+"SHARE_TOP_OK" = "Home";
+
+"SHARE_TOP_BACK" = "Back";
+
+"SHARE_EDIT_TITLE" = "Share/Save";
+
+"TIP" = "Tip";
+
+"NO_HAIR_MASK_MSG" = "Please select the hair area first! Hair dyeing will have no effect outside the selected hair area!";
+
+"CANCEL" = "I Know";
+
+"SEE_HELP" = "See Help";
+
+"DYE_FINALIZED" = "Current Dyeing Finalized! Select New Color and Paint!";
+
+"PAINT_TO_DYE" = "draw with one finger in the hair area to dye!";
+
+"BEAUTIFY" = "Retouch";

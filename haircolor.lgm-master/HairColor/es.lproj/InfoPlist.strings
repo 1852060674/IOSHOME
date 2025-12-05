@@ -1,0 +1,11 @@
+/* 
+  Info.strings
+  HairColor
+
+  Created by ZB_Mac on 2016/11/22.
+  Copyright © 2016年 ZB_Mac. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "HairColor";
+"NSPhotoLibraryAddUsageDescription" = "need save photo to album";
+NSUserTrackingUsageDescription = "Presionando \"Permitir\", se usa la información del dispositivo para obtener contenido publicitario más relevante";

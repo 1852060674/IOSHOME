@@ -1,0 +1,94 @@
+"HIGE_WORD" = "Alto";
+
+"LOW_WORD" = "Bajo";
+
+"MEDIAN_WORD" = "Mediana";
+
+"SETTING_APPVERSION_WORD" = "Version de aplicacion";
+
+"SETTING_AUTO_SAVE_IMAGE" = "Guardar automáticamente Resultado La imagen";
+
+"SETTING_CANCEL_WORD" = "Cancelar";
+
+"SETTING_IMAGE_RESOLUTION" = "Resolucion de imagen";
+
+"SETTING_IOS_VERSION_WORD" = "iOS versión";
+
+"SETTING_MAIL_WORD" = "correo electrónico";
+
+"SETTING_RATE_WORD" = "Tarifa";
+
+"SETTING_SECTION_GENERAL" = "Configuración general";
+
+"SETTING_SECTION_OTHER" = "Otros ajustes";
+
+"SETTING_SHARE_MESSAGE_1" = "estoy usando";
+
+"SETTING_SHARE_MESSAGE_2" = "  y creo que te puede gustar. Echa un vistazo a esta aplicación:";
+
+"SETTING_SHARE_SHEET_TITLE" = "Compartir Por";
+
+"SETTING_SHARE_TITLE" = "Tengo una aplicación de frío para compartir con ustedes !!";
+
+"SETTING_SHARE_WORD" = "Compartir";
+
+"SETTING_SMS_WORD" = "SMS";
+
+"SETTING_FB_WORD" = "Facebook";
+
+"SETTING_TL_WORD" = "TimeLine";
+
+"SETTING_UPGRADE_WORD" = "Mejorar";
+
+"SETTING_USE_NETWORK" = "Utilizar la red para localizar con precisión Ojos";
+
+"SETTING_WIFI_ONLY" = "Bajo uso de la red Wifi sólo";
+
+"SETTING_MAIL_NOT_SUPPORT" = "Este dispositivo no puede enviar correo electrónico!";
+
+"SETTING_SMS_NOT_SUPPORT" = "Este dispositivo no puede enviar SMS!";
+
+"SETTING_OK_WORD" = "DE ACUERDO";
+
+"SETTING_SEND_MAIL_FAIL" = "Dejar de enviar correo electrónico";
+
+"SETTING_SEND_SMS_FAIL" = "Dejar de enviar SMS";
+
+"SETTING_VC_TITLE" = "AJUSTES";
+
+"SETTING_YES" = "SÍ";
+
+"SETTING_NO" = "NO";
+
+"SETTING_VERSION" = "Versión:";
+
+"SETTING_SPLIT_SCREEN_WORD" = "Pantalla dividida";
+
+"SETTING_FEATHER" = "Pluma";
+
+"SETTING_SMOOTH_EDGE" = "borde liso";
+
+"SETTING_AUTO_SAVE_IMAGE_CUT_SYSTEM" = "Para guardar recorte del Sistema álbum";
+
+"SETTING_AUTO_SAVE_IMAGE_CUT_APP" = "Para guardar recorte Aplicación del álbum";
+
+"SETTING_FEEDBACK_WORD" = "Realimentación";
+
+"SETTING_CLEAR_CACHE_ALERT_TITLE_2" = "Borrar todos los recortes";
+
+"SETTING_CLEAR_CACHE_ALERT_MESSAGE_2" = "Se le perdió todos los recortes de manera irreversible si continuar. ¿Seguro que desea continuar con la eliminación?";
+
+"SETTING_CLEAR_CACHE_ALERT_TITLE_1" = "Claro Aplicación del álbum";
+
+"SETTING_CLEAR_CACHE_ALERT_MESSAGE_1" = "¿Está seguro de que desea borrar todos los recortes?";
+
+"SETTING_CLEAR_CACHE" = "Claro Aplicación del álbum";
+
+"SETTING_ACCURATECUT" = "Reducir zigzag";
+
+"SETTING_GUIDE" = "Guía de recorte";
+
+"SETTING_GUIDE_2" = "Guía";
+
+"SETTING_BACK" = "Espalda";
+

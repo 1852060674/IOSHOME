@@ -1,0 +1,3 @@
+/* Localized versions of Info.plist keys */
+
+NSUserTrackingUsageDescription = "點擊\"允許\"以使用設備信息獲得更加相關的廣告內容";

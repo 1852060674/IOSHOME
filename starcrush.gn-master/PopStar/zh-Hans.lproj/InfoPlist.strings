@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  PopStar
+
+  Created by apple air on 15/12/16.
+  Copyright © 2015年 zhongbo network. All rights reserved.
+*/
+CFBundleDisplayName="星星消消乐";
+NSUserTrackingUsageDescription="需要获取您设备的广告标识符，以为您提供更好的广告体验";

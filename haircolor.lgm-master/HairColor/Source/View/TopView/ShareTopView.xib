@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ShareTopView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sa4-2E-vNZ">
+                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Sa4-2E-vNZ" secondAttribute="height" id="XnQ-5l-GUF"/>
+                    </constraints>
+                    <state key="normal" title="Back"/>
+                    <connections>
+                        <action selector="onBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="toy-iH-iVj"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N61-va-8KZ">
+                    <rect key="frame" x="325" y="0.0" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="N61-va-8KZ" secondAttribute="height" id="64v-vz-Rh7"/>
+                    </constraints>
+                    <state key="normal" title="Share"/>
+                    <connections>
+                        <action selector="onBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="did-Yi-dT9"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="编辑一下下" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8lF-wT-eTt">
+                    <rect key="frame" x="50" y="0.0" width="275" height="50"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="8lF-wT-eTt" firstAttribute="leading" secondItem="Sa4-2E-vNZ" secondAttribute="trailing" id="1Wr-cU-jvm"/>
+                <constraint firstItem="Sa4-2E-vNZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Ab3-w1-8r2"/>
+                <constraint firstAttribute="bottom" secondItem="8lF-wT-eTt" secondAttribute="bottom" id="C6w-Jl-pqz"/>
+                <constraint firstItem="N61-va-8KZ" firstAttribute="leading" secondItem="8lF-wT-eTt" secondAttribute="trailing" id="DxI-zm-O5n"/>
+                <constraint firstAttribute="bottom" secondItem="N61-va-8KZ" secondAttribute="bottom" id="OHJ-5K-JSy"/>
+                <constraint firstItem="N61-va-8KZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Ono-0F-FiE"/>
+                <constraint firstItem="Sa4-2E-vNZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="P4Y-Vd-pks"/>
+                <constraint firstItem="8lF-wT-eTt" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="TYH-Vd-har"/>
+                <constraint firstAttribute="trailing" secondItem="N61-va-8KZ" secondAttribute="trailing" id="r7O-oh-baY"/>
+                <constraint firstAttribute="bottom" secondItem="Sa4-2E-vNZ" secondAttribute="bottom" id="uGS-EW-gsj"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="titleLabel" destination="8lF-wT-eTt" id="qTz-vN-Poe"/>
+                <outletCollection property="topBtns" destination="Sa4-2E-vNZ" id="ahb-qC-HJU"/>
+                <outletCollection property="topBtns" destination="N61-va-8KZ" id="paY-TX-vwr"/>
+            </connections>
+            <point key="canvasLocation" x="175.19999999999999" y="138.53073463268368"/>
+        </view>
+    </objects>
+</document>

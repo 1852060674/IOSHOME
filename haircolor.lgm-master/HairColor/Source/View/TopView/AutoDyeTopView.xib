@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AutoDyeTopView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxj-Bi-vLR">
+                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="wxj-Bi-vLR" secondAttribute="height" id="DKa-Rt-ayJ"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="8" minY="8" maxX="8" maxY="8"/>
+                    <state key="normal" image="btn_photo.png"/>
+                    <connections>
+                        <action selector="onBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="6N9-9y-IDq"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d0C-Jv-zkq">
+                    <rect key="frame" x="325" y="0.0" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="d0C-Jv-zkq" secondAttribute="height" multiplier="1:1" id="sgE-u7-zpG"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="8" minY="8" maxX="8" maxY="8"/>
+                    <state key="normal" image="btn_share.png"/>
+                    <connections>
+                        <action selector="onBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="fxj-dF-Geg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Exz-93-JpM">
+                    <rect key="frame" x="196" y="0.0" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Exz-93-JpM" secondAttribute="height" id="srM-QE-SeE"/>
+                    </constraints>
+                    <state key="normal" image="btn_redo.png"/>
+                    <connections>
+                        <action selector="onBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="fQ6-96-0uy"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bHv-1c-YH9">
+                    <rect key="frame" x="187" y="0.0" width="1" height="50"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="SiQ-Uy-Jpk"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="1" id="qvG-gb-vZz"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1i-jf-Uza">
+                    <rect key="frame" x="138" y="0.0" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="a1i-jf-Uza" secondAttribute="height" id="lVB-Eq-iWc"/>
+                    </constraints>
+                    <state key="normal" image="btn_undo.png"/>
+                    <connections>
+                        <action selector="onBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="pQV-c7-WfF"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="wxj-Bi-vLR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="2n3-Rg-nBE"/>
+                <constraint firstAttribute="bottom" secondItem="bHv-1c-YH9" secondAttribute="bottom" id="3Oy-PG-lEn"/>
+                <constraint firstItem="wxj-Bi-vLR" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="9Fx-c7-Wdd"/>
+                <constraint firstAttribute="bottom" secondItem="Exz-93-JpM" secondAttribute="bottom" id="H1F-mS-0g0"/>
+                <constraint firstItem="a1i-jf-Uza" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="OEh-7q-hhx"/>
+                <constraint firstItem="Exz-93-JpM" firstAttribute="leading" secondItem="a1i-jf-Uza" secondAttribute="trailing" constant="8" id="WO2-m4-daf"/>
+                <constraint firstItem="Exz-93-JpM" firstAttribute="leading" secondItem="bHv-1c-YH9" secondAttribute="trailing" constant="8" id="XMX-uQ-Ujb"/>
+                <constraint firstAttribute="bottom" secondItem="a1i-jf-Uza" secondAttribute="bottom" id="Xvu-Zb-uhC"/>
+                <constraint firstItem="a1i-jf-Uza" firstAttribute="width" secondItem="a1i-jf-Uza" secondAttribute="height" id="bzP-hQ-kA2"/>
+                <constraint firstAttribute="bottom" secondItem="wxj-Bi-vLR" secondAttribute="bottom" id="dfb-tI-Zgi"/>
+                <constraint firstAttribute="trailing" secondItem="d0C-Jv-zkq" secondAttribute="trailing" id="erC-OY-GlQ"/>
+                <constraint firstItem="bHv-1c-YH9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="hu2-HE-5fy"/>
+                <constraint firstItem="d0C-Jv-zkq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="qbP-tV-Jcw"/>
+                <constraint firstItem="Exz-93-JpM" firstAttribute="width" secondItem="Exz-93-JpM" secondAttribute="height" id="tqF-9n-Is5"/>
+                <constraint firstAttribute="bottom" secondItem="d0C-Jv-zkq" secondAttribute="bottom" id="vjV-AV-QxR"/>
+                <constraint firstItem="Exz-93-JpM" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="vwk-mT-PT7"/>
+                <constraint firstItem="bHv-1c-YH9" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="xLT-lQ-FC2"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="tqF-9n-Is5"/>
+                    <exclude reference="bzP-hQ-kA2"/>
+                </mask>
+            </variation>
+            <connections>
+                <outletCollection property="topToolBtns" destination="wxj-Bi-vLR" id="wVw-Mv-9Su"/>
+                <outletCollection property="topToolBtns" destination="a1i-jf-Uza" id="Wzj-XB-Lgg"/>
+                <outletCollection property="topToolBtns" destination="Exz-93-JpM" id="etq-2z-CEc"/>
+                <outletCollection property="topToolBtns" destination="d0C-Jv-zkq" id="qDX-YL-XsQ"/>
+            </connections>
+            <point key="canvasLocation" x="277.5" y="228"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_photo.png" width="40" height="40"/>
+        <image name="btn_redo.png" width="25" height="25"/>
+        <image name="btn_share.png" width="40" height="40"/>
+        <image name="btn_undo.png" width="25" height="25"/>
+    </resources>
+</document>

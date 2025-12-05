@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  HairColor
+
+  Created by ZB_Mac on 15/7/6.
+  Copyright (c) 2015年 ZB_Mac. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "美发相机";
+"NSPhotoLibraryAddUsageDescription" = "需要保存照片到相册";
+NSUserTrackingUsageDescription = "点击\"允许\"以使用设备信息获得更加相关的广告内容";

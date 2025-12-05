@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LoadPhotoView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uAJ-cH-8Bv">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PJ5-b7-Gyd">
+                    <rect key="frame" x="0.0" y="667" width="375" height="120"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D5j-OS-J6e">
+                            <rect key="frame" x="246.5" y="25" width="70" height="70"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="70" id="2Lk-x4-fbF"/>
+                                <constraint firstAttribute="width" secondItem="D5j-OS-J6e" secondAttribute="height" multiplier="1:1" id="rUC-l7-cdx"/>
+                            </constraints>
+                            <state key="normal" image="btn_camera.png"/>
+                            <connections>
+                                <action selector="loadFromCamera" destination="iN0-l3-epB" eventType="touchUpInside" id="Fr7-f6-a0z"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="30i-WK-jp3">
+                            <rect key="frame" x="59" y="25" width="70" height="70"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="30i-WK-jp3" secondAttribute="height" multiplier="1:1" id="bSX-Je-Zjj"/>
+                                <constraint firstAttribute="width" constant="70" id="vck-DF-pv5"/>
+                            </constraints>
+                            <state key="normal" image="btn_albumn.png"/>
+                            <connections>
+                                <action selector="loadFromAlbum" destination="iN0-l3-epB" eventType="touchUpInside" id="7oU-bd-W9T"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="89t-s5-SbN"/>
+                        <constraint firstItem="D5j-OS-J6e" firstAttribute="centerX" secondItem="PJ5-b7-Gyd" secondAttribute="centerX" multiplier="1.5" id="AY9-NP-gZx"/>
+                        <constraint firstItem="30i-WK-jp3" firstAttribute="centerX" secondItem="PJ5-b7-Gyd" secondAttribute="centerX" multiplier="0.5" id="NwV-Yu-bhe"/>
+                        <constraint firstAttribute="bottom" secondItem="30i-WK-jp3" secondAttribute="bottom" constant="25" id="Rdg-3E-Qya"/>
+                        <constraint firstAttribute="bottom" secondItem="D5j-OS-J6e" secondAttribute="bottom" constant="25" id="n6G-l4-yFZ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="uAJ-cH-8Bv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="115-MF-qzz"/>
+                <constraint firstAttribute="trailing" secondItem="PJ5-b7-Gyd" secondAttribute="trailing" id="443-9E-5t6"/>
+                <constraint firstItem="PJ5-b7-Gyd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="F5j-Xq-9GZ"/>
+                <constraint firstAttribute="bottom" secondItem="uAJ-cH-8Bv" secondAttribute="bottom" id="QS2-fl-6KA"/>
+                <constraint firstAttribute="trailing" secondItem="uAJ-cH-8Bv" secondAttribute="trailing" id="QVH-B5-a5c"/>
+                <constraint firstItem="uAJ-cH-8Bv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ctb-ZE-ayX"/>
+                <constraint firstAttribute="bottom" secondItem="PJ5-b7-Gyd" secondAttribute="bottom" constant="-120" id="o42-Fl-OEc"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="containerView" destination="PJ5-b7-Gyd" id="azB-o5-DaH"/>
+                <outlet property="maskView" destination="uAJ-cH-8Bv" id="LZw-wX-sTN"/>
+                <outlet property="showBtnConstraint" destination="o42-Fl-OEc" id="sKR-Ck-vSl"/>
+                <outletCollection property="gestureRecognizers" destination="BQt-Pi-zT2" appends="YES" id="VAd-Pr-oA5"/>
+            </connections>
+            <point key="canvasLocation" x="-2.5" y="-251.5"/>
+        </view>
+        <tapGestureRecognizer id="BQt-Pi-zT2">
+            <connections>
+                <action selector="onTapBG:" destination="iN0-l3-epB" id="CxK-N1-E5g"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="btn_albumn.png" width="70" height="70"/>
+        <image name="btn_camera.png" width="70" height="70"/>
+    </resources>
+</document>

@@ -1,0 +1,94 @@
+"HIGE_WORD" = "Высокая";
+
+"LOW_WORD" = "Низкий";
+
+"MEDIAN_WORD" = "медиана";
+
+"SETTING_APPVERSION_WORD" = "Версия приложения";
+
+"SETTING_AUTO_SAVE_IMAGE" = "Автосохранение изображение Результат";
+
+"SETTING_CANCEL_WORD" = "Отмена";
+
+"SETTING_IMAGE_RESOLUTION" = "Разрешение изображения";
+
+"SETTING_IOS_VERSION_WORD" = "Система IOS версии";
+
+"SETTING_MAIL_WORD" = "Эл. адрес";
+
+"SETTING_RATE_WORD" = "Ставка";
+
+"SETTING_SECTION_GENERAL" = "общие настройки";
+
+"SETTING_SECTION_OTHER" = "Другие настройки";
+
+"SETTING_SHARE_MESSAGE_1" = "я использую";
+
+"SETTING_SHARE_MESSAGE_2" = "  и я думаю, что вы хотели бы его. Проверьте это приложение:";
+
+"SETTING_SHARE_SHEET_TITLE" = "Доля по";
+
+"SETTING_SHARE_TITLE" = "У меня есть прохладный приложение, чтобы поделиться с вами !!";
+
+"SETTING_SHARE_WORD" = "Поделиться";
+
+"SETTING_SMS_WORD" = "смс";
+
+"SETTING_FB_WORD" = "facebook";
+
+"SETTING_TL_WORD" = "График";
+
+"SETTING_UPGRADE_WORD" = "Обновить";
+
+"SETTING_USE_NETWORK" = "Используйте сеть, чтобы найти глаза точно";
+
+"SETTING_WIFI_ONLY" = "Использование сети под WIFI только";
+
+"SETTING_MAIL_NOT_SUPPORT" = "Это устройство не может отправить по электронной почте!";
+
+"SETTING_SMS_NOT_SUPPORT" = "Это устройство не может отправить SMS!";
+
+"SETTING_OK_WORD" = "ОК";
+
+"SETTING_SEND_MAIL_FAIL" = "Сбой отправки электронной почты";
+
+"SETTING_SEND_SMS_FAIL" = "Не удалось отправить SMS";
+
+"SETTING_VC_TITLE" = "НАСТРОЙКИ";
+
+"SETTING_YES" = "ДА";
+
+"SETTING_NO" = "НЕТ";
+
+"SETTING_VERSION" = "Версия:";
+
+"SETTING_SPLIT_SCREEN_WORD" = "Разделенный экран";
+
+"SETTING_FEATHER" = "Перо";
+
+"SETTING_SMOOTH_EDGE" = "Край Гладкий";
+
+"SETTING_AUTO_SAVE_IMAGE_CUT_SYSTEM" = "Сохранить Вырез к системе Альбом";
+
+"SETTING_AUTO_SAVE_IMAGE_CUT_APP" = "Сохранить Вырез Для App альбома";
+
+"SETTING_FEEDBACK_WORD" = "Обратная связь";
+
+"SETTING_CLEAR_CACHE_ALERT_TITLE_2" = "Удалить все Вырезы";
+
+"SETTING_CLEAR_CACHE_ALERT_MESSAGE_2" = "Вы потеряли все вырезы необратимо, если продолжить. Вы уверены, что хотите продолжить удаление?";
+
+"SETTING_CLEAR_CACHE_ALERT_TITLE_1" = "Очистить Альбом";
+
+"SETTING_CLEAR_CACHE_ALERT_MESSAGE_1" = "Вы уверены, что хотите удалить все вырезы?";
+
+"SETTING_CLEAR_CACHE" = "Очистить Альбом";
+
+"SETTING_ACCURATECUT" = "Уменьшить ZigZag";
+
+"SETTING_GUIDE" = "Руководство Вырез";
+
+"SETTING_GUIDE_2" = "учебник";
+
+"SETTING_BACK" = "назад";
+

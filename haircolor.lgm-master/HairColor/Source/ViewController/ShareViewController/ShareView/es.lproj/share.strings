@@ -1,0 +1,96 @@
+"SHARE_AIRPRINT" = "AirPrint";
+
+"SHARE_CANCEL_WORD" = "Cancelar";
+
+"SHARE_COPY" = "Dupdo";
+
+"SHARE_DROPBOX" = "Dropbox";
+
+"SHARE_FACEBOOK" = "Facebook";
+
+"SHARE_FAIL_PREFIX" = "No comparten por";
+
+"SHARE_FAIL_SUFFIX" = "!!";
+
+"SHARE_FLICKR" = "Flickr";
+
+"SHARE_IMAGE_SAVED" = "Imagen guardada!";
+
+"SHARE_INSTAGRAM" = "Instagram";
+
+"SHARE_INSTAGRAM_NOT_INSTALLED" = "Instagram no se instala!";
+
+"SHARE_LINKEDIN" = "LinkedIn";
+
+"SHARE_MAIL" = "Correo electrónico";
+
+"SHARE_NOT_SUPPORT_PREFIX" = "Este dispositivo no admite la cuota por";
+
+"SHARE_NOT_SUPPORT_SUFFIX" = ".";
+
+"SHARE_NOT_SUPPORT_REASON_MSG" = "SHARE_NOT_SUPPORT_REASON_MSG";
+
+"SHARE_SINA_WEIBO" = "Weibo";
+
+"SHARE_SMS" = "SMS";
+
+"SHARE_TC_WEIBO" = "Tencent Weibo";
+
+"SHARE_TUMBLR" = "Tumblr";
+
+"SHARE_TWITTER" = "Twitter";
+
+"SHARE_VKONTAKTE" = "VKontakte";
+
+"SHARE_WATING" = "Esperando...";
+
+"SHARE_WECHAT" = "WeChat";
+
+"SHARE_WECHAT_TIMELINE" = "momentos";
+
+"SHARE_WECHAT_NOT_INSTALLED" = "WeChat no se instala!";
+
+"SHARE_QQ" = "QQ";
+
+"SHARE_QQ_SPACE" = "Espacio QQ";
+
+"SHARE_MORE" = "Más";
+
+"SHARE_QQ_NOT_INSTALLED" = "QQ no se instala!";
+
+"SHARE_WHATSAPP" = "WhatsApp";
+
+"SHARE_WHATSAPP_NOT_INSTALLED" = "WhatsApp no se instala!";
+
+"SHARE_VC_TITLE" = "GUARDAR COMPARTIR";
+
+"SHARE_SAVE" = "Guardar";
+
+"SHARE_SAVED" = "Guardado en álbum";
+
+"SHARE_TIP" = "Propina";
+
+"SHARE_SAVED_FAIL" = "Dejar de guardar la foto, pls comprobar si esta aplicación puede acceder álbum sistema!";
+
+"SHARE_SAVED_SUCCEED" = "La foto se guardó con el álbum sistema correctamente!";
+
+"SHARE_EDIT" = "Editar";
+
+"SHARE_RETOUCH" = "Retocar";
+
+"SHARE_SHARE_ON" = "Compartir en";
+
+"SHARE_AGAIN" = "Espalda";
+
+"SHARE_HOME" = "Casa";
+
+"SHARE_SUCCEED_PREFIX" = "Compartir con";
+
+"SHARE_SUCCEED_SUFFIX" = "  ¡exitosamente!";
+
+"SHARE_CANCEL_PREFIX" = "Cancelar compartir con";
+
+"SHARE_CANCELED_SUFFIX" = "!";
+
+"SHARE_NEXT_IMAGE" = "Editar otra foto";
+

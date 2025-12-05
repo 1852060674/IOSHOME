@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SettingDetailViewController">
+            <connections>
+                <outlet property="backBtn" destination="CSL-bB-mZQ" id="m6o-BO-X92"/>
+                <outlet property="tableView" destination="XIE-S2-7ZT" id="grj-bg-tZd"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Rkj-Ak-UrE"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JH5-1U-Dwd">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="50"/>
+                    <subviews>
+                        <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CSL-bB-mZQ">
+                            <rect key="frame" x="8" y="0.0" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="CSL-bB-mZQ" secondAttribute="height" multiplier="1:1" id="qNh-u5-l8F"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <inset key="titleEdgeInsets" minX="-35" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="17" maxX="40" maxY="17"/>
+                            <state key="normal" title="Back" image="btn_back.png"/>
+                            <connections>
+                                <action selector="goBack:" destination="-1" eventType="touchUpInside" id="cPF-hR-3s6"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.1843137255" green="0.16862745100000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="CSL-bB-mZQ" firstAttribute="leading" secondItem="JH5-1U-Dwd" secondAttribute="leading" constant="8" id="63Y-5p-OFw"/>
+                        <constraint firstAttribute="bottom" secondItem="CSL-bB-mZQ" secondAttribute="bottom" id="AeO-bY-k8O"/>
+                        <constraint firstItem="CSL-bB-mZQ" firstAttribute="top" secondItem="JH5-1U-Dwd" secondAttribute="top" id="mur-X6-Hnp"/>
+                        <constraint firstAttribute="height" constant="50" id="wDE-8N-DeV"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="XIE-S2-7ZT">
+                    <rect key="frame" x="0.0" y="50" width="393" height="802"/>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="XIE-S2-7ZT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="4qG-L9-vh8"/>
+                <constraint firstItem="JH5-1U-Dwd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="BMI-eG-6Qj"/>
+                <constraint firstItem="JH5-1U-Dwd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="EQV-kh-p2G"/>
+                <constraint firstItem="XIE-S2-7ZT" firstAttribute="top" secondItem="JH5-1U-Dwd" secondAttribute="bottom" id="I7M-j5-uqB"/>
+                <constraint firstAttribute="trailing" secondItem="XIE-S2-7ZT" secondAttribute="trailing" id="VpB-pV-n88"/>
+                <constraint firstAttribute="trailing" secondItem="JH5-1U-Dwd" secondAttribute="trailing" id="bWL-zg-GGa"/>
+                <constraint firstAttribute="bottom" secondItem="XIE-S2-7ZT" secondAttribute="bottom" id="yXK-iI-TNB"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="A8i-jE-4pv" appends="YES" id="9Zo-6f-gCE"/>
+            </connections>
+            <point key="canvasLocation" x="-16" y="-54"/>
+        </view>
+        <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="A8i-jE-4pv">
+            <rectEdge key="edges" left="YES"/>
+            <connections>
+                <action selector="onScreenEdgeLeftPan:" destination="-1" id="ozJ-vh-xBr"/>
+            </connections>
+        </screenEdgePanGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="btn_back.png" width="80" height="80"/>
+    </resources>
+</document>

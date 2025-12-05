@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PrizeView">
+            <rect key="frame" x="0.0" y="0.0" width="564" height="681"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" tag="99" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="receiveBg.png" id="1no-3N-gbz">
+                    <rect key="frame" x="0.0" y="0.0" width="564" height="681"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="day1.png" id="WRz-3V-fc8">
+                    <rect key="frame" x="23" y="154" width="131" height="183"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="day2.png" id="4hN-Gj-yIG">
+                    <rect key="frame" x="152" y="154" width="131" height="183"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="4" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="day4.png" id="j6V-ZC-SAg">
+                    <rect key="frame" x="410" y="154" width="131" height="183"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="5" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="day5.png" id="6gB-O1-jOq">
+                    <rect key="frame" x="88" y="345" width="131" height="183"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="6" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="day6.png" id="lGa-vS-zlk">
+                    <rect key="frame" x="217" y="345" width="131" height="183"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="7" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="day7.png" id="ZDo-xu-0D4">
+                    <rect key="frame" x="346" y="345" width="131" height="183"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xfh-Qf-bif">
+                    <rect key="frame" x="163" y="543" width="239" height="99"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="receive.png"/>
+                </button>
+                <imageView userInteractionEnabled="NO" tag="3" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="day3.png" id="25H-Yb-5Jc">
+                    <rect key="frame" x="281" y="154" width="131" height="183"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="day1" destination="WRz-3V-fc8" id="uIx-OS-noO"/>
+                <outlet property="day2" destination="4hN-Gj-yIG" id="ATD-2m-z9C"/>
+                <outlet property="day3" destination="25H-Yb-5Jc" id="Yrq-Cg-qxK"/>
+                <outlet property="day4" destination="j6V-ZC-SAg" id="wI4-f1-xiV"/>
+                <outlet property="day5" destination="6gB-O1-jOq" id="vst-ub-qDC"/>
+                <outlet property="day6" destination="lGa-vS-zlk" id="aPk-bp-Lzd"/>
+                <outlet property="day7" destination="ZDo-xu-0D4" id="GNk-CM-VPU"/>
+                <outlet property="receiveBtn" destination="xfh-Qf-bif" id="UJC-RG-Ulz"/>
+            </connections>
+            <point key="canvasLocation" x="247" y="266"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="day1.png" width="262" height="366"/>
+        <image name="day2.png" width="262" height="366"/>
+        <image name="day3.png" width="262" height="366"/>
+        <image name="day4.png" width="262" height="366"/>
+        <image name="day5.png" width="262" height="366"/>
+        <image name="day6.png" width="262" height="366"/>
+        <image name="day7.png" width="262" height="366"/>
+        <image name="receive.png" width="478" height="198"/>
+        <image name="receiveBg.png" width="1127" height="1362"/>
+    </resources>
+</document>

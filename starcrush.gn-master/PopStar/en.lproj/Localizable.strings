@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  PopStar
+
+  Created by apple air on 15/12/16.
+  Copyright © 2015年 zhongbo network. All rights reserved.
+*/
+
+"Sorry"="Sorry";
+"IapNot"="In App Purchase is not supported!";
+"OK"="OK";
+
+"Loading"="Loading";
+
+"Message" = "Saved game exists!Do you really want to start a new game?";
+"Cancel" = "Cancel";
+"Sure" = "Sure";
+"Level" = "Stage: ";
+"TargetScore" = "Target Score: ";
+"LeftStarNum" = "Remaining: ";
+"PrizeScore" = "Reward Score: ";
+"HammerUseTips" = "Click The Star You Want To Clear...";
+"PainterUseTips" = "Click A Star To Change Color...";
+"Clear" = "Clear:";
+"Ponits" = "Points:";
+"NotEnoughCoin" = "There's not enough coins, please visit the store to buy." ;
+"ShareMeesage" = "If you like our game ,share with your friend, we will gift you 150 coins!";
+"ShareSuccess" = "Share success";
+"ShareFailed" = "Share Failed";
+"ShareText" = "I'm playing Star Crush,come and play with me!";
+"ShareTitle" = "Star Crush, Super fun game!";

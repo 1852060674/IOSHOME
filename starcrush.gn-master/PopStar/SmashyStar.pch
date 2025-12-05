@@ -1,0 +1,17 @@
+//
+//  PopStar.pch
+//  PopStar
+//
+//  Created by apple air on 15/12/9.
+//  Copyright © 2015年 zhongbo network. All rights reserved.
+//
+
+#ifndef PopStar_pch
+#define PopStar_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "Config.h"
+#import "SKSpriteNode+setNumber.h"
+#import "UIView+setNumber.h"
+#endif /* PopStar_pch */

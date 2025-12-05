@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  PopStar
+
+  Created by apple air on 15/12/16.
+  Copyright © 2015年 zhongbo network. All rights reserved.
+*/
+
+"Sorry"="抱歉";
+"IapNot"="设备未开启内购支持。";
+"OK"="确定";
+
+"Loading"="加载中...";
+
+"Message" = "存在游戏存档!\n想要重新开始新游戏吗?";
+"Cancel" = "取消";
+"Sure" = "是的";
+"Level" = "关卡: ";
+"TargetScore" = "目标分数: ";
+"LeftStarNum" = "剩余星星个数: ";
+"PrizeScore" = "奖励分数: ";
+"HammerUseTips" = "点击需要消除的方块...";
+"PainterUseTips" = "选择需要变色的方块...";
+"Clear" = "消除个数";
+"Ponits" = "得分";
+"NotEnoughCoin" = "金币数量不够,请前往商店购买." ;
+"ShareMeesage" = "如果喜欢我们的游戏,就和朋友一起分享吧,分享成功即可获得150金币!";
+"ShareSuccess" = "分享成功";
+"ShareFailed" = "分享失败";
+"ShareText" = "我在玩星星消消乐,来和我一起玩吧!";
+"ShareTitle" = "星星消消乐, 超好玩的消除游戏!";

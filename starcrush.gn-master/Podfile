@@ -1,0 +1,31 @@
+source 'https://gitee.com/mirrors/CocoaPods-Specs.git'
+platform :ios, '12.0'
+
+target 'SmashyStar' do
+    pod 'AppLovinMediationFacebookAdapter'
+    pod 'AppLovinMediationGoogleAdapter'
+    pod 'AppLovinMediationCSJAdapter'
+    pod 'AppLovinMediationTencentGDTAdapter'
+    pod 'AppLovinMediationPangleAdapter'
+    pod 'AppLovinMediationIronSourceAdapter'
+    pod 'AppLovinMediationUnityAdsAdapter'
+    pod 'AppLovinMediationVungleAdapter'
+    pod 'AppLovinSDK'
+    pod 'Flurry-iOS-SDK/FlurrySDK'
+    pod 'Masonry'
+    pod 'AppLovinMediationGoogleAdManagerAdapter'
+    pod 'AppLovinMediationMintegralAdapter'
+    pod 'AppLovinMediationFyberAdapter'
+    pod 'AppLovinMediationChartboostAdapter'
+    pod 'AppLovinMediationInMobiAdapter'
+    pod 'AppLovinMediationMintegralAdapter'
+    pod 'AppLovinMediationAmazonAdMarketplaceAdapter'
+    pod 'AmazonPublisherServicesSDK'
+    pod 'MBProgressHUD'
+    pod 'GDTMobSDK', '~> 4.10'
+end
+post_install do |installer|
+  installer.pods_project.build_configurations.each do |config|
+    config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
+  end
+end

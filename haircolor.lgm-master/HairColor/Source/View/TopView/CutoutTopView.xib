@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CutoutTopView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ds2-3M-b0Z">
+                    <rect key="frame" x="187" y="0.0" width="1" height="50"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="tqk-ZD-fky"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxj-Bi-vLR">
+                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="wxj-Bi-vLR" secondAttribute="height" id="DKa-Rt-ayJ"/>
+                    </constraints>
+                    <state key="normal" title="取消"/>
+                    <connections>
+                        <action selector="onBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="UtF-xe-KRX"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d0C-Jv-zkq">
+                    <rect key="frame" x="325" y="0.0" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="d0C-Jv-zkq" secondAttribute="height" multiplier="1:1" id="sgE-u7-zpG"/>
+                    </constraints>
+                    <state key="normal" title="确定"/>
+                    <connections>
+                        <action selector="onBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="lds-w1-SD5"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="选择头发区域" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r0R-J5-Qpq">
+                    <rect key="frame" x="50" y="0.0" width="275" height="50"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="wxj-Bi-vLR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="2n3-Rg-nBE"/>
+                <constraint firstItem="r0R-J5-Qpq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="5TA-Ag-aL4"/>
+                <constraint firstItem="wxj-Bi-vLR" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="9Fx-c7-Wdd"/>
+                <constraint firstAttribute="bottom" secondItem="ds2-3M-b0Z" secondAttribute="bottom" id="JWN-3N-Fui"/>
+                <constraint firstItem="d0C-Jv-zkq" firstAttribute="leading" secondItem="r0R-J5-Qpq" secondAttribute="trailing" id="YQc-g1-d81"/>
+                <constraint firstAttribute="bottom" secondItem="wxj-Bi-vLR" secondAttribute="bottom" id="dfb-tI-Zgi"/>
+                <constraint firstAttribute="trailing" secondItem="d0C-Jv-zkq" secondAttribute="trailing" id="erC-OY-GlQ"/>
+                <constraint firstItem="r0R-J5-Qpq" firstAttribute="leading" secondItem="wxj-Bi-vLR" secondAttribute="trailing" id="nS2-lu-tO1"/>
+                <constraint firstItem="d0C-Jv-zkq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="qbP-tV-Jcw"/>
+                <constraint firstAttribute="bottom" secondItem="d0C-Jv-zkq" secondAttribute="bottom" id="vjV-AV-QxR"/>
+                <constraint firstAttribute="bottom" secondItem="r0R-J5-Qpq" secondAttribute="bottom" id="x6T-nU-68l"/>
+                <constraint firstItem="ds2-3M-b0Z" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="yRR-2N-W7P"/>
+                <constraint firstItem="ds2-3M-b0Z" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="yva-bL-z4n"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="textLabel" destination="r0R-J5-Qpq" id="2bb-nb-nMI"/>
+                <outletCollection property="topToolBtns" destination="wxj-Bi-vLR" id="Q4G-gs-mx3"/>
+                <outletCollection property="topToolBtns" destination="d0C-Jv-zkq" id="65X-GU-z3n"/>
+            </connections>
+            <point key="canvasLocation" x="259.5" y="432"/>
+        </view>
+    </objects>
+</document>

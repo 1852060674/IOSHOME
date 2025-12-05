@@ -1,0 +1,36 @@
+/* 
+  RTService.strings
+
+  Created by 昭 陈 on 16/3/2.
+  Copyright © 2016年 昭 陈. All rights reserved.
+*/
+
+"RATE_MSG"="如果您喜欢我们的应用，能邀请您给一个评价么？它可以帮助更多用户发现这个好玩的应用。同时我们也会根据您的评价和反馈持续改进。";
+
+"RATE_YES"="去评价";
+
+"RATE_NO"="有问题，我要反馈";
+
+"RATE_CANCEL"="下次再说";
+
+"EMAIL_NOT_AVAILABLE" = "邮箱未设置帐号，无法发送！";
+
+"SETTING_APP_NAME_WORD" = "应用名称";
+
+/* No comment provided by engineer. */
+"SETTING_FEEDBACK_TITLE" = " iOS技术支持";
+
+/* No comment provided by engineer. */
+"SETTING_FEEDBACK_CONTENT" = "请留下您的意见建议。<br /><br /><br />下列信息有助于我们定位解决问题，请保留。";
+
+/* app version for locale */
+"SETTING_APPVERSION_WORD" = "应用版本";
+
+/* device for locale */
+"SETTING_DEVICE_WORD" = "设备类型";
+
+/* ios version locale */
+"SETTING_IOS_VERSION_WORD" = "iOS版本";
+
+/* ios version locale */
+"SETTING_IOS_DESC_WORD" = "非常棒，我喜欢";
