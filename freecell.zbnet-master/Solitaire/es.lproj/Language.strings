@@ -1,0 +1,46 @@
+/* 
+  Language.strings
+  Solitaire
+
+  Created by yysdsyl on 13-9-20.
+  Copyright (c) 2013年 apple. All rights reserved.
+*/
+"change_cardback"="Cambiar tarjeta Volver";
+"change_gameback"="Cambiar Game Volver";
+"stat"="Estadística";
+"sound"="Control de sonido";
+"timemove"="Tiempo/Movimientos";
+"lock"="Lock Orientación";
+"hint"="Sugerencias";
+"tapmove"="Pulse en Mover";
+"classic"="Tarjetas Classic";
+"rules"="Reglas";
+"ok"="OK";
+"cancel"="Cancelar";
+"scroll"="Desplácese para ver más";
+"hintmove"="Sugerencia Move";
+"gamewon"="Juegos Ganados";
+"gamelost"="Partidos Perdidos";
+"shortesttime"="Menor tiempo gana";
+"longesttime"="Mayor Winning Time";
+"avgtime"="Promedio de tiempo de Winning";
+"fewestmoves"="Menor número de movimientos Exitosas";
+"mostmoves"="Se mueve más ganador";
+"noundo"="Victorias Sin Deshacer";
+"highscore"="Mayor resultado";
+"resethint"="¿Realmente desea restablecer las estadísticas?";
+"yes"="Yes";
+"no"="No";
+"time"="Vez:";
+"score"="Cuenta:";
+"moves"="Mover:";
+"newgame"="Nuevo juego";
+"replay"="Vuelve a jugar el juego";
+"nomoves"="No Manejaba útiles";
+"wonhint"="¡Ganaste!";
+"autohint"="Auto completar el juego?";
+"draw"="Dibujar";
+
+"game_rules_freecell" = "FreeCell es una forma de Solitaire (o paciencia) juega con un estándar 52 -cubierta de tarjetas.Es diferente que la mayoría otros solitaire juegos en que casi todos los contratos son puede ganar lo que más un juego de habilidad que suerte.\n\nOn el acuerdo de apertura,las tarjetas son colocadas boca arriba en ocho columnas que formar el cuadro.Cuatro de las columnas del cuadro contienen siete cartas y cuatro columnas contienen seis tarjetas.El resto de la zona de juego está conformada por los pilotes (los puntos de la tarjeta con la letra 'A' en el medio) y las células libres (los puntos de la tarjeta sin la 'A').\n\nDuring juego,cascadas o secuencias son construido dentro de las columnas del cuadro.Las secuencias están construidas hacia abajo en la disminución de rango,por ejemplo 4-3-2-A,10-9-8-7-6,K-Q-J,etcetera.Para formar secuencias,tarjetas pueden ser movidas cuando sea necesario de la columna de un cuadro a otro,o a y desde las células libres.Secuencias se construyen alternando los colores (rojo, negro).Cualquier tarjeta expuesta en el extremo inferior de una columna de tabla puede mover a otra columna de cuadro para formar una secuencia,a un celular gratis,o para llenar un lugar de la tarjeta en la parte superior de una columna de cuadro vacío.Además,se puede mover cualquier secuencia de tarjetas junto a otra columna de cuadro para formar una secuencia o para llenar un lugar de la tarjeta en la parte superior de un cuadro vacío columna.Para mover una secuencia de tarjetas que debe ser las células lo suficientemente libres para lograr el movimiento como si cada tarjeta o subconjunto de tarjetas fueron movidos a través de la ubicación de la celda libre disponible - cualquiera de los cuatro designados gratis celular puntos de tarjeta que están vacíos y alguna mancha de columna de cuadro vacío.Tarjetas de.\n\nAs estén disponibles, pueden ser se trasladó en orden del as al rey a los pilotes.El juego se gana cuando todas las tarjetas se trasladan a la pilotes.\n\nDuring el juego,los puntos se ganan moviendo las tarjetas a la Fundación.Los puntos son deducidos para cada uso de deshacer.Una vez terminado el juego de puntos de bonificación se otorgan basándose en el número de se mueve y la cantidad total de tiempo para terminar el juego.Más eficiente resolver un acuerdo tanto en se mueve y el tiempo,mayor será sus puntos de bonificación.\n\nPoint System:\nCards Fundación:10 puntos\nUndo:-5points\nHints:no deducted \nUndo puntos de la Fundació\n:points \nTime-10 Bonus:1.000.000 dividido por el tiempo para completar el juego en segundos.\nMoves bonificació\n:cálculo basado en sus movimientos,el número mínimo de se mueve,y la media se mueve necesario para el juego.";
+"freecell_pos"="FreeCell";
+"freecell_on_top"="FreeCell en la parte superior";

@@ -1,0 +1,46 @@
+/* 
+  Language.strings
+  Solitaire
+
+  Created by yysdsyl on 13-9-20.
+  Copyright (c) 2013年 apple. All rights reserved.
+*/
+"change_cardback"="Cambiare scheda Indietro";
+"change_gameback"="Cambiare Torna gioco";
+"stat"="Statistiche";
+"sound"="Sound Control";
+"timemove"="Tempo/Sposta";
+"lock"="Scatto Orientamento";
+"hint"="Suggerimenti";
+"tapmove"="Toccare Sposta";
+"classic"="Carte Classic";
+"rules"="Regole";
+"ok"="OK";
+"cancel"="Annullare";
+"scroll"="Scorrere per vedere di più";
+"hintmove"="Suggerimento Sposta";
+"gamewon"="Partite vinte";
+"gamelost"="Partite perse";
+"shortesttime"="Più breve Winning Time";
+"longesttime"="Longest Winning Time";
+"avgtime"="Tempo medio di Winning";
+"fewestmoves"="Meno mosse vincenti";
+"mostmoves"="Mosse più vincenti";
+"noundo"="Vittorie senza Undo";
+"highscore"="Il punteggio più alto";
+"resethint"="Sei sicuro di voler ripristinare le statistiche?";
+"yes"="Yes";
+"no"="No";
+"time"="Volta:";
+"score"="Punteggio:";
+"moves"="Spostare:";
+"newgame"="Nuova Partita";
+"replay"="Replay The Game";
+"nomoves"="Nessun Mosse utili";
+"wonhint"="Hai vinto!";
+"autohint"="Auto completare il gioco?";
+"draw"="Disegna";
+
+"game_rules_freecell" = "FreeCell è una forma di Solitaire (o pazienza) giocato con una 52 carte standard ponte.È diverso da quello la maggior parte delle altre solitaire giochi in quanto quasi tutte le offerte sono vincibile rendendolo più un gioco di abilità di fortuna.\n\nOn il giro di apertura le carte sono inseriti a faccia in su in otto colonne che formano il tableau.Quattro delle colonne tableau contengono sette carte e quattro colonne contengono sei carte.Il resto del gioco area è costituita da pali di fondazione (le macchie di carta con la lettera 'A' nel mezzo) e le celle libere (le macchie di carta senza la 'A').\n\nDuring play, cascate o sequenze sono costruite all'interno delle colonne del tableau.Sequenze sono costruite verso il basso nel fare diminuire di rango, ad esempio 4-3-2-A, 10-9-8-7-6, K-Q-J,ecc.Alle sequenze di forma,carte possono essere spostati secondo le necessità di colonna di un tableau a un altro, o da e per le celle libere.Sequenze sono costruite in alternando i colori (rosso, nero).Qualsiasi carta esposta all'estremità inferiore di una colonna di tableau può essere spostato a un altro colonna tableau per formare una sequenza,a una cella libera,o per riempire un posto scheda nella parte superiore di una colonna vuota tableau.Inoltre,qualsiasi sequenza di carte può essere spostata insieme a un'altra colonna di tableau per formare una sequenza o per riempire un carta posto nella parte superiore di una colonna vuota tableau.Per spostare una sequenza di carte deve esserci abbastanza celle libere per fare la mossa come se ogni carta o un sottoinsieme delle carte sono stati spostati attraverso le località di cella libera disponibile - ogni dei quattro designati cella libera scheda spot che sono vuote e qualsiasi colonna vuota tableau. carte di\n\nAs diventare disponibili,essi possono essere spostati in ordine dall'asso al re per i pali di fondazione.La partita è vinta quando tutte le carte sono spostato per i pali di fondazione.\n\nDuring il gioco del gioco, i punti sono guadagnati spostando le carte alla Fondazione.Punti vengono detratti per ogni utilizzo del comando Annulla.  Quando il gioco è completato, i punti bonus sono assegnati basato sul numero di mosse e la quantità totale di tempo usato per finire il gioco.Il modo più efficiente risolvere un affare sia nelle mosse e tempo, più alto sarà il tuo punti di bonus.\n\nPoint System:\nCards alla Fondazione: 10 points \nUndo:-5points \nHints: non deducted \nUndo di punti da Fondazione: points \nTime-10 Bonus: 1.000.000 diviso per il tempo necessario per completare gioco in pochi secondi.\nMoves bonus: calcolo basato su tue mosse, il numero minimo di mosse, e la media si muove necessaria per il gioco.";
+"freecell_pos"="FreeCell";
+"freecell_on_top"="FreeCell in cima";

@@ -1,0 +1,11 @@
+Number of Decks: 1
+
+Alternate Names: Demon, Fascination, Thirteen
+
+Initial Layout: Deal thirteen cards face-down into a pile called the reserve, then turn the top card face-up. Deal the next card face-up onto the first foundation. This forms the base (starting) card of each foundation. The deal four cards face-up in a row beneath the first foundation. These cards form the basis of the tableau. The remaining cards form the stock.
+
+Object: The object of the game is to move the remaining three base cards, as they appear, to the foundations, and build each up in suit wrapping from king to ace as necessary.
+
+Play: Turn cards from the stock at a time, onto the wastepile. The top card of each tableau pile, the top card of the reserve, and the top card of the wastepile are available for play. Cards within the tableau may be built downward in sequence (wrapping from ace to king as necessary) and alternating in color. Cards may be moved from tableau to tableau one at a time, or cards may be moved in blocks (the entire sequence must be moved as a unit).
+
+Spaces in the tableau are filled immediately from the reserve. If the reserve is empty, then spaces in the tableau may be filled from the waste. When the stock is empty, turn the wastepile over to form a new stock. This redealing may be repeated until the game is won (all foundations completed), or an impasse is reached.

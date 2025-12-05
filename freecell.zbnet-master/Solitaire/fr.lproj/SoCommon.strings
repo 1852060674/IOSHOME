@@ -1,0 +1,116 @@
+/*
+ SLLL.strings
+ CardsCompilation
+
+ Created by jerry on 2017/8/29.
+ Copyright © 2017年 macbook. All rights reserved.
+ */
+"action_settings" = "Options";
+"score_label" = "Score: ";
+"time_label" = "Temps: 0";
+"move_label" = "Coups: 0";
+"auto_complete_title" = "Terminer la partie en Fin auto. ?";
+"auto_complete" = "Terminer la partie en Fin auto. ?";
+"cancel_btn" = "Annuler";
+"setting" = "Options";
+"themes" = "Thèmes";
+"stats" = "Statistiques";
+"rules" = "Règles";
+"complete" = "Terminé";
+"newgame" = "Jouer";
+"hint" = "Conseil";
+"undo" = "Annuler";
+"congratulation" = "Félicitations, vous gagnez";
+"nomoves" = "Plus aucun coup possible";
+"hintmove" = "Conseil";
+
+
+"plt" = "Jouer un nouveau jeu";
+
+"pl1" = "Donne aléatoire";
+"pl2" = "Donne gagnante";
+"pl3" = "Rejouer";
+
+
+
+"cancel" = "Annuler";
+
+
+"ok" = "OK";
+"setting_title" = "Options";
+"statistics" = "Statistiques";
+"setting_sound" = "Son";
+"setting_times" = "Temps/coups";
+"setting_orientation" = "Orientation";
+"setting_hin" = "Conseil";
+"setting_tapmove" = "Déplacement en touchant";
+"help_rules" = "Comment jouer";
+"setting_level" = "Mode";
+
+
+
+
+"stat_won" = "Parties gagnées";
+"stat_lose" = "Parties perdues";
+"stat_swtime" = "Victoire la plus rapide";
+"stat_lwtime" = "Victoire la plus longue";
+"stat_awtime" = "Temps moyen de victoire";
+"stat_fwmove" = "Plus courte série de coups";
+"stat_mwmove" = "Plus longue série de coups";
+"stat_nundo" = "Victoires sans annulation";
+"stat_highest_score" = "Meilleur score:";
+"reset_stat" = "Réinitialiser";
+"yes" = "Oui";
+
+"mode_title" = "Avis";
+"mode_message" = "Difficulté Cadre prendra effet en suivant un nouveau jeu";
+
+
+"dialog_close" = "Fermer";
+"theme" = "Thèmes";
+"dialog_theme_cardback" = "Dos des cartes";
+"dialog_theme_gameback" = "Arrière-plan";
+"dialog_theme_card" = "Faces visibles";
+
+
+"rt_title" = "Nous avons besoin de vos commentaires";
+"rt_message_normal" = "Aimez-vous notre jeu de solitaire! Pourriez-vous s\'il vous plaît prendre un moment pour le noter. Merci de votre soutien!";
+"rt_rt" = "Suggestion";
+"rt_fb" = "J\'ai suggestions";
+"rt_cancel" = "La prochaine fois";
+"rt_message_rm_ad" = "Comme notre application? Donnez-nous cinq étoiles pour supprimer les annonces interstitielles.";
+
+"help_label" = "Aidez-moi";
+
+"update_available" = "Mise à jour TOT et la dernière version?";
+"quit" = "Êtes-vous sûr de quitter?";
+
+"confirm_reset_game_stat" = "Réinitialiser toutes vos statistiques ?";
+"notification_push" = "Cliquez sur moi pour ouvrir le jeu!";
+"notification_ticker" = "Retour au solitaire pour le plaisir!";
+"new_game_title" = "Quel type de donne ?";
+
+"dialog_permission_title" = "Pour accorder la permission";
+"dialog_permission_content" = "Pour utiliser l\'image personnalisée, accédez à l\'autorisation d\'écriture de stockage externe !";
+
+"can_not_deal" = "Impossible de traiter la carte alors que le tableau avec la colonne vide";
+
+"magic_stick_label" = "Utilisez Magic Stick";
+"google_play_error_try_again" = "Vérifiez le google play de votre appareil et Essayez-le plus tard.";
+"store_label" = "le magasin";
+"purchasing_error_try_again" = "Erreur lors de l\'achat. Essayez-le plus tard!";
+"already_no_ads" = "Vous avez déjà supprimé les publicités!";
+"restart_app_rm_ads" = "Veuillez redémarrer l\'application pour supprimer les annonces.";
+"store_title" = "Acheter des pièces";
+"buy_succeed" = "Vous avez acheté des pièces de monnaie:";
+"rm_ads" = "Supprimez La Pub";
+
+"daily_title" = "Défi du jour";
+"daily_total_win_cnt_label" = "Score de victoire:";
+"daily_month_win_cnt_label" = "Mois gagné:";
+
+"coin_des" = "Conseils: utilisez une pièce pour économiser l\'affaire";
+"done" = "OK";
+"left_hand_mode" = "Gaucher";
+"congratulationsAnimation" = "Écran de félicitations";
+"setting_hints" = "Conseils automatiques";

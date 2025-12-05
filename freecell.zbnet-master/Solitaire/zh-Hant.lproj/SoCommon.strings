@@ -1,0 +1,115 @@
+/*
+ SLLL.strings
+ CardsCompilation
+
+ Created by jerry on 2017/8/29.
+ Copyright © 2017年 macbook. All rights reserved.
+ */
+"action_settings" = "設置";
+"score_label" = "分數: ";
+"time_label" = "時間: ";
+"move_label" = "移動: ";
+"auto_complete" = "自動收牌, 完成遊戲";
+"auto_complete_title" = "自動收牌";
+"cancel_btn" = "取消";
+"setting" = "設置";
+"complete" = "收牌";
+"newgame" = "新遊戲";
+"hint" = "提示";
+"undo" = "撤銷";
+"congratulation" = "恭喜，你贏了";
+"nomoves" = "沒有發現有效的移動";
+"hintmove" = "提示";
+"themes" = "主題";
+"stats" = "統計";
+"rules" = "規則";
+
+
+"plt" = "開始新遊戲";
+"pl1" = "隨機遊戲";
+"pl2" = "活局遊戲";
+"pl3" = "重玩本局";
+
+
+
+"cancel" = "取消";
+
+
+"ok" = "好";
+"setting_title" = "設置";
+"statistics" = "統計";
+"setting_level" = "難度";
+"setting_sound" = "聲音";
+"setting_times" = "顯示時間/移動";
+"setting_orientation" = "鎖定屏幕方向";
+"setting_hin" = "顯示提示";
+"setting_tapmove" = "點擊移動";
+"help_rules" = "規則";
+
+
+
+
+"stat_won" = "獲勝";
+"stat_lose" = "輸";
+"stat_swtime" = "獲勝局最短用時";
+"stat_lwtime" = "獲勝局最長用時";
+"stat_awtime" = "獲勝局平均用時";
+"stat_fwmove" = "獲勝局最少步數";
+"stat_mwmove" = "獲勝局最多步數";
+"stat_nundo" = "未撤銷獲勝局數";
+"stat_highest_score" = "最高分:";
+"reset_stat" = "重置";
+"yes" = "是";
+
+"mode_title" = "提示";
+"mode_message" = "遊戲難度設置將在下次開始新遊戲時生效";
+
+
+
+"dialog_close" = "關閉";
+"theme" = "主題";
+"dialog_theme_cardback" = "卡牌背景";
+"dialog_theme_gameback" = "桌面背景";
+"dialog_theme_card" = "卡牌樣式";
+
+
+"rt_title" = "期待您的反饋";
+"rt_message_normal" = "喜歡紙牌遊戲麼？可否花時間進行下評價呢。感謝您的支持!";
+"rt_rt" = "非常棒";
+"rt_fb" = "反饋";
+"rt_cancel" = "下次再說";
+"rt_message_rm_ad" = "喜歡我們的應用麼? 給我們五 星好評價可以去除插頁廣告";
+
+"help_label" = "幫助";
+"update_available" = "更新到最新版本？";
+
+"quit" = "您確定要退出嗎？";
+
+"confirm_reset_game_stat" = "您確定重置統計記錄嗎？";
+"notification_push" = "點我進入遊戲！";
+"notification_ticker" = "回來玩紙牌吧";
+"new_game_title" = "牌局類型";
+
+"dialog_permission_title" = "授予權限";
+"dialog_permission_content" = "為了使用自定義圖片，請授予讀寫外部存儲的權限！";
+
+"magic_stick_label" = "使用魔棒";
+"google_play_error_try_again" = "請檢查您的設備的Google Play並重試";
+"store_label" = "商店";
+"purchasing_error_try_again" = "購買錯誤 請稍後重試！";
+"already_no_ads" = "您已經去除了廣告！";
+"restart_app_rm_ads" = "請重新啟動應用程序以移除廣告！";
+"store_title" = "購買金幣";
+"buy_succeed" = "您購買的金幣數為：";
+"rm_ads" = "移除廣告";
+"can_not_deal" = "牌桌上有空列時不能發牌";
+
+"daily_title" = "每日挑戰";
+"daily_total_win_cnt_label" = "總共:";
+"daily_month_win_cnt_label" = "本月:";
+
+"coin_des" = "提示: 使用金幣復活關卡";
+"done" = "完成";
+"left_hand_mode" = "左手模式";
+"congratulationsAnimation" = "慶祝動畫";
+"setting_hints" = "自動提示";

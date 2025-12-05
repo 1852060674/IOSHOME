@@ -1,0 +1,118 @@
+/*
+ SLLL.strings
+ CardsCompilation
+
+ Created by jerry on 2017/8/29.
+ Copyright © 2017年 macbook. All rights reserved.
+ */
+"action_settings" = "Ajustes";
+"score_label" = "Puntos: ";
+"time_label" = "Tiempo: ";
+"move_label" = "Pasos: ";
+"auto_complete" = "¿Quieres autocompletar?";
+"auto_complete_title" = "¿Quieres autocompletar?";
+"cancel_btn" = "Cancelar";
+"setting" = "Ajustes";
+"complete" = "Acabar";
+"newgame" = "Jugar";
+"hint" = "Pistas";
+"undo" = "Deshacer";
+"congratulation" = "Felicidades, ganaste";
+"nomoves" = "No existen movimientos posibles";
+"hintmove" = "Pistas";
+
+"themes" = "Temas";
+"stats" = "Estadísticas";
+"rules" = "Reglas";
+
+
+"plt" = "Jugar un nuevo juego";
+
+"pl1" = "Modo Aleatorio";
+"pl2" = "Modo Victorioso";
+"pl3" = "Repetir";
+
+
+
+"cancel" = "Cancelar";
+
+
+"ok" = "Aceptar";
+"setting_title" = "Ajustes";
+"statistics" = "Estadísticas";
+"setting_level" = "Modo";
+"setting_sound" = "Sonido";
+"setting_times" = "Tiempo/Pasos";
+"setting_orientation" = "Orientación";
+"setting_hin" = "Pistas";
+"setting_tapmove" = "Toca Para Mover";
+"help_rules" = "Cómo jugar";
+
+
+
+
+"stat_won" = "Partidos Ganados";
+"stat_lose" = "Partidos Perdidos";
+"stat_swtime" = "Tiempo Mínimo Empleado";
+"stat_lwtime" = "Tiempo Máximo Empleado";
+"stat_awtime" = "Tiempo Medio Empleado";
+"stat_fwmove" = "Número Mínimo De Movimientos";
+"stat_mwmove" = "Número Máximo De Movimientos";
+"stat_nundo" = "Victorias Sin Deshacer";
+"stat_highest_score" = "Mejor Resultado:";
+"reset_stat" = "Reiniciar";
+"yes" = "Sí";
+
+"mode_title" = "Aviso";
+"mode_message" = "La dificultad del juego cambiará en el próximo juego nuevo";
+
+
+"dialog_close" = "Cerrar";
+"theme" = "Tema";
+"dialog_theme_cardback" = "Espalda";
+"dialog_theme_gameback" = "Fondo";
+"dialog_theme_card" = "Frentes";
+
+
+"rt_title" = "Necesitamos sus comentarios";
+"rt_message_normal" = "¿Te gusta nuestro juego de solitario? ¿Podría tomar un momento para calificarlo? ¡Gracias por su apoyo!";
+"rt_rt" = "Asombroso";
+"rt_fb" = "Sugerencia";
+"rt_cancel" = "La próxima vez";
+"rt_message_rm_ad" = "¿Como nuestra aplicación? Danos cinco estrellas para eliminar anuncios intersticiales.";
+
+"help_label" = "Ayuda";
+
+"update_available" = "TOT actualización y la versión más reciente?";
+"quit" = "¿Está seguro de dejar de fumar?";
+
+"confirm_reset_game_stat" = "¿Quieres borrar tus estadísticas?";
+"notification_push" = "Haga clic en mí para abrir el juego!";
+"notification_ticker" = "Volver a solitario por diversión!";
+"new_game_title" = "¿Qué modo?";
+
+"dialog_permission_title" = "Para conceder permiso";
+"dialog_permission_content" = "Para utilizar la imagen personalizada, vaya a conceder permiso de almacenamiento externo de escritura !";
+
+"can_not_deal" = "No se puede distribuir tarjeta mientras cuadro con columna vacía";
+
+
+"magic_stick_label" = "Usar Magic Stick";
+"google_play_error_try_again" = "Comprueba la reproducción de google de tu dispositivo y Intentarlo de nuevo más tarde.";
+"store_label" = "Almacenar";
+"purchasing_error_try_again" = "Error al comprar. Por favor, inténtelo de nuevo más tarde!";
+"already_no_ads" = "Ya has eliminado los anuncios.";
+"restart_app_rm_ads" = "Reinicie la aplicación para eliminar los anuncios.";
+"store_title" = "Comprar monedas";
+"buy_succeed" = "Has comprado monedas:";
+"rm_ads" = "Quitar Anuncios";
+
+"daily_title" = "Reto Diario";
+"daily_total_win_cnt_label" = "Victoria total:";
+"daily_month_win_cnt_label" = "Ganar un mes:";
+
+"coin_des" = "Consejos: Utilice moneda para guardar el trato";
+"done" = "Listo";
+"left_hand_mode" = "Zurdos";
+"congratulationsAnimation" = "Pantalla de felicitación";
+"setting_hints" = "Pistas Automáticas";

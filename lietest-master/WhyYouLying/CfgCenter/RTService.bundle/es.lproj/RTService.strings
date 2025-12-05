@@ -1,0 +1,24 @@
+"RATE_MSG"= "Su evaluación nos mantendrá trabajando duro en las nuevas características. \ NGracias!";
+
+"RATE_YES"= "Da una puntuacion.";
+
+"RATE_NO"= "Tengo alguna sugerencia!";
+
+"RATE_CANCEL"= "Quizas mas tarde";
+
+"EMAIL_NOT_AVAILABLE" = "Pls configurar la cuenta de correo electrónico antes de la retroalimentación!";
+
+"SETTING_APP_NAME_WORD" = "Nombre de la aplicación";
+
+"SETTING_FEEDBACK_TITLE" = "  Compatible con iOS";
+
+"SETTING_FEEDBACK_CONTENT" = "Por favor, deje sus sugerencias y consejos para nosotros. <br /> <br /> <br /> La siguiente información es valiosa para nosotros para confirmar el problema. Por favor, mantenga.";
+
+"SETTING_APPVERSION_WORD" = "Version de aplicacion";
+
+"SETTING_DEVICE_WORD" = "Dispositivo";
+
+"SETTING_IOS_VERSION_WORD" = "iOS versión";
+
+/* ios version locale */
+"SETTING_IOS_DESC_WORD" = "Impresionante, me gusta";

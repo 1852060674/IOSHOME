@@ -1,0 +1,49 @@
+/* 
+  Language.strings
+  Solitaire
+
+  Created by yysdsyl on 13-9-20.
+  Copyright (c) 2013年 apple. All rights reserved.
+*/
+"change_cardback"="Wijzig Card Back";
+"change_gameback"="Wijzigen Game Back";
+"stat"="Statistiek";
+"level"="Moeilijkheidsgraad";
+"sound"="Sound Control";
+"timemove"="Tijd/Moves";
+"lock"="Lock Orientation";
+"hint"="Hints";
+"tapmove"="Tik op Verplaatsen";
+"classic"="Classic Kaarten";
+"rules"="Reglement";
+"levelhint"="Moeilijkheidsgraad instelling wordt van kracht op Next New Game!";
+"ok"="OK";
+"cancel"="Annuleren";
+"scroll"="Scrollen om meer te zien";
+"nodeal"="Geen aanbiedingen Links";
+"nocard"="Geen kaarten Links";
+"hintmove"="Hint Move";
+"easylevel"="Makkelijk";
+"hardlevel"="Hard Niveau";
+"gamewon"="Spellen Gewonnen";
+"gamelost"="Spellen Verloren";
+"shortesttime"="Kortste Winnende Time";
+"longesttime"="Langste Winning Time";
+"avgtime"="Gemiddelde Winnende Time";
+"fewestmoves"="Minste Winning Moves";
+"mostmoves"="De meeste Winning Moves";
+"noundo"="Wint Zonder Ongedaan";
+"highscore"="Hoogste Score";
+"resethint"="Wil je echt naar de statistieken te wissen?";
+"yes"="Yes";
+"no"="No";
+"time"="Tijd:";
+"score"="Score:";
+"moves"="Moves:";
+"newgame"="Nieuw Spel";
+"replay"="Replay The Game";
+"nomoves"="Geen Handige Moves";
+"wonhint"="Je Won!";
+"losthint"="You Lost!";
+"autohint"="Auto Compleet The Game?";
+"draw"="Tekenen";

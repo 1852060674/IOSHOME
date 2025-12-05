@@ -1,0 +1,45 @@
+/* 
+  Language.strings
+  Solitaire
+
+  Created by yysdsyl on 13-9-20.
+  Copyright (c) 2013年 apple. All rights reserved.
+*/
+"change_cardback"="Changement de carte bancaire Retour";
+"change_gameback"="Changer de jeu Retour";
+"stat"="Statistiques";
+"sound"="Sound Control";
+"timemove"="Temps/Déplacer";
+"lock"="Verrouillage Orientation";
+"hint"="conseils";
+"tapmove"="Appuyez sur Déplacer";
+"classic"="Cartes classiques";
+"rules"="Règles";
+"ok"="OK";
+"cancel"="résilier";
+"scroll"="Faites défiler pour voir plus";
+"hintmove"="Astuce Déplacer";
+"gamewon"="Parties gagnées";
+"gamelost"="Matches perdus";
+"shortesttime"="Le plus rapide gagnante";
+"longesttime"="La plus longue heure gagnante";
+"avgtime"="Moyennes gagnante";
+"fewestmoves"="Moins de coups gagnants";
+"mostmoves"="Mouvements les plus gagnants";
+"noundo"="Victoires Sans Annuler";
+"highscore"="Meilleur score";
+"resethint"="Voulez-vous vraiment réinitialiser les statistique";
+"yes"="Yes";
+"no"="No";
+"time"="Heure:";
+"score"="Score:";
+"moves"="Déplacer:";
+"newgame"="Nouveau Jeu";
+"replay"="Rejouer le match";
+"nomoves"="Pas Moves utiles";
+"wonhint"="Vous avez gagné!";
+"autohint"="Auto terminer le jeu?";
+"draw"="Dessiner";
+"game_rules_freecell" = "FreeCell est une forme de Solitaire (ou Patience) a joué avec un standard 52-deck de cartes.Il est différent de celui de la plupart des autre solitaire jeux que presque toutes les transactions sont gagnables rendant plus un jeu d’adresse que de chance.\n\nOn l’opération d’ouverture les cartes sont placées face vers le haut en huit colonnes que forment le tableau.Quatre d'entre les colonnes du tableau contiennent des sept cartes et quatre colonnes contiennent six cartes.Le reste de l’aire de jeu comprend les pieux de Fondation (les taches de la carte avec la lettre 'A' dans au milieu) et les cellules libres (les taches de la carte sans le 'A').Jeu de\n\nDuring,des cascades ou des séquences sont construit dans les colonnes du tableau.Séquences sont construits vers le bas en décroissant rang, par exemple 4-3-2-A,10-9-8-7-6,K-Q-J,etc..Pour former des séquences,les cartes peuvent être déplacés au besoin de colonne d’un tableau à l’autre,ou vers et depuis les cellules libres.Séquences sont construits en alternant les couleurs (rouge, noir).Toute carte exposée à la extrémité inférieure d’une colonne de tableau peut être déplacée vers une autre colonne du tableau pour former une séquence,à une cellule libre,ou pour combler une place carte au sommet d’une colonne de tableau vide.En outre,n’importe quelle séquence de cartes peut être déplacé ensemble vers une autre colonne du tableau pour former une séquence ou de remplir une carte de place au sommet d’un tableau vide colonne.Pour déplacer une séquence de cartes il faut cellules assez libres pour accomplir le mouvement comme si chaque carte ou sous-ensemble de cartes ont été déplacés par les emplacements de cellules libres disponibles - aucun des quatre désignés exempts cellulaire des taches de carte qui sont vides et des taches de colonne de tableau vide.\n\nAs cartes seront disponibles, elles peuvent être déplacé dans l’ordre de l’As au roi pour les pieux de Fondation.Le jeu est gagné lorsque toutes les cartes sont déplacés vers le pieux de Fondation.\n\nDuring le jeu,les points sont gagnés en déplaçant les cartes vers la Fondation.Les points sont déduit pour chaque utilisation de Undo.  Une fois le jeu terminé,points bonus sont attribués en fonction du nombre de se déplace et le montant total de temps utilisé pour finir le jeu.Vous résolvez plus efficacement une affaire tant en se déplace et le temps,plus vos points de bonus seront élevés.\n\nPoint System: \nCards de fondation : 10 points \nUndo :-5points \nHints : aucun deducted \nUndo de points de fondation : points \nTime-10 Bonus : 1 000 000 divisé par le temps de terminer le jeu en quelques secondes.\nMoves bonus : calcul basé sur vos mouvements, le nombre minimal de se déplace,et la moyenne se déplace requise pour le jeu.";
+"freecell_pos"="FreeCell";
+"freecell_on_top"="FreeCell sur le dessus";

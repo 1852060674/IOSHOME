@@ -1,0 +1,116 @@
+/*
+ SLLL.strings
+ CardsCompilation
+
+ Created by jerry on 2017/8/29.
+ Copyright © 2017年 macbook. All rights reserved.
+ */
+"action_settings" = "설정";
+"score_label" = "점수: ";
+"time_label" = "시간: ";
+"move_label" = "횟수: ";
+"auto_complete_title" = "자동 완성";
+"auto_complete" = "자동 게임을 완료";
+"cancel_btn" = "취소";
+"setting" = "설정";
+"themes" = "테마";
+"stats" = "통계";
+"rules" = "규칙";
+"complete" = "완전한";
+"newgame" = "놀이";
+"hint" = "힌트";
+"undo" = "되돌리기";
+"congratulation" = "축하합니다, 당신은 승리";
+"nomoves" = "도움이 될만한 힌트를 찾지 못했습니다";
+"hintmove" = "힌트";
+
+
+"plt" = "새로운 게임 플레이";
+
+"pl1" = "임의 거래";
+"pl2" = "승리 거래";
+"pl3" = "다시 하다";
+
+
+
+"cancel" = "취소";
+
+
+"ok" = "승인";
+"setting_title" = "설정";
+"statistics" = "통계";
+"setting_sound" = "사운드 컨트롤";
+"setting_times" = "시간/횟수 보기";
+"setting_orientation" = "잠금 방향";
+"setting_hin" = "힌트";
+"setting_tapmove" = "탭으로 옮기기";
+"help_rules" = "규칙";
+"setting_level" = "방법";
+
+
+
+
+"stat_won" = "이긴 게임";
+"stat_lose" = "진 게임";
+"stat_swtime" = "게임을 이긴 최단시간";
+"stat_lwtime" = "게임을 이긴 최장시간";
+"stat_awtime" = "게임을 이기는 평균시간";
+"stat_fwmove" = "게임을 이긴 최소 횟수";
+"stat_mwmove" = "게임을 이긴 최고 횟수";
+"stat_nundo" = "되돌리기를 하지 않고 이긴 게임";
+"stat_highest_score" = "최고 점수:";
+"reset_stat" = "리셋";
+"yes" = "예";
+
+"mode_title" = "주의";
+"mode_message" = "난이도 설정은 다음 새 게임에 적용됩니다";
+
+
+"dialog_close" = "닫기";
+"theme" = "테마";
+"dialog_theme_cardback" = "카드 백업합니다";
+"dialog_theme_gameback" = "배경";
+"dialog_theme_card" = "카드 얼굴";
+
+
+"rt_title" = "우리는 귀하의 의견이 필요합니다";
+"rt_message_normal" = "우리 일인 용 게임을 좋아하니? 평가 해 주시기 바랍니다. 지원해 주셔서 감사합니다.";
+"rt_rt" = "놀라운";
+"rt_fb" = "암시";
+"rt_cancel" = "다음 시간";
+"rt_message_rm_ad" = "우리 앱처럼? 삽입 광고를 삭제하는 별 다섯 개를주세요.";
+
+"help_label" = "도움";
+"update_available" = "업데이트 TOT 및 최신 버전?";
+
+"quit" = "그만둬?";
+
+"confirm_reset_game_stat" = "통계 초기화를 원하십니까?";
+"notification_push" = "나를 클릭하면 게임이 열립니다!";
+"notification_ticker" = "재미로 일인 용으로 돌아 가세요!";
+"new_game_title" = "무슨 딜을 원하십니까?";
+
+"dialog_permission_title" = "권한을 부여하려면";
+"dialog_permission_content" = "맞춤 이미지를 사용하려면 외부 저장 용량 쓰기 권한을 부여하십시오!";
+"can_not_deal" = "빈 열이있는 탁자가있는 동안 카드를 처리 할 수 없습니다";
+
+"magic_stick_label" = "마술 지팡이 사용";
+"google_play_error_try_again" = "기기의 구글 플레이를 확인하고 다시 시도하십시오.";
+"store_label" = "저장";
+"purchasing_error_try_again" = "구매하는 중에 오류가 발생했습니다. 나중에 다시 시도하십시오!";
+"already_no_ads" = "이미 광고를 삭제했습니다.";
+"restart_app_rm_ads" = "광고를 삭제하려면 응용 프로그램을 다시 시작하십시오!";
+"store_title" = "동전 구입";
+"buy_succeed" = "당신은 동전을 구입했습니다 :";
+"rm_ads" = "광고를 제거하다";
+
+"daily_title" = "매일 도전";
+"daily_total_win_cnt_label" = "총 승리:";
+"daily_month_win_cnt_label" = "달이 이기다:";
+
+"coin_des" = "팁 : 거래를 저장하기 위해 동전을 사용하십시오.";
+"done" = "끝난";
+"left_hand_mode" = "왼손잡이";
+"congratulationsAnimation" = "축하 화면";
+"setting_hints" = "자동 힌트";
+

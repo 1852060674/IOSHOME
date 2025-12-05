@@ -1,0 +1,117 @@
+/*
+ SLLL.strings
+ CardsCompilation
+
+ Created by jerry on 2017/8/29.
+ Copyright © 2017年 macbook. All rights reserved.
+ */
+"action_settings" = "Impostaz.";
+"score_label" = "Punti: ";
+"time_label" = "Tempo: ";
+"move_label" = "Mosse: ";
+"auto_complete_title" = "Completamento automatico";
+"auto_complete" = "Auto completare il gioco";
+"cancel_btn" = "Annulla";
+"setting" = "Impostaz.";
+"themes" = "Temi";
+"stats" = "Statistiche";
+"rules" = "Regole";
+"complete" = "Completare";
+"newgame" = "Gioca";
+"hint" = "Sugg.";
+"undo" = "Annulla";
+"congratulation" = "Congratulazioni, hai vinto";
+"nomoves" = "Non si muove utili rilevati";
+"hintmove" = "Mossa";
+
+
+"plt" = "Gioca un nuovo gioco";
+"pl1" = "Mano casuale";
+"pl2" = "Mano vincente";
+"pl3" = "Ripeti mano";
+
+
+
+"cancel" = "Annulla";
+
+
+"ok" = "OK";
+"setting_title" = "Impostaz.";
+"statistics" = "statistiche";
+"setting_sound" = "Effetii sonori";
+"setting_times" = "Tempo/Mosse";
+"setting_orientation" = "Orientamento";
+"setting_hin" = "Sollecito";
+"setting_tapmove" = "Tocca per muovere";
+"help_rules" = "Regola";
+"setting_level" = "Modalità";
+
+
+
+
+"stat_won" = "Partite vinte";
+"stat_lose" = "Partite perse";
+"stat_swtime" = "Tempo minimo impiegato per vincere";
+"stat_lwtime" = "Tempo massimo impiegato per vincere";
+"stat_awtime" = "Tempo medio impiegato per vincere";
+"stat_fwmove" = "Numero minimo mosse impiegate";
+"stat_mwmove" = "Numero massimo mosse impiegate";
+"stat_nundo" = "Vittorie senza usare il comando Annulla";
+"stat_highest_score" = "Record punteggio:";
+"reset_stat" = "Azzera";
+"yes" = "Sì";
+
+"mode_title" = "Suggerimenti";
+"mode_message" = "Difficoltà impostazione avrà effetto nel successivo Nuova Gioco";
+
+
+"dialog_close" = "Chiudi";
+"theme" = "Temi";
+"dialog_theme_cardback" = "Retro della carta";
+"dialog_theme_gameback" = "Sfondi";
+"dialog_theme_card" = "Fronte delle carte";
+
+
+
+"rt_title" = "Abbiamo bisogno del tuo feedback";
+"rt_message_normal" = "Ti piace il nostro gioco solitario! La prego di prendere un momento per votarla. Grazie per il tuo sostegno!";
+"rt_rt" = "Stupefacente";
+"rt_fb" = "Suggerimento";
+"rt_cancel" = "La prossima volta";
+"rt_message_rm_ad" = "Come la nostra applicazione? Dacci un cinque stelle per rimuovere gli annunci interstiziali.";
+
+"help_label" = "Aiuto";
+"update_available" = "Aggiornamento TOT e l\'ultima versione?";
+
+"quit" = "Sei sicuro di voler uscire?";
+
+
+"confirm_reset_game_stat" = "Azzerare le statistiche?";
+"notification_push" = "Mi Fare clic per aprire il gioco!";
+"notification_ticker" = "Torna alla solitaire per il divertimento!";
+"new_game_title" = "Che tipo di accordo?";
+
+"dialog_permission_title" = "Per concedere l\'autorizzazione";
+"dialog_permission_content" = "Per utilizzare un\'immagine personalizzata, si prega di andare per concedere l\'autorizzazione di storage esterno di scrittura !";
+
+"can_not_deal" = "Non può fare carta mentre tableau con colonna vuota";
+
+"magic_stick_label" = "Usa Magic Stick";
+"google_play_error_try_again" = "Controlli il gioco del tuo dispositivo e il tuo gioco Provare ancora più tardi.";
+"store_label" = "Negozio";
+"purchasing_error_try_again" = "Errore nell\'acquisto. Prova subito dopo!";
+"already_no_ads" = "Hai già rimosso gli annunci!";
+"restart_app_rm_ads" = "Riavviate l\'applicazione per rimuovere gli annunci!";
+"store_title" = "Comprare monete";
+"buy_succeed" = "Hai comprato monete:";
+"rm_ads" = "Rimuovere Gli Annunci";
+
+"daily_title" = "Sfida del Giorno";
+"daily_total_win_cnt_label" = "Vincita totale:";
+"daily_month_win_cnt_label" = "Vittoria di mese:";
+
+"coin_des" = "Suggerimenti: utilizzare la moneta per salvare l\'affare";
+"setting_hints" = "Suggerimenti automatici";
+"left_hand_mode" = "Mancino";
+"congratulationsAnimation" = "Schermata di congratulazioni";
+

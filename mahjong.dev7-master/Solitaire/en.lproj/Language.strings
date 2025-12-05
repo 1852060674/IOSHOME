@@ -1,0 +1,58 @@
+/* 
+  Language.strings
+  Golf
+
+  Created by yysdsyl on 13-9-20.
+  Copyright (c) 2013年 apple. All rights reserved.
+*/
+/*
+ Language.strings
+ Pyramid
+ 
+ Created by yysdsyl on 13-9-18.
+ Copyright (c) 2013年 apple. All rights reserved.
+ */
+"change_cardback"="Change Mahjong Set";
+"change_gameback"="Change Game Back";
+"stat"="Statistics";
+"level"="Difficulty Level";
+"sound"="Sound Control";
+"timemove"="Time/Scores";
+"lock"="Lock Orientation";
+"hint"="Hints";
+"tapmove"="Tap Move";
+"classic"="Classic Cards";
+"rules"="Rules";
+"levelhint"="Difficulty Level Setting Will Take Effect in Next New Game!";
+"ok"="OK";
+"cancel"="Cancel";
+"scroll"="Scroll to see more";
+"nodeal"="No Deals Left";
+"nocard"="No Cards Left";
+"hintmove"="Hint Move";
+"easylevel"="Easy Level";
+"hardlevel"="Hard Level";
+"gamewon"="Games Won";
+"gamelost"="Games Lost";
+"shortesttime"="Shortest Winning Time";
+"longesttime"="Longest Winning Time";
+"avgtime"="Average Winning Time";
+"fewestmoves"="Fewest Winning Moves";
+"mostmoves"="Most Winning Moves";
+"noundo"="Wins Without Undo";
+"highscore"="Highest Score";
+"resethint"="Do you really want to reset the statistics?";
+"yes"="Yes";
+"no"="No";
+"time"="Time:";
+"score"="Score:";
+"moves"="Moves:";
+"newgame"="New Game";
+"replay"="Replay The Game";
+"nomoves"="No Useful Moves";
+"wonhint"="You Won!";
+"losthint"="You Lost!";
+"autohint"="Auto Complete The Game?";
+"scorerank"="High Scores";
+"cong"="Congratulations!You have got a high score!";
+"anonymous"="anonymous";

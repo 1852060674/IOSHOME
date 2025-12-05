@@ -1,0 +1,53 @@
+/* 
+  Language.strings
+  Solitaire
+
+  Created by yysdsyl on 13-9-20.
+  Copyright (c) 2013年 apple. All rights reserved.
+*/
+"change_cardback"="Ändern Karte Zurück";
+"change_gameback"="Ändern Spiel Zurück";
+"stat"="Statistik";
+"level"="Schwierigkeit";
+"sound"="Sound Control";
+"timemove"="Zeit/Unterwegs";
+"lock"="Verschluss Ausrichtung";
+"hint"="Hinweise";
+"tapmove"="Tippen Sie auf Nach";
+"classic"="Klassische Karten";
+"rules"="Regeln";
+"levelhint"="Schwierigkeit Einstellung wird in Next New Game Nehmen!";
+"ok"="OK";
+"cancel"="Stornieren";
+"scroll"="Blättern Sie, um mehr zu sehen";
+"nodeal"="Keine Angebote Links";
+"nocard"="Keine Karten übrig";
+"hintmove"="Hinweis Unterwegs";
+"easylevel"="Einfache Niveau";
+"hardlevel"="Harte Niveau";
+"gamewon"="Gewonnene Spiele";
+"gamelost"="Verlorene Spiele";
+"shortesttime"="Kürzeste Winning Time";
+"longesttime"="Längste Siegesserie Zeit";
+"avgtime"="Durchschnittliche Winning Time";
+"fewestmoves"="Fewest Gewinnzug";
+"mostmoves"="Die meisten Gewinnzug";
+"noundo"="Die meisten Gewinnzug";
+"highscore"="Höchste Punktzahl";
+"resethint"="Wollen Sie wirklich, um die Statistik zurücksetzen?";
+"yes"="Ja";
+"no"="Keine";
+"time"="Zeit:";
+"score"="Ergebnis:";
+"moves"="Bewegen:";
+"newgame"="Neues Spiel";
+"replay"="Wiederholen Sie das Spiel";
+"nomoves"="Keine Notrufe verschieben";
+"wonhint"="Sie Gewinnen!";
+"losthint"="Sie Verloren!";
+"autohint"="Auto Beende das Spiel?";
+"draw"="Zeichnen";
+
+"game_rules_freecell" = "FreeCell ist eine Form von Solitaire (oder Geduld) spielte mit einem standard 52-Karten Deck.Es ist anders als die meisten anderen Solitär-Spiele,dass fast alle angebote für gewinnbar machen es gibt mehr ein Spiel der Fähigkeit als Glück.\n\nOn der ersten Kartenausgabe die Karten werden aufgedeckt in acht säulen,die bilden das tableau.Vier der Tableau-Spalten enthalten sieben karten und vier spalten enthalten sechs karten.Die rest der spielfläche besteht aus der gründungspfähle (die Karte-Spots mit dem Buchstaben 'A' in Mitte) und der freien Zellen(die Karte Flecken ohne das  'A').\n\nDuring Spiel,Kaskaden oder sequenzen sind gebaut innerhalb der Tableau-Spalten.Sequenzen sind gebaut nach unten in abnehmender rang,z.B.4-3-2-A,10-9-8-7-6,K-Q-J,etc..Sequenzen zu bilden,Karten können bei bedarf aus einem Tableau-Spalte in eine andere,verschoben werden oder zu und von der freien zellen.Sequenzen werden in wechselnden farben (rot, schwarz) gebaut.Jede aufgedeckte karte an die unteren ende eine Tableau-Spalte kann in eine andere spalte tableau verschoben werden,um eine sequenz auf ein freies feld zu bilden oder,eine karte platz an der spitze einer leeren Tableau-Spalte zu füllen.Darüber hinaus kann beliebige Folge von karten verschoben zusammen,um ein anderes tableau spalte um eine sequenz zu bilden oder eine karte platz an der spitze von einem leeren tableau zu füllen spalte.Zu bewegen,eine folge von karten es muss genügend freie zellen,den schritt zu erreichen wie wenn jede karte oder teilmenge der karten zogen durch die verfügbare freie Zelle-Standorte-jede der vier kostenlose bezeichnet Handy-Karte,die leer sind und leeren Tableau-Spalte-Spots.\n\nAs karten zur verfügung stehen,können sie zog um von ass bis König auf die fundamentstapel.Das spiel ist gewonnen,wenn alle karten auf verschoben werden die gründungspfähle.\n\nDuring das spiel zu spielen,werden punkte verdient,wenn karten an die stiftung.Punkte sind bei jeder anwendung der 'Rückgängig' abgezogen.Wenn das Spiel beendet ist, werden Bonuspunkte vergeben,basierend auf der anzahl von moves und der gesamtbetrag der zeit genutzt,um das spiel zu beenden.Je effizienter sie lösen sich beide in bewegt sich und die zeit,desto höher werden ihr Bonus-Punkte sein.\n\nPoint System:\nCards Stiftung: 10 Punkte \nUndo:-5points \nHints: keine Punkte Deducted \nUndo Stiftung:-10 Points \nTime Bonus: 1.000.000 geteilt durch zeit,spiel in sekunden zu beenden.\nMoves Bonus: Berechnung basierend auf deine moves,die minimale anzahl von bewegt,und der durchschnitt bewegt sich für das spiel erforderlich.";
+"freecell_pos"="FreeCell";
+"freecell_on_top"="FreeCell oben";

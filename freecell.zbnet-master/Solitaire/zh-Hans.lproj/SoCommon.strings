@@ -1,0 +1,115 @@
+/*
+ SLLL.strings
+ CardsCompilation
+
+ Created by jerry on 2017/8/29.
+ Copyright © 2017年 macbook. All rights reserved.
+ */
+"action_settings" = "设置";
+"score_label" = "分数: ";
+"time_label" = "时间: ";
+"move_label" = "移动: ";
+"auto_complete" = "自动收牌, 完成游戏";
+"auto_complete_title" = "自动收牌";
+"cancel_btn" = "取消";
+"setting" = "设置";
+"complete" = "收牌";
+"newgame" = "新游戏";
+"hint" = "提示";
+"undo" = "撤销";
+"congratulation" = "恭喜, 你赢了";
+"nomoves" = "没有发现有效的移动";
+"hintmove" = "提示";
+"themes" = "主题";
+"stats" = "统计";
+"rules" = "规则";
+
+
+"plt" = "开始新游戏";
+"pl1" = "随机游戏";
+"pl2" = "活局游戏";
+"pl3" = "重玩本局";
+
+"cancel" = "取消";
+
+
+"ok" = "好";
+"setting_title" = "设置";
+"statistics" = "统计";
+"setting_level" = "难度";
+"setting_sound" = "声音";
+"setting_times" = "显示时间/移动";
+"setting_orientation" = "锁定屏幕方向";
+"setting_hin" = "显示提示";
+"setting_tapmove" = "点击移动";
+"help_rules" = "规则";
+
+
+
+
+"stat_won" = "获胜";
+"stat_lose" = "输";
+"stat_swtime" = "获胜局最短用时";
+"stat_lwtime" = "获胜局最长用时";
+"stat_awtime" = "获胜局平均用时";
+"stat_fwmove" = "获胜局最少步数";
+"stat_mwmove" = "获胜局最多步数";
+"stat_nundo" = "未撤销获胜局数";
+"stat_highest_score" = "最高分：";
+"reset_stat" = "重置";
+"yes" = "是";
+
+"mode_title" = "提示";
+"mode_message" = "游戏难度设置将在下次开始新游戏时生效";
+
+
+
+"dialog_close" = "关闭";
+"theme" = "主题";
+"dialog_theme_cardback" = "卡牌背景";
+"dialog_theme_gameback" = "桌面背景";
+"dialog_theme_card" = "卡牌样式";
+
+
+"rt_title" = "期待您的反馈";
+"rt_message_normal" = "喜欢纸牌游戏么？可否花时间进行下评价呢。感谢您的支持!";
+"rt_rt" = "非常棒";
+"rt_fb" = "反馈";
+"rt_cancel" = "下次再说";
+"rt_message_rm_ad" = "喜欢我们的应用么? 给我们五星好评可以去除插页广告";
+
+"help_label" = "帮助";
+"update_available" = "更新到最新版本？";
+
+"quit" = "您确定要退出吗？";
+
+"confirm_reset_game_stat" = "您确定重置统计记录吗？";
+"notification_push" = "点我进入游戏！";
+"notification_ticker" = "回来玩纸牌吧";
+"new_game_title" = "牌局类型";
+
+"dialog_permission_title" = "授予权限";
+"dialog_permission_content" = "为了使用自定义图片，请授予读取外部存储的权限！";
+
+"can_not_deal" = "牌桌上有空列时不能发牌";
+
+"magic_stick_label" = "使用魔棒";
+"google_play_error_try_again" = "请检查您的设备的Google Play并重试。";
+"store_label" = "商店";
+"purchasing_error_try_again" = "购买错误 请稍后重试！";
+"already_no_ads" = "您已经去除了广告！";
+"restart_app_rm_ads" = "请重新启动应用程序以移除广告！";
+"store_title" = "购买金币";
+"buy_succeed" = "您购买的金币数为：";
+"rm_ads" = "移除广告";
+
+"daily_title" = "每日挑战";
+"daily_total_win_cnt_label" = "总共:";
+"daily_month_win_cnt_label" = "本月:";
+
+"coin_des" = "提示: 使用金币复活关卡";
+"done" = "完成";
+"left_hand_mode" = "左手模式";
+"congratulationsAnimation" = "庆祝动画";
+"setting_hints" = "自动提示";
+

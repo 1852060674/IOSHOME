@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="disclose" id="qc5-qe-LEk" customClass="SettingCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="345" height="49"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="345" height="49"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splitter.png" translatesAutoresizingMaskIntoConstraints="NO" id="3GA-ED-adH">
+                        <rect key="frame" x="0.0" y="0.0" width="345" height="1"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="CNT-WY-GR1"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_right.png" translatesAutoresizingMaskIntoConstraints="NO" id="bYV-iB-C8X">
+                        <rect key="frame" x="310" y="11" width="27" height="27"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t8x-Au-s4z">
+                        <rect key="frame" x="8" y="14" width="42" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="dUJ-5f-oik"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="42" id="fQA-9E-0u0"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="t8x-Au-s4z" firstAttribute="centerY" secondItem="qc5-qe-LEk" secondAttribute="centerY" id="EIs-dh-DGy"/>
+                <constraint firstItem="3GA-ED-adH" firstAttribute="top" secondItem="qc5-qe-LEk" secondAttribute="top" id="G87-JM-TTL"/>
+                <constraint firstItem="t8x-Au-s4z" firstAttribute="leading" secondItem="qc5-qe-LEk" secondAttribute="leading" constant="8" id="Kme-OD-EnZ"/>
+                <constraint firstItem="bYV-iB-C8X" firstAttribute="centerY" secondItem="qc5-qe-LEk" secondAttribute="centerY" id="Nqr-SG-QM3"/>
+                <constraint firstItem="bYV-iB-C8X" firstAttribute="width" secondItem="bYV-iB-C8X" secondAttribute="height" multiplier="1:1" id="USJ-LE-7z2"/>
+                <constraint firstAttribute="trailing" secondItem="3GA-ED-adH" secondAttribute="trailing" id="gHt-wV-D5T"/>
+                <constraint firstItem="3GA-ED-adH" firstAttribute="leading" secondItem="qc5-qe-LEk" secondAttribute="leading" id="pIe-kV-hAi"/>
+                <constraint firstItem="bYV-iB-C8X" firstAttribute="top" secondItem="t8x-Au-s4z" secondAttribute="top" constant="-3" id="pwg-gF-beC"/>
+                <constraint firstAttribute="trailing" secondItem="bYV-iB-C8X" secondAttribute="trailing" constant="8" id="uyK-en-hyI"/>
+            </constraints>
+            <size key="customSize" width="345" height="49"/>
+            <connections>
+                <outlet property="nameL" destination="t8x-Au-s4z" id="K2s-bB-3fh"/>
+                <outlet property="sep" destination="3GA-ED-adH" id="DEy-BX-N7e"/>
+            </connections>
+            <point key="canvasLocation" x="87.5" y="225.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="arrow_right.png" width="55" height="55"/>
+        <image name="splitter.png" width="804" height="9"/>
+    </resources>
+</document>

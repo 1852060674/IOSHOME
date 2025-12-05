@@ -1,0 +1,46 @@
+/* 
+  Language.strings
+  Solitaire
+
+  Created by yysdsyl on 13-9-20.
+  Copyright (c) 2013年 apple. All rights reserved.
+*/
+"change_cardback"="Change Card Back";
+"change_gameback"="Change Game Back";
+"stat"="Statistics";
+"sound"="Sound Control";
+"timemove"="Time/Moves";
+"lock"="Lock Orientation";
+"hint"="Hints";
+"tapmove"="Tap Move";
+"classic"="Classic Cards";
+"rules"="Rules";
+"ok"="OK";
+"cancel"="Cancel";
+"scroll"="Scroll to see more";
+"hintmove"="Hint Move";
+"gamewon"="Games Won";
+"gamelost"="Games Lost";
+"shortesttime"="Shortest Winning Time";
+"longesttime"="Longest Winning Time";
+"avgtime"="Average Winning Time";
+"fewestmoves"="Fewest Winning Moves";
+"mostmoves"="Most Winning Moves";
+"noundo"="Wins Without Undo";
+"highscore"="Highest Score";
+"resethint"="Do you really want to reset the statistics?";
+"yes"="Yes";
+"no"="No";
+"time"="Time:";
+"score"="Scores:";
+"moves"="Moves:";
+"newgame"="New Game";
+"replay"="Replay The Game";
+"nomoves"="No Useful Moves";
+"wonhint"="You Won!";
+"autohint"="Auto Complete The Game?";
+"draw"="Draw";
+"cancel"="Cancel";
+"game_rules_freecell" = "FreeCell is a form of Solitaire (or Patience) played with a standard 52-card deck. It is different than most other solitaire games in that nearly all deals are winnable making it more a game of skill than luck.\n\nOn the opening deal the cards are placed face-up into eight columns that form the tableau. Four of the tableau columns contain seven cards and four columns contain six cards. The remainder of the playing area is comprised of the foundation piles (the card spots with the letter 'A' in the middle) and the free cells (the card spots without the 'A').\n\nDuring play, cascades or sequences are built within the tableau columns. Sequences are built downward in decreasing rank, for example 4-3-2-A, 10-9-8-7-6, K-Q-J, etc. To form sequences, cards may be moved as needed from one tableau column to another, or to and from the free cells. Sequences are built in alternating colors (red, black). Any exposed card at the bottom end of a tableau column may be moved to another tableau column to form a sequence, to a free cell, or to fill a card spot at the top of an empty tableau column. Additionally, any sequence of cards may be moved together to another tableau column to form a sequence or to fill a card spot at the top of an empty tableau column. To move a sequence of cards there must be enough free cells to accomplish the move as if each card or subset of cards were moved through the available free cell locations - any of the four designated free cell card spots that are empty and any empty tableau column spots.\n\nAs cards become available, they may be moved in order from Ace to King to the foundation piles. The game is won when all cards are moved to the foundation piles.\n\nDuring the game play, points are earned by moving cards to the foundation. Points are deducted for each use of Undo. When the game is completed, bonus points are awarded based on the number of moves and the total amount of time used to finish the game. The more efficiently you solve a deal both in moves and time, the higher your bonus points will be.\n\nPoint System:\nCards to Foundation: +10 points\nUndo: -5points\nHints: No points deducted\nUndo from Foundation: -10 points\nTime Bonus: 1,000,000 divided by time to complete game in seconds.\nMoves Bonus: Calculation based on your moves, the minimum number of moves, and the average moves required for the game.";
+"freecell_pos"="FreeCell";
+"freecell_on_top"="Freecells On Top";

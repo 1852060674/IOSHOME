@@ -1,0 +1,4 @@
+/* Localized versions of Info.plist keys */
+
+"NSCameraUsageDescription" = "这个权限允许应用使用相机拍照作为背景";
+"NSPhotoLibraryUsageDescription" = "这个权限允许应用选取相片作为背景";

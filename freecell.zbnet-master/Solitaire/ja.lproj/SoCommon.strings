@@ -1,0 +1,117 @@
+/*
+ SLLL.strings
+ CardsCompilation
+
+ Created by jerry on 2017/8/29.
+ Copyright © 2017年 macbook. All rights reserved.
+ */
+"action_settings" = "設定";
+"score_label" = "点数: ";
+"time_label" = "時間: 0";
+"move_label" = "ムーブ: 0";
+"auto_complete_title" = "自動補完";
+"auto_complete" = "オートゲームを完了します";
+"cancel_btn" = "取り消し";
+"setting" = "設定";
+"themes" = "テーマ";
+"stats" = "統計";
+"rules" = "ルール";
+"complete" = "完全な";
+"newgame" = "プレィ";
+"hint" = "ヒント";
+"undo" = "アンドゥ";
+"congratulation" = "おめでとう、あなたは勝ちます";
+"nomoves" = "有用な動きが検出されません";
+"hintmove" = "ヒント";
+
+
+"plt" = "新しいゲームをプレイ";
+
+"pl1" = "ランダムディール";
+"pl2" = "ゥィ二ンダディール";
+"pl3" = "リプレイ";
+
+
+
+"cancel" = "キャンセル";
+
+
+"ok" = "OK";
+"setting_title" = "設定";
+"statistics" = "統計";
+"setting_sound" = "音";
+"setting_times" = "時間/ムーブ";
+"setting_orientation" = "方向";
+"setting_hin" = "ヒント";
+"setting_tapmove" = "タップで動く";
+"help_rules" = "ルール";
+"setting_level" = "モード";
+
+
+
+
+"stat_won" = "勝つたゲーム";
+"stat_lose" = "負けたゲーム";
+"stat_swtime" = "ゲームを勝つた最短時間";
+"stat_lwtime" = "ゲームを勝つた最長時間";
+"stat_awtime" = "ゲームを勝つた平均時間";
+"stat_fwmove" = "ゲームを勝つた最少ムーブ";
+"stat_mwmove" = "ゲームを勝つた最大ムーブ";
+"stat_nundo" = "アンドゥなしで勝つたゲームの数";
+"stat_highest_score" = "最高点数:";
+"reset_stat" = "リセット";
+"yes" = "はい";
+
+"mode_title" = "予告";
+"mode_message" = "難易度設定は、次の新しいゲームで有効になります";
+
+
+"dialog_close" = "閉じる";
+"theme" = "テーマ";
+"dialog_theme_cardback" = "カードバックス";
+"dialog_theme_gameback" = "背景";
+"dialog_theme_card" = "カードの顔";
+
+
+"rt_title" = "私たちはあなたのフィードバックを必要とします";
+"rt_message_normal" = "ソリティアゲームが好きですか？ あなたはそれを評価するために少し時間をかけてください。 ご協力ありがとうございました！";
+"rt_rt" = "素晴らしい";
+"rt_fb" = "提案";
+"rt_cancel" = "次回";
+"rt_message_rm_ad" = "私たちのアプリのように？インタースティシャル広告を削除するために五つの星を付けてください。";
+
+"help_label" = "助けます";
+"update_available" = "TOTと最新のバージョンを更新！";
+
+"quit" = "あなたは本当に辞めるのですか？";
+
+"confirm_reset_game_stat" = "統計をリセットしますか?";
+"notification_push" = "クリックするとゲームが開きます！";
+"notification_ticker" = "ソリティアに戻る！";
+"new_game_title" = "ディールのタイプを選んでください";
+
+"dialog_permission_title" = "許可を与えるには";
+"dialog_permission_content" = "カスタムイメージを使用するには、外部ストレージへの書き込み権限を与えてください！";
+
+"can_not_deal" = "空の列があるタブロー時にカードを扱うことはできません";
+
+"magic_stick_label" = "マジックスティックを使う";
+"google_play_error_try_again" = "お使いの端末のGoogle Playを確認してください 後でもう一度試してみてください。";
+"store_label" = "店舗";
+"purchasing_error_try_again" = "購入エラー。 後でもう一度試してみてください！";
+"already_no_ads" = "あなたはすでに広告を削除しています！";
+"restart_app_rm_ads" = "広告を削除するには、アプリケーションを再起動してください。";
+"store_title" = "コインを購入する";
+"buy_succeed" = "あなたは硬貨を買った：";
+"rm_ads" = "広告を削除";
+
+
+"daily_title" = "毎日の挑戦";
+"daily_total_win_cnt_label" = "総合優勝:";
+"daily_month_win_cnt_label" = "毎月の勝利:";
+
+"coin_des" = "ヒント：取引を保存するためにコインを使用する";
+"done" = "完了";
+"left_hand_mode" = "左利き";
+"congratulationsAnimation" = "祝辞画面";
+"setting_hints" = "自動ヒント";

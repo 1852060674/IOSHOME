@@ -1,0 +1,118 @@
+/*
+ SLLL.strings
+ CardsCompilation
+
+ Created by jerry on 2017/8/29.
+ Copyright © 2017年 macbook. All rights reserved.
+ */
+"action_settings" = "Optionen";
+"score_label" = "Punkte: ";
+"time_label" = "Dauer: 0";
+"move_label" = "Züge: 0";
+"auto_complete_title" = "Automatisch vervollständigen?";
+"auto_complete" = "Automatisch vervollständigen?";
+"cancel_btn" = "Abbrechen";
+"setting" = "Optionen";
+"themes" = "Layouts";
+"stats" = "Statistik";
+"rules" = "Regeln";
+"complete" = "Fertig";
+"newgame" = "Spielen";
+"hint" = "Tipps";
+"undo" = "Rückgängig";
+"congratulation" = "Glückwunsch!";
+"nomoves" = "Keine sinnvollen Züge gefunden";
+"hintmove" = "Tipps";
+
+
+"plt" = "Spielen Sie ein neues Spiel";
+
+"pl1" = "Zufälliger Deal";
+"pl2" = "Gewinner-Deal";
+"pl3" = "Wiederholen";
+
+
+
+"cancel" = "Abbrechen";
+
+
+"ok" = "OK";
+"setting_title" = "Optionen";
+"statistics" = "Statistik";
+"setting_sound" = "Töne";
+"setting_times" = "Zeit/Züge anzeigen";
+"setting_orientation" = "Ausrichtung";
+"setting_hin" = "Tipps";
+"setting_tapmove" = "Tippen, um zu verschieben";
+"help_rules" = "Spielanleitung";
+"setting_level" = "Modus";
+
+
+
+
+"stat_won" = "Spiele gewonnen";
+"stat_lose" = "Spiele verloren";
+"stat_swtime" = "Kürzeste Dauer bis Sieg";
+"stat_lwtime" = "Längste Dauer bis Sieg";
+"stat_awtime" = "Durchschnittliche Dauer bis Sieg";
+"stat_fwmove" = "Geringste Anzahl von Zügen bis Sieg";
+"stat_mwmove" = "Höchste Anzahl von Zügen bis Sieg";
+"stat_nundo" = "Siege ohne Rückgängig machen";
+"stat_highest_score" = "Bestes Ergebnis:";
+"reset_stat" = "Zurücksetzen";
+"yes" = "Ja";
+
+"mode_title" = "Beachten";
+"mode_message" = "Schwierigkeitsgrad wird wirksam in Next Neues Spiel";
+
+
+"dialog_close" = "Schließen";
+"theme" = "Layouts";
+"dialog_theme_cardback" = "Kartenrückseite";
+"dialog_theme_gameback" = "Hintergrund";
+"dialog_theme_card" = "Kartenvorderseite";
+
+
+"rt_title" = "Wir brauchen Rückmeldung";
+"rt_message_normal" = "Gefällt Ihnen unser Solitaire-Spiel! Könnten Sie bitte einen Moment Zeit nehmen, um es zu bewerten. Danke für deine Unterstützung!";
+"rt_rt" = "Tolle";
+"rt_fb" = "Vorschlag";
+"rt_cancel" = "Nächstes Mal";
+"rt_message_rm_ad" = "Wie unsere App? Geben Sie uns fünf Sterne,um interstitielle Anzeigen zu entfernen.";
+
+"help_label" = "Hilfe";
+
+"update_available" = "Update TOT und die neueste Version?";
+"quit" = "Sind Sie sicher, aufzuhören?";
+
+"confirm_reset_game_stat" = "Statistiken zurücksetzen?";
+"notification_push" = "Klick mich, um das Spiel zu öffnen!";
+"notification_ticker" = "Zurück zum Solitaire zum Spaß!";
+"new_game_title" = "Welcher Modus?";
+
+"dialog_permission_title" = "Erlaubnis zu erteilen";
+"dialog_permission_content" = "Für die Verwendung von benutzerdefinierten Bild, bitte gehen, um zu schreiben externe Speicherberechtigung !";
+
+
+"can_not_deal" = "Kann nicht Karten während Tableau mit leerer Säule behandeln";
+
+//内购
+"magic_stick_label" = "Verwenden Sie Magic Stick";
+"google_play_error_try_again" = "Bitte überprüfen Sie das Spiel Ihres Spiels und Versuche es später nochmal.";
+"store_label" = "Geschäft";
+"purchasing_error_try_again" = "Fehler beim Kauf. Bitte versuchen Sie es später noch einmal!";
+"already_no_ads" = "Sie haben schon Anzeigen entfernt!";
+"restart_app_rm_ads" = "Bitte starten Sie die Anwendung neu, um Anzeigen zu entfernen!";
+"store_title" = "Kaufe Münzen";
+"buy_succeed" = "Sie haben Münzen gekauft:";
+"rm_ads" = "Anzeigen Entfernen";
+
+"daily_title" = "Tägliche Challenge";
+"daily_total_win_cnt_label" = "Gesamtgewinn:";
+"daily_month_win_cnt_label" = "Monat gewinnen:";
+
+"coin_des" = "Tipps: Verwenden Sie Münze, um den Deal zu retten";
+"done" = "Fertig";
+"left_hand_mode" = "Linkshänder";
+"congratulationsAnimation" = "Glückwunsch-Bildschirm";
+"setting_hints" = "Automatische Tipps";
