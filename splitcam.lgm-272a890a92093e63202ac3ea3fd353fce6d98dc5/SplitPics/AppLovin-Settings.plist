@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentFlowInfo</key>
+	<dict>
+		<key>ConsentFlowEnabled</key>
+		<true/>
+		<key>ConsentFlowPrivacyPolicy</key>
+		<string>https://play99.cn/support/lotusstudio/splitcam/policy.html</string>
+		<key>ConsentFlowShowTermsAndPrivacyPolicyAlertInGDPR</key>
+		<false/>
+	</dict>
+	<key>SdkKey</key>
+	<string>M6fld7U-1DaoykmZWksV4TT0rHwdlTv6fTrIgKHhXsUUZE35yva1M21CKyr4VkAAG_SxJkdsa6K9LNEIGqJdtK</string>
+</dict>
+</plist>

@@ -1,0 +1,47 @@
+/* 
+  setting.strings
+  PIPCamera
+
+  Created by tangtaoyu on 15/10/19.
+  Copyright © 2015年 tangtaoyu. All rights reserved.
+*/
+
+"SETTING_VC_TITLE" = "设置";
+
+//画质
+"SET_IMAGE_RESOLUTION" = "画质";
+"SET_IMAGE_LOW" = "低";
+"SET_IMAGE_MEDIUM" = "中";
+"SET_IMAGE_HIGH" = "高";
+
+//告诉朋友
+"SET_TELL_FRIEND" = "推荐给朋友";
+//反馈
+"SET_FEEDBACK" = "反馈";
+//评价
+"SET_RATE_US" = "评价";
+//升级
+"SET_UPGRADE" = "升级";
+
+
+//应用名称
+"SET_APP_NAME_TITLE" = "应用名称";
+"SET_APP_NAME" = "克隆相机";
+"SET_APP_VERSION" = "应用版本";
+
+"SET_DEVICE_TITLE" = "设备类型";
+"SET_IOS_VERSION_TITLE" = "iOS版本";
+
+"SET_FEEDBACK_CONTENT" = "请留下您的意见建议。<br /><br /><br />下列信息有助于我们定位解决问题，请保留。";
+"SET_FEEDBACK_TITLE" = "iOS技术支持";
+
+"SET_ALERT_OK" = "确定";
+"SET_ALERT_TIPS" = "提示";
+
+"SET_MAIL_NOT_SUPPORT" = "您的设备未配置邮箱账号！";
+"SET_SMS_NOT_SUPPORT" = "你的设备未配置短信账号！";
+
+"SET_SEND_MAIL_FAILED" = "发送邮件失败！";
+"SET_SEND_SMS_FAILED" = "发送短信失败！";
+"SET_SEND_MAIL_SUCCEED" = "发送邮件成功！";
+"SET_SEND_SMS_SUCCEED" = "发送短信成功！";

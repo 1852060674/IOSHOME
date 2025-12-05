@@ -1,0 +1,13 @@
+/* 
+  InfoPlist.strings
+  SplitPics
+
+  Created by tangtaoyu on 16/3/4.
+  Copyright © 2016年 ZBNetWork. All rights reserved.
+*/
+
+CFBundleDisplayName="Split Camera";
+NSCameraUsageDescription = "Split Cam implement a custom camera function, divide the camera into grids, taking photos and processing them. In this view, device's camera hardware need to be accessed and used";
+NSMicrophoneUsageDescription = "Allow this app to access microphone?";
+NSPhotoLibraryUsageDescription = "acess photos library to choose and save photos in app";
+"NSPhotoLibraryAddUsageDescription" = "acess photos library to save photos in app";

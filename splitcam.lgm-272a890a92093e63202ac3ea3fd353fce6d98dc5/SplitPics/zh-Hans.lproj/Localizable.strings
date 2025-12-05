@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  SplitPics
+
+  Created by tangtaoyu on 16/3/4.
+  Copyright © 2016年 ZBNetWork. All rights reserved.
+*/
+"Select Layout" = "选择模板";
+"Waiting..." = "等待中...";
+
+"Brightness" = "亮度";
+"Contrast" = "对比度";
+"Saturation" = "饱和度";
+"Exposure" = "曝光度";
+"Blur" = "模糊";
+
+"DIALOG_TITLE" = "保存成功";
+"DIALOG_MSG" = "成功保存到相册！";
+"DIALOG_CANCEL" = "取消";
+"DIALOG_CONFIRM" = "确定";

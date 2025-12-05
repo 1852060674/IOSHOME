@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  SplitPics
+
+  Created by tangtaoyu on 16/3/4.
+  Copyright © 2016年 ZBNetWork. All rights reserved.
+*/
+"Select Layout" = "Select Layout";
+"Waiting..." = "Waiting...";
+
+"Brightness" = "Brightness";
+"Contrast" = "Contrast";
+"Saturation" = "Saturation";
+"Exposure" = "Exposure";
+"Blur" = "Blur";
+
+"DIALOG_TITLE" = "Image Saved";
+"DIALOG_MSG" = "Save image to Album succeed!";
+"DIALOG_CANCEL" = "Cancel";
+"DIALOG_CONFIRM" = "OK";

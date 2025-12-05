@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  SplitPics
+//
+//  Created by spring on 2016/10/17.
+//  Copyright © 2016年 ZBNetWork. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "MGDefine.h"
+#import <Masonry.h>
+#ifndef __OPTIMIZE__
+#define NSLog(...) NSLog(__VA_ARGS__)
+#else
+#define NSLog(...) {}
+#endif
+
+
+#endif /* PrefixHeader_pch */

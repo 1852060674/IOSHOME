@@ -1,0 +1,38 @@
+#source 'https://cdn.cocoapods.org/'
+#source 'https://github.com/CocoaPods/Specs'
+#source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+
+platform :ios, '13.0'
+
+target 'SplitPics' do
+    pod 'AppLovinMediationByteDanceAdapter'
+    pod 'AppLovinMediationYandexAdapter'
+    pod 'AppLovinMediationFacebookAdapter'
+    pod 'AppLovinMediationGoogleAdapter'
+    pod 'AppLovinMediationIronSourceAdapter'
+    pod 'AppLovinMediationUnityAdsAdapter'
+    pod 'AppLovinMediationVungleAdapter'
+    pod 'AppLovinMediationCSJAdapter'
+    pod 'AppLovinMediationTencentGDTAdapter'
+    pod 'AppLovinMediationFyberAdapter'
+    pod 'AppLovinMediationInMobiAdapter','11.0.0'
+    pod 'AppLovinMediationMintegralAdapter'
+    pod 'AppLovinMediationAmazonAdMarketplaceAdapter'
+    pod 'AppLovinMediationBidMachineAdapter'
+    pod 'AppLovinMediationChartboostAdapter'
+    pod 'AppLovinMediationGoogleAdManagerAdapter'
+    pod 'AppLovinMediationPubMaticAdapter'
+    pod 'AmazonPublisherServicesSDK'
+    pod 'Google-Mobile-Ads-SDK'
+    pod 'AppLovinSDK'
+
+    pod 'GPUImage'
+    pod 'MBProgressHUD'
+    pod 'NYXImagesKit'
+    pod 'FXBlurView'
+    pod 'Masonry'
+    pod 'SVProgressHUD'
+
+
+end
+use_modular_headers!
