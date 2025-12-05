@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>lookup_ull_bw_heavycontrast</string>
+	<string>lookup_bw_natural</string>
+	<string>lookup_cn_horror</string>
+	<string>lookup_cn_ktmax</string>
+	<string>lookup_cn_process2</string>
+	<string>lookup_cn_spartan</string>
+	<string>lookup_cn_t_lc</string>
+	<string>lookup_cn_vintageromance</string>
+	<string>lookup_f_cool</string>
+	<string>lookup_ff_am</string>
+	<string>lookup_ff_inkwell</string>
+	<string>lookup_ff_kelvin</string>
+	<string>lookup_ff_lfhp5</string>
+	<string>lookup_ff_px_680</string>
+	<string>lookup_gb_0213</string>
+	<string>lookup_gg_0179</string>
+	<string>lookup_gg_0180</string>
+	<string>lookup_gg_0185</string>
+	<string>lookup_gi_0190</string>
+	<string>lookup_gi_0200</string>
+	<string>lookup_pxg_1064nm</string>
+	<string>lookup_pxg_uranus</string>
+	<string>lookup_sv_rol_oo</string>
+	<string>lookup_uf_deutan</string>
+	<string>lookup_uf_goldie</string>
+	<string>lookup_uf_qouzi</string>
+	<string>lookup_ull_bw_faded</string>
+	<string>lookup_ull_bw_standard</string>
+	<string>lookup_w_st</string>
+	<string>lookup_wi_i_dr</string>
+</array>
+</plist>

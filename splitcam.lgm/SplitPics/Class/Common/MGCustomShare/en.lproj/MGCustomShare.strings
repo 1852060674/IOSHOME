@@ -1,0 +1,49 @@
+/* 
+  setting.strings
+  PIPCamera
+
+  Created by tangtaoyu on 15/10/19.
+  Copyright © 2015年 tangtaoyu. All rights reserved.
+*/
+
+"SETTING_VC_TITLE" = "Settings";
+
+//画质
+"SET_IMAGE_RESOLUTION" = "Image Resolution";
+"SET_IMAGE_LOW" = "Low";
+"SET_IMAGE_MEDIUM" = "Medium";
+"SET_IMAGE_HIGH" = "High";
+
+//告诉朋友
+"SET_TELL_FRIEND" = "Tell Friend";
+//反馈
+"SET_FEEDBACK" = "Feedback";
+//评价
+"SET_RATE_US" = "Rate Us";
+//升级
+"SET_UPGRADE" = "Upgrade";
+
+
+//应用名称
+"SET_APP_NAME_TITLE" = "App Name";
+"SET_APP_NAME" = "Split Camera";
+"SET_APP_VERSION" = "App Version";
+
+"SET_DEVICE_TITLE" = "Device";
+"SET_IOS_VERSION_TITLE" = "iOS Version";
+
+"SET_FEEDBACK_CONTENT" = "Please leave your suggestions and advice to us.<br /><br /><br />The following information is valuable for us to confirm the problem. Please keep it.";
+"SET_FEEDBACK_TITLE" = " iOS support";
+
+
+"SET_ALERT_OK" = "OK";
+"SET_ALERT_TIPS" = "Tips";
+
+"SET_MAIL_NOT_SUPPORT" = "Your device is not configured Mail account!!";
+"SET_SMS_NOT_SUPPORT" = "Your device is not configured SMS account!!";
+
+"SET_SEND_MAIL_FAILED" = "Send Mail failed!";
+"SET_SEND_SMS_FAILED" = "Send SMS Failed!";
+"SET_SEND_MAIL_SUCCEED" = "Send Mail succeed!";
+"SET_SEND_SMS_SUCCEED" = "Send SMS succeed!";
+

@@ -1,0 +1,38 @@
+/* 
+  RTService.strings
+
+  Created by 昭 陈 on 16/3/2.
+  Copyright © 2016年 昭 陈. All rights reserved.
+*/
+
+"RATE_MSG"="Please give us a rating if you like our app. It can help more people find this app. And your rating will also keep us working hard on new features.\nThank you!";
+
+"RATE_YES"="Give a Rating.";
+
+"RATE_NO"="I have some suggestion!";
+
+"RATE_CANCEL"="Maybe Later";
+
+"EMAIL_NOT_AVAILABLE" = "Pls set up email account before feedback!";
+
+//"SETTING_APP_NAME" = "Photo Editor";
+
+"SETTING_APP_NAME_WORD" = "App Name";
+
+/* No comment provided by engineer. */
+"SETTING_FEEDBACK_TITLE" = " iOS support";
+
+/* No comment provided by engineer. */
+"SETTING_FEEDBACK_CONTENT" = "Please leave your suggestions and advice to us.<br /><br /><br />The following information is valuable for us to confirm the problem. Please keep it.";
+
+/* app version for locale */
+"SETTING_APPVERSION_WORD" = "App Version";
+
+/* device for locale */
+"SETTING_DEVICE_WORD" = "Device";
+
+/* ios version locale */
+"SETTING_IOS_VERSION_WORD" = "iOS Version";
+
+/* ios version locale */
+"SETTING_IOS_DESC_WORD" = "Awesome,I like it";

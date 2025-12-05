@@ -1,0 +1,28 @@
+#source 'https://cdn.cocoapods.org/'
+#source 'https://github.com/CocoaPods/Specs'
+
+platform :ios, '13.0'
+
+target 'RushHour' do
+    pod 'AppLovinMediationTapjoyAdapter'
+    pod 'AppLovinMediationFacebookAdapter'
+    pod 'AppLovinMediationGoogleAdapter'
+    pod 'AppLovinMediationIronSourceAdapter'
+    pod 'AppLovinMediationUnityAdsAdapter'
+    pod 'AppLovinMediationVungleAdapter'
+    pod 'AppLovinMediationBidMachineAdapter'
+    pod 'AppLovinMediationByteDanceAdapter'
+    pod 'AppLovinMediationPubMaticAdapter'
+    pod 'AppLovinSDK'
+    pod 'Masonry'
+    pod 'AppLovinMediationGoogleAdManagerAdapter'
+    pod 'AppLovinMediationMintegralAdapter'
+    pod 'AppLovinMediationFyberAdapter'
+    pod 'AppLovinMediationChartboostAdapter'
+    pod 'AppLovinMediationInMobiAdapter'
+    pod 'AppLovinMediationAmazonAdMarketplaceAdapter'
+    pod 'AppLovinMediationMolocoAdapter'
+    pod 'AmazonPublisherServicesSDK', :modular_headers => true
+    pod 'MBProgressHUD'  
+    pod 'GoogleUtilities', :modular_headers => true 
+end

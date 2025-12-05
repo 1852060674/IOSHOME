@@ -1,0 +1,42 @@
+/* 
+  Localizable.strings
+  VoiceChanger
+
+  Created by tangtaoyu on 15/6/15.
+  Copyright (c) 2015年 tangtaoyu. All rights reserved.
+*/
+
+"MG_RECORD" = "录音";
+"MG_MYRECORD" = "我的录音";
+
+"MG_ACCESS_TIPS" = "麦克风拒绝访问";
+"MG_ACCESS_MICROPHONE" = "本应用需要打开麦克风的权限。\n\n请在 设置>隐私>麦克风 里设置打开麦克风。";
+"MG_ACCESS_OK" = "确定!";
+
+"MG_RATE_MESSAGE" = "可以给我们一个评价么？我们会根据您的反馈持续优化";
+"MG_RATE_CANCEL" = "残忍拒绝";
+"MG_RATE_YES" = "欣然前往";
+"MG_RATE_TIPS" = "谢谢!";
+
+"MG_REMOVE_TIPS" = "提示";
+"MG_REMOVE_MESSAGE" = "未选中任何一项!";
+"MG_REMOVE_OK" = "确定";
+"MG_REMOVE_REDO" = "重新选择";
+
+"MG_SAVED" = "成功保存到\"我的录音\"！";
+
+"MG_PROCESS" = "处理中...";
+
+"MG_PROCESS_FAILED" = "变声失败!";
+
+"MG_PITCH" = "音调";
+"MG_SPEED" = "速度";
+
+"MG_ORIGINAL" = "原声";
+"MG_KID" = "小孩";
+"MG_MAN" = "男人";
+"MG_WOMAN" = "女人";
+"MG_OLD" = "老人";
+"MG_FAST" = "快声";
+"MG_SLOW" = "慢声";
+"MG_CUSTOM" = "自定义";

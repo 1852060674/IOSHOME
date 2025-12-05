@@ -1,0 +1,38 @@
+variables:
+  SCHEME: "VoiceChanger"
+  PROJECT: "-project VoiceChanger.xcodeproj"
+
+before_script:
+  - mkdir artifacts
+  - export ARCHIVEPATH=$(pwd)/artifacts/${SCHEME}.xcarchive
+  - export EXPORTPATH=$(pwd)/artifacts/$CI_PROJECT_NAME-$CI_COMMIT_TAG
+
+stages:
+  - dev
+  - release
+
+dev:
+  stage: dev
+  only:
+    - master
+  script:
+    - export CONFIGURATION="Debug"
+    - xcodebuild clean ${PROJECT} -scheme ${SCHEME} -configuration ${CONFIGURATION}
+    - xcodebuild build ${PROJECT} -scheme ${SCHEME} -configuration ${CONFIGURATION} -allowProvisioningUpdates -quiet
+    - xcodebuild clean ${PROJECT} -scheme ${SCHEME} -configuration ${CONFIGURATION}
+
+release:
+  stage: release
+  only:
+    - tags
+  except:
+    - /^(?!.*(master|v?\d+\.\d+(\.\d+)?)$).*$/
+  script:
+    - export CONFIGURATION="Release"
+    - xcodebuild clean ${PROJECT} -scheme ${SCHEME} -configuration ${CONFIGURATION}
+    - xcodebuild archive ${PROJECT} -scheme ${SCHEME} -configuration ${CONFIGURATION} -archivePath $ARCHIVEPATH -allowProvisioningUpdates -quiet
+    - xcodebuild -exportArchive -allowProvisioningUpdates -exportOptionsPlist ExportOption.plist  -archivePath $ARCHIVEPATH -exportPath $EXPORTPATH
+    - xcodebuild clean ${PROJECT} -scheme ${SCHEME} -configuration ${CONFIGURATION}
+  artifacts:
+    paths:
+      - artifacts

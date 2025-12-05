@@ -1,0 +1,41 @@
+/* 
+  Localizable.strings
+  VoiceChanger
+
+  Created by tangtaoyu on 15/6/15.
+  Copyright (c) 2015年 tangtaoyu. All rights reserved.
+*/
+"MG_RECORD" = "Record";
+"MG_MYRECORD" = "My Record";
+
+"MG_ACCESS_TIPS" = "Microphone Access Denied";
+"MG_ACCESS_MICROPHONE" = "This app requires access to your device's Microphone.\n\nPlease enable Microphone access for this app in Settings > Privacy > Microphone";
+"MG_ACCESS_OK" = "OK!";
+
+"MG_RATE_MESSAGE" = "Could you please give us some feedback pls? We will continuously improving the app according your needs.";
+"MG_RATE_CANCEL" = "No, thanks.";
+"MG_RATE_YES" = "Rate Now!";
+"MG_RATE_TIPS" = "Thank you!";
+
+"MG_REMOVE_TIPS" = "Tips";
+"MG_REMOVE_MESSAGE" = "Did not select any one!";
+"MG_REMOVE_OK" = "OK";
+"MG_REMOVE_REDO" = "Reselect";
+
+"MG_SAVED" = "Saved to \'My Record\' Succeed!";
+
+"MG_PROCESS" = "Processing...";
+"MG_PROCESS_FAILED" = "Voice Failed!";
+
+"MG_PITCH" = "Pitch";
+"MG_SPEED" = "Speed";
+
+"MG_ORIGINAL" = "Original";
+"MG_KID" = "Kid";
+"MG_MAN" = "Man";
+"MG_WOMAN" = "Woman";
+"MG_OLD" = "Old";
+"MG_FAST" = "Fast";
+"MG_SLOW" = "Slow";
+"MG_CUSTOM" = "Custom";
+

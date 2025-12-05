@@ -1,0 +1,240 @@
+PODS:
+  - AmazonPublisherServicesSDK (4.7.7)
+  - AppLovinMediationAmazonAdMarketplaceAdapter (4.7.7.0):
+    - AppLovinSDK
+  - AppLovinMediationChartboostAdapter (9.5.1.0):
+    - AppLovinSDK
+    - ChartboostSDK (= 9.5.1)
+  - AppLovinMediationFacebookAdapter (6.14.0.0):
+    - AppLovinSDK
+    - FBAudienceNetwork (= 6.14.0)
+  - AppLovinMediationFyberAdapter (8.2.4.0):
+    - AppLovinSDK
+    - Fyber_Marketplace_SDK (= 8.2.4)
+  - AppLovinMediationGoogleAdapter (10.13.0.0):
+    - AppLovinSDK
+    - Google-Mobile-Ads-SDK (= 10.13.0)
+  - AppLovinMediationGoogleAdManagerAdapter (10.13.0.0):
+    - AppLovinSDK
+    - Google-Mobile-Ads-SDK (= 10.13.0)
+  - AppLovinMediationInMobiAdapter (10.6.0.0):
+    - AppLovinSDK
+    - InMobiSDK (= 10.6.0)
+  - AppLovinMediationIronSourceAdapter (7.5.1.0.0):
+    - AppLovinSDK
+    - IronSourceSDK (= 7.5.1.0)
+  - AppLovinMediationMintegralAdapter (7.5.0.0.0):
+    - AppLovinSDK
+    - MintegralAdSDK (= 7.5.0)
+    - MintegralAdSDK/BidSplashAd (= 7.5.0)
+  - AppLovinMediationUnityAdsAdapter (4.9.2.0):
+    - AppLovinSDK
+    - UnityAds (= 4.9.2)
+  - AppLovinMediationVungleAdapter (7.1.0.2):
+    - AppLovinSDK
+    - VungleAds (= 7.1.0)
+  - AppLovinSDK (12.0.0)
+  - ChartboostSDK (9.5.1)
+  - FBAudienceNetwork (6.14.0)
+  - Flurry-iOS-SDK/CrashReporter (12.4.0)
+  - Flurry-iOS-SDK/FlurrySDK (12.4.0):
+    - Flurry-iOS-SDK/CrashReporter
+  - FXBlurView (1.6.4)
+  - Fyber_Marketplace_SDK (8.2.4)
+  - Google-Mobile-Ads-SDK (10.13.0):
+    - GoogleAppMeasurement (< 11.0, >= 7.0)
+    - GoogleUserMessagingPlatform (>= 1.1)
+  - GoogleAppMeasurement (10.18.0):
+    - GoogleAppMeasurement/AdIdSupport (= 10.18.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (10.18.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 10.18.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (10.18.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleUserMessagingPlatform (2.1.0)
+  - GoogleUtilities/AppDelegateSwizzler (7.12.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.12.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.12.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.12.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.12.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.12.0)"
+  - GoogleUtilities/Reachability (7.12.0):
+    - GoogleUtilities/Logger
+  - GPUImage (0.1.7)
+  - InMobiSDK (10.6.0)
+  - IronSourceSDK (7.5.1.0)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MintegralAdSDK (7.5.0):
+    - MintegralAdSDK/BannerAd (= 7.5.0)
+    - MintegralAdSDK/BidBannerAd (= 7.5.0)
+    - MintegralAdSDK/BidInterstitialVideoAd (= 7.5.0)
+    - MintegralAdSDK/BidNativeAd (= 7.5.0)
+    - MintegralAdSDK/BidNewInterstitialAd (= 7.5.0)
+    - MintegralAdSDK/BidRewardVideoAd (= 7.5.0)
+    - MintegralAdSDK/InterstitialVideoAd (= 7.5.0)
+    - MintegralAdSDK/NativeAd (= 7.5.0)
+    - MintegralAdSDK/NewInterstitialAd (= 7.5.0)
+    - MintegralAdSDK/RewardVideoAd (= 7.5.0)
+  - MintegralAdSDK/BannerAd (7.5.0):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/BidBannerAd (7.5.0):
+    - MintegralAdSDK/BannerAd
+    - MintegralAdSDK/BidNativeAd
+  - MintegralAdSDK/BidInterstitialVideoAd (7.5.0):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/InterstitialVideoAd
+  - MintegralAdSDK/BidNativeAd (7.5.0):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/BidNewInterstitialAd (7.5.0):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/NewInterstitialAd
+  - MintegralAdSDK/BidRewardVideoAd (7.5.0):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/RewardVideoAd
+  - MintegralAdSDK/BidSplashAd (7.5.0):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/SplashAd
+  - MintegralAdSDK/InterstitialVideoAd (7.5.0):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/NativeAd (7.5.0)
+  - MintegralAdSDK/NewInterstitialAd (7.5.0):
+    - MintegralAdSDK/InterstitialVideoAd
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/RewardVideoAd (7.5.0):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/SplashAd (7.5.0):
+    - MintegralAdSDK/NativeAd
+  - nanopb (2.30909.1):
+    - nanopb/decode (= 2.30909.1)
+    - nanopb/encode (= 2.30909.1)
+  - nanopb/decode (2.30909.1)
+  - nanopb/encode (2.30909.1)
+  - NYXImagesKit (2.3)
+  - PromisesObjC (2.3.1)
+  - SVProgressHUD (2.3.1):
+    - SVProgressHUD/Core (= 2.3.1)
+  - SVProgressHUD/Core (2.3.1)
+  - UnityAds (4.9.2)
+  - VungleAds (7.1.0)
+
+DEPENDENCIES:
+  - AmazonPublisherServicesSDK
+  - AppLovinMediationAmazonAdMarketplaceAdapter
+  - AppLovinMediationChartboostAdapter
+  - AppLovinMediationFacebookAdapter
+  - AppLovinMediationFyberAdapter
+  - AppLovinMediationGoogleAdapter
+  - AppLovinMediationGoogleAdManagerAdapter
+  - AppLovinMediationInMobiAdapter
+  - AppLovinMediationIronSourceAdapter
+  - AppLovinMediationMintegralAdapter
+  - AppLovinMediationUnityAdsAdapter
+  - AppLovinMediationVungleAdapter
+  - AppLovinSDK
+  - Flurry-iOS-SDK/FlurrySDK
+  - FXBlurView
+  - GPUImage
+  - Masonry
+  - MBProgressHUD
+  - NYXImagesKit
+  - SVProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - AmazonPublisherServicesSDK
+    - AppLovinMediationAmazonAdMarketplaceAdapter
+    - AppLovinMediationChartboostAdapter
+    - AppLovinMediationFacebookAdapter
+    - AppLovinMediationFyberAdapter
+    - AppLovinMediationGoogleAdapter
+    - AppLovinMediationGoogleAdManagerAdapter
+    - AppLovinMediationInMobiAdapter
+    - AppLovinMediationIronSourceAdapter
+    - AppLovinMediationMintegralAdapter
+    - AppLovinMediationUnityAdsAdapter
+    - AppLovinMediationVungleAdapter
+    - AppLovinSDK
+    - ChartboostSDK
+    - FBAudienceNetwork
+    - Flurry-iOS-SDK
+    - FXBlurView
+    - Fyber_Marketplace_SDK
+    - Google-Mobile-Ads-SDK
+    - GoogleAppMeasurement
+    - GoogleUserMessagingPlatform
+    - GoogleUtilities
+    - GPUImage
+    - InMobiSDK
+    - IronSourceSDK
+    - Masonry
+    - MBProgressHUD
+    - MintegralAdSDK
+    - nanopb
+    - NYXImagesKit
+    - PromisesObjC
+    - SVProgressHUD
+    - UnityAds
+    - VungleAds
+
+SPEC CHECKSUMS:
+  AmazonPublisherServicesSDK: 539059263689d2d14c25017f2ef89ac5db4787a8
+  AppLovinMediationAmazonAdMarketplaceAdapter: 20fc53c89c9890448bc1b64fa215da640b722830
+  AppLovinMediationChartboostAdapter: f2b6251b4e9a095b3716bc19334a794e605ab0fd
+  AppLovinMediationFacebookAdapter: 763f70e1a840af0935b72caa7d8299338eee3aae
+  AppLovinMediationFyberAdapter: 3e8e8b80704236c233e12028373bf58d514ee910
+  AppLovinMediationGoogleAdapter: da94d8b5341798d6088336875c756c56f7927b33
+  AppLovinMediationGoogleAdManagerAdapter: b808cc2210321b9b9005122a54b27edb5d84cb22
+  AppLovinMediationInMobiAdapter: 3759ca4d077a32cb0c930415b2eed182cd89f8df
+  AppLovinMediationIronSourceAdapter: 8ecc92e349f7f456f0066bf3d21f080c2f2d853d
+  AppLovinMediationMintegralAdapter: f826ade42ccf1a885776dea187c200e143264956
+  AppLovinMediationUnityAdsAdapter: 5d184f645945379fc278f8fc8a58f46654d65aaa
+  AppLovinMediationVungleAdapter: 0347e7e8363adbd4de23f8f850d3b846bc8159c9
+  AppLovinSDK: 15679e9f576a4d8662e1dc537c9a4ed47d3292a5
+  ChartboostSDK: b2c1de25183b867b6c40646f5b79732870daebde
+  FBAudienceNetwork: 4d6223a9a88a22e9dca8c9e6c1829a8745b86228
+  Flurry-iOS-SDK: 402045d874e9e330d2fbcdf48d82727292ade109
+  FXBlurView: db786c2561cb49a09ae98407f52460096ab8a44f
+  Fyber_Marketplace_SDK: c51474f63c016c9ff7eb32e3542528d08d456bc5
+  Google-Mobile-Ads-SDK: 517003a1a2430005da3e85df4d061cd7de107a5a
+  GoogleAppMeasurement: 70ce9aa438cff1cfb31ea3e660bcc67734cb716e
+  GoogleUserMessagingPlatform: dce302b8f1b84d6e945812ee7a15c3f65a102cbf
+  GoogleUtilities: 0759d1a57ebb953965c2dfe0ba4c82e95ccc2e34
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  InMobiSDK: 7c62b28415c663b881fa7009d04e0a5484f67902
+  IronSourceSDK: fa953c42181270336bc816fe969c49d36707b7d9
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MintegralAdSDK: bffa5d1cef12f0bb9cd9ddbf0a2ce19d83b920d8
+  nanopb: d4d75c12cd1316f4a64e3c6963f879ecd4b5e0d5
+  NYXImagesKit: 8163e3335a40eaa173ca5bbbf81fafb57d3947eb
+  PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
+  SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
+  UnityAds: 358547edbd4c923cd03462289b8813d0ef91999e
+  VungleAds: e13f0ea8facb05d5511e31c5abcced79a82409e7
+
+PODFILE CHECKSUM: 880b3952b86e4290613fbba211db0bde7c5a0605
+
+COCOAPODS: 1.16.2

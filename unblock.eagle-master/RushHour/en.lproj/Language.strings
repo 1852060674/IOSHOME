@@ -1,0 +1,14 @@
+/* 
+  Language.strings
+  Flow
+
+  Created by yysdsyl on 13-10-15.
+  Copyright (c) 2013年 apple. All rights reserved.
+*/
+"level1"="Beginner";
+"level2"="Very Easy";
+"level3"="Easy";
+"level4"="Medium";
+"level5"="Hard";
+"level6"="Very Hard";
+"level7"="Expert";

@@ -1,0 +1,13 @@
+/* 
+  InfoPlist.strings
+  SplitPics
+
+  Created by tangtaoyu on 16/3/4.
+  Copyright © 2016年 ZBNetWork. All rights reserved.
+*/
+
+CFBundleDisplayName="克隆相机";
+NSCameraUsageDescription = "克隆相机实现了一个自定义的拍照功能, 将相机分割成多个格子, 拍摄照片并处理他们. 在这个页面, 需要访问和使用设备上的摄像头";
+NSMicrophoneUsageDescription = "是否允许此App使用你的麦克风?";
+NSPhotoLibraryUsageDescription = "访问相册以选择和保存照片";
+"NSPhotoLibraryAddUsageDescription" = "访问相册用以保存照片";
