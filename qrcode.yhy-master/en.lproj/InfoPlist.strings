@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  QRReader
+
+  Created by awt on 15/8/7.
+  Copyright (c) 2015年 awt. All rights reserved.
+*/
+"CFBundleDisplayName" = "QR Code Reader";
+"NSCameraUsageDescription" = "This permission is required to scan QR Codes using camera.";
+"NSPhotoLibraryUsageDescription" = "This permission is required to select a image with QR code from album.";
+"NSPhotoLibraryAddUsageDescription" = "This permission is required to save result image to album.";

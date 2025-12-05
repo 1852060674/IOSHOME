@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  QRReader
+
+  Created by awt on 15/8/7.
+  Copyright (c) 2015年 awt. All rights reserved.
+*/
+"CFBundleDisplayName" = "二维码扫描器";
+"NSCameraUsageDescription" = "需要获得相机权限用于扫描二维码";
+"NSPhotoLibraryUsageDescription" = "需要获得相册权限用于从相册中选择二维码图片来进行扫描";
+"NSPhotoLibraryAddUsageDescription" = "需要该权限用于将结果保存到相册";

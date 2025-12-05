@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentFlowInfo</key>
+	<dict>
+		<key>ConsentFlowEnabled</key>
+		<true/>
+		<key>ConsentFlowPrivacyPolicy</key>
+		<string>http://54.177.255.231/support/funnystudio/qrcode/policy.html</string>
+		<key>ConsentFlowTermsOfService</key>
+		<string>http://54.177.255.231/support/funnystudio/qrcode/policy.html</string>
+	</dict>
+</dict>
+</plist>
